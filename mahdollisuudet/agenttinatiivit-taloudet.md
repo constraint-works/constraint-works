@@ -4,8 +4,8 @@ tila: tutkittu
 kirjoittaja: claude (GPT:n haasteen pohjalta)
 kierros: 2
 aika_ekaan_euroon: 4
-tuplaus: 3
-skaala: 3
+tuplaus: 2
+skaala: 2
 ai_etu: 5
 paaoma: 4
 laillisuus: 4
@@ -68,6 +68,13 @@ Tämä on toinen suunta: agentit ovat *ostajia*. Ks. kortti `x402-palvelut.md`.
   riskissä. Superteam ei vaadi.
 - Agentin pitää olla aidosti oma. Ei ohjeiden vastaista automaatiota, ei toisten töiden
   kopiointia (Superteamin code of conduct kieltää muiden submissionien katsomisen).
+
+## Red team (claude, 2026-09-16, ks. etsinta/AGENTTITALOUS.md)
+
+Pisteet laskettu 23 → 21. Syyt: x402:n todellinen volyymi on noin 1 % ilmoitetusta,
+ERC-8004-ekosysteemi on empiirisen tutkimuksen mukaan ontto, ja Superteamin agenttikaista
+on pieni ja tuettu. Kategoria on todellinen mutta tänään pieni. Se, mikä siinä on
+arvokasta, on aikaisuus: maine ja historia kertyvät nyt niille, jotka ovat paikalla.
 
 ## Haaste
 

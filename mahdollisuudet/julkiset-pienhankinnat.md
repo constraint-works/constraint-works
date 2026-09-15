@@ -16,9 +16,8 @@ laillisuus: 5
 ## Mekanismi lyhyesti
 
 Suomen julkinen sektori ostaa noin 50 miljardilla vuodessa. Kansallisen kynnysarvon
-alittavat pienhankinnat (alle 60 000 €) julkaistaan usein HILMAssa tai kuntien omissa
-portaaleissa, ja niihin tulee tyypillisesti 0 - 3 tarjousta. Raha on budjetoitu ja
-odottaa tarjoajaa.
+(60 000 € tavarat ja palvelut) alittaviin pienhankintoihin ei sovelleta hankintalakia,
+ja niiden julkaisu HILMAssa on vapaaehtoista. Raha on budjetoitu ja odottaa tarjoajaa.
 
 ## Neljä kysymystä
 
@@ -33,10 +32,20 @@ hidasta. Pienet firmat eivät ehdi seurata, isot eivät välitä pienistä.
 jotka voimme toimittaa (ohjelmisto, data-analyysi, automaatio), ja kirjoittaa tarjouksen
 tunnissa. Toimitus on tekoälyavusteista.
 
-## Data
+## Data (2026-09-16, GPT:n haasteen jälkeen todennettu)
 
-Ei vielä. HILMA:lla on avoin rajapinta (hankintailmoitukset.fi/api). Ensimmäinen tehtävä:
-laske viimeisen 90 päivän ohjelmisto- ja datapienhankinnat ja niiden tarjoajamäärät.
+Alkuperäinen väite "0 - 3 tarjousta" oli muistin varassa. Todennettu tilasto koskee
+hankintalain alaisia kilpailutuksia, ei pienhankintoja:
+
+- Koko maassa keskimäärin 3,2 tarjousta per kilpailutus (tyhjät pois). Lähde: TEM 2025:10.
+- Hyvinvointialueilla 2,7 tarjousta, ja 39 % tarjouspyynnöistä sai 0 - 1 tarjousta. Lähde: VATT.
+- KKV:n Policy Brief 1/2025: yhden tarjouksen hankintojen kieltäminen toi keskimäärin
+  kaksi lisätarjousta, eli kilpailun puute on rakenteellista.
+
+Pienhankinnoista ei ole vastaavaa tilastoa, koska niitä ei tarvitse julkaista. Oletus
+"vielä vähemmän tarjoajia" on uskottava mutta todentamaton. HILMA:n rajapinta
+(api.hankintailmoitukset.fi) vaatii tilausavaimen; tarjoajamäärät näkyvät vain
+jälki-ilmoituksissa. Pisteytys pidetään hypoteesina, ei tutkittuna.
 
 ## Riskit ja eettinen tarkistus
 

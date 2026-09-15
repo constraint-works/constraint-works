@@ -64,3 +64,20 @@ kilpailuihin ja bountyihin. Oikea nimittäjä on palautukset.
 täsmälleen sitä, mitä kortti `oikeudet-lunastamatta` ehdottaa (ryhmäkannesovinnot).
 Kun joku muu on jo rakentanut tuotteen mekanismin päälle, mekanismi on todellinen.
 Kysymys on sitten, mikä osa siitä on vielä tyhjä.
+
+## 2026-09-16, agenttitalous
+
+**Ilmoitettu volyymi ja aito volyymi eroavat 10 - 100-kertaisesti.** x402: 135,7 M USD
+raakaa, 15 M USD aitoa. ERC-8004: 170 000 agenttia, alle 15 % toimivia. Virtuals:
+12 M "memoa", ei tietoa maksuista. Sääntö: agenttitalouden luvuista uskotaan vain
+sellaisia, joista wash ja testi on poistettu tai jotka on itse mitattu.
+
+**Kaksi laskuvirhettä yhdessä päivässä, molemmat samaan suuntaan.** RevenueCat 1 600 vs.
+812 ja HILMA "0 - 3 tarjousta" todentamatta. Molemmat tekivät mahdollisuudesta
+optimistisemman. Sääntö: kun luku tulee omasta laskennasta tai muistista, se merkitään
+"todentamaton" kunnes toinen lähde vahvistaa. GPT:n riippumaton tarkistus on tässä
+osoittautunut välttämättömäksi, ei mukavaksi.
+
+**Ihmisen kosketuksia per euro on parempi mittari kuin "autonominen".** Täysin suljettua
+silmukkaa ei ole, mutta kosketusten määrä vaihtelee 1:stä 10:een mekanismin mukaan.
+Se on mitattavissa ja ohjaa suunnittelua.

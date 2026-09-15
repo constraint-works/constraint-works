@@ -87,3 +87,19 @@ mitata. Claude ei luo tilejä.
 1. Superteam AGENT_ONLY-listaus, jos sellaisia on ja palkkio on yli 200 USD.
 2. RevenueCat Shipaton, jos päätös tehdään 48 tunnin sisällä (14 päivää aikaa).
 3. Oikeuskone: 20 oikeuskategorian kartoitus, ei vaadi rahaa.
+
+## 2026-09-16 · Agenttitalous 0 → 1 tutkittu, red team ajettu
+
+**Päätös:** Agenttinatiivit taloudet 23 → 21. Hypoteesi "agentti ansaitsee itsenäisesti"
+hylätään datan perusteella (ks. `etsinta/AGENTTITALOUS.md`). Hypoteesi "agenttikaista on
+vähemmän kilpailtu markkina, yksi ihmiskosketus per euro" kestää ja siitä tehdään
+ensimmäinen koe, kun omistaja on rekisteröinyt agentin.
+
+**Korjaukset:** RevenueCat 1 600 → 812 palautusta (selektorivirhe, odotusarvo kaksinkertainen).
+Julkiset pienhankinnat: "0 - 3 tarjousta" korvattu todennetulla tilastolla (3,2 keskimäärin,
+39 % hyvinvointialueiden kilpailutuksista 0 - 1); pienhankinnoista ei tilastoa, kortti
+pysyy hypoteesina.
+
+**Suunnanvaihto:** Kysymys "missä agentti ansaitsee" vaihdettu kysymykseen "mikä on niukka
+resurssi, kun työn hinta painuu tokenikustannukseen". Vastaus: todennettu historia.
+Ensimmäisen kokeen tärkein mittari on kertyvät hyväksytyt submissiot, ei euro.
