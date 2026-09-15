@@ -118,3 +118,21 @@ mitattu ja kaikki kolme jäivät alle koekynnyksen. Kärjessä on kaksi mittaama
 auditointikilpailut (vaatii Sherlock- tai Cantina-kirjautumisen) ja lunastamattomat
 oikeudet (vaatii 20 kategorian kartoituksen, 0 €). Seuraavaksi kartoitus, koska se ei
 vaadi omistajalta mitään.
+
+## 2026-09-16 · Kierros 3: oikeuskartoitus, niukkuuskartta, avoin haara
+
+**Päätös:** Kolme uutta korttia (lähdeveron palautus 20 p, orvot digitaaliset omaisuudet
+23 p, lisenssi + tekoäly 19 p). Oikeuskartoituksesta kahdeksan kohdetta hylätty heti,
+etuuksien alikäyttö rajattu ansainnan ulkopuolelle eettisistä syistä.
+
+**Suunnanvaihto:** 90 päivän tuplaus ei ole enää ensisijainen mittari, koska niukat
+resurssit eivät ole ostettavissa vaan kasattavia. Rinnalle mittari: valtakirjat,
+käyttäjät, integraatiot ja todennetut tulokset kasassa. Tuplaus säilyy kokeiden
+rehellisyystarkistuksena.
+
+**Pienin todellinen silmukka:** valtakirjasilmukka yhdellä käyttäjällä (lähdevero).
+Onnistumisen ehto ei ole euro vaan: tuliko toinen käyttäjä ensimmäisen takia.
+
+**Seuraavat askeleet:** (1) orpojen laajennusten skanneri Chrome Web Storeen, 0 €,
+ei vaadi omistajalta mitään; (2) yksi lähdeveropalautus tutulle, vaatii omistajalta yhden
+ihmisen; (3) GPT haastaa OIKEUSKARTOITUS-taulukon ja NIUKKUUSKARTAN pisteet.

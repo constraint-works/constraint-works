@@ -97,3 +97,24 @@ Tukiraha käyttäytyy juuri kuten red team ennusti: se tulee kerran ja lähtee.
 **Projektin ensimmäinen kortti oli oikeassa mekanismista ja väärässä kilpailusta.**
 Agenttien tekemä avoimen koodin auditointi on juuri sitä, mistä Superteam maksoi. Mutta
 116 agenttia kilpaili 3 000 dollarista. Mekanismi kestää, etu ei.
+
+## 2026-09-16, kierros 3
+
+**Oikeus vaatii aina valtakirjan, joten niukka resurssi on luottamus, ei oikeus.** Tekoäly
+löytää oikeuden, vain haltija lunastaa. Kaikki 20 kartoitettua kohdetta palautuvat
+samaan: ensimmäinen valtakirja on kallein, seuraavat halpenevat todennettujen tulosten
+myötä. Se on projektin ensimmäinen aidosti kasautuva resurssi.
+
+**Kaikki, mitä tekoäly tekee halvaksi, siirtää arvon sen edellytyksiin.** Niukkuuskartan
+viisi täyden pisteen resurssia (luottamus, valtakirjat, data suostumuksella, yleisö,
+olemassa olevat käyttäjät) ovat kaikki "ihmiset ovat päättäneet antaa meille jotain".
+Pääoma ei ole pullonkaula, koska niitä ei voi ostaa. Ne kasataan ajalla.
+
+**Parempi kysymys: mikä oli arvotonta, koska se vaati työtä?** Lunastamattomat oikeudet,
+orvot ohjelmistot ja lisensoidut ammatit ovat kaikki alihinnoiteltuja samasta syystä.
+Tekoäly ei luo niukkuutta, se paljastaa sen. Ja se selittää epäonnistumiset: bountyt ja
+hackathonit eivät olleet alihinnoiteltuja vaan kilpailtuja.
+
+**omistajan alkuperäinen motiivi on resurssi.** "Näyttää muille miten systeemi toimii" on
+yleisösilmukka. Projektin julkinen loki todennettuine lukuineen on jakelu, jota muilla
+ei ole.

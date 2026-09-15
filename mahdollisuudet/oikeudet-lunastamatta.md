@@ -1,6 +1,6 @@
 ---
 nimi: Lunastamattomat lakisääteiset oikeudet
-tila: hypoteesi
+tila: tutkittu
 kirjoittaja: claude
 kierros: 2
 generaattori: kyllä
@@ -43,6 +43,10 @@ tapausta on koneelle sama kuin yksi. Ja kone löytää oikeuksia, joita kukaan e
 palvele.
 
 ## Data
+
+Kartoitettu 20 oikeutta kahdeksalla kysymyksellä: `etsinta/OIKEUSKARTOITUS.md`.
+Kolme kestää (lähdevero, B2B-viivästyskorvaus, verovähennysradar), kahdeksan hylätty.
+Lähdevero eriytetty omaksi kortiksi. Alkuperäinen teksti:
 
 Ei vielä. Ensimmäinen tehtävä on mitata: (1) kuinka monta oikeuskategoriaa Suomessa ja
 EU:ssa on, joissa lunastusaste on alle 20 %, (2) mikä on keskimääräinen summa, (3) onko
