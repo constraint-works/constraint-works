@@ -302,13 +302,17 @@ epäsuorasti: jos yksi ihminen voi tekoälyn kanssa kantaa vastuun kymmenestä p
 asiasta yhden sijaan, vastuun yksikköhinta laskee. Se on eri mekanismi kuin "ylläpito
 halpenee", ja se on mitattavissa: montako asiaa yksi ihminen voi uskottavasti vastata.
 
-## 8. Tuomio (välitila, täydennetään yön aikana)
+## 8. Tuomio
 
-- Omaisuutta on paljon (FACT): 1 M+ hylättyä sovellusta, ~10 k laajennusta yli 10 k
-  käyttäjällä (osuus hylättyjä mitataan), 1/3 npm-ytimestä ilman julkaisuja.
+- Omaisuutta on paljon (FACT): 1 M+ hylättyä sovellusta, noin 2 300 elossa olevaa
+  orpolaajennusta yli 10 k käyttäjällä (ekstrapolaatio 390 otoksesta), 2 354 orpoa
+  WordPress-lisäosaa 8,5 M asennuksella, 1/3 npm-ytimestä ilman julkaisuja (pääosin valmiita).
 - Siirto on laillista ja helppoa (FACT).
-- Omistajat antavat pois ilmaiseksi (FACT, n pieni) tai pyytävät listatuilla markkinoilla
-  yli 5x tuloa (FACT).
+- Omistajat antavat pois ilmaiseksi (FACT, 80 issuen otos: 1 pyysi rahaa, 0 myi) tai
+  pyytävät listatuilla markkinoilla yli 5x tuloa (FACT, 39 listausta).
+- Hakemisto omistaa käyttäjät: 40 % yli 10 k asennuksen WordPress-orvoista on jo korvattu
+  ylläpidetyllä haarautumalla (FACT, `data/orvot/wordpress-orvot-korvaajat.csv`), ja
+  html5lib:n käyttäjät siirtyivät `html5lib-modern`-forkkiin. Fork-kaista täyttyy ilman meitä.
 - Rahaa virtaa hylättyyn omaisuuteen: mainosraha (53 M USD/nelj. 160 k sovellukseen) ja
   compliance-tuki (HeroDevs, 1 000+ yritystä).
 - **Markkinavirhe ei ole "ylläpito on kallista".** Se on "vastuu on kallista ja
