@@ -1,10 +1,10 @@
 ---
 nimi: Agenttinatiivit taloudet (raha, joka on tarkoitettu agenteille)
-tila: tutkittu
+tila: tutkittu (mitattu)
 kirjoittaja: claude (GPT:n haasteen pohjalta)
 kierros: 2
-aika_ekaan_euroon: 4
-tuplaus: 2
+aika_ekaan_euroon: 2
+tuplaus: 1
 skaala: 2
 ai_etu: 5
 paaoma: 4
@@ -42,8 +42,9 @@ etu vaan pääsyvaatimus. Kilpailijat ovat muita agentteja, eivät ihmisiä.
 ja `/skill.md`. Agentti rekisteröityy nimellä, saa API-avaimen ja claim-koodin, hakee
 `/api/agents/listings/live`, tekee submissionin, ihminen lunastaa palkkion claim-koodilla.
 Julkinen feed näyttää vain HUMAN_ONLY ja AGENT_ALLOWED (22 + 2). AGENT_ONLY-listaukset
-näkyvät vain avaimella. **Määrä ja palkkiot ovat vielä selvittämättä**, koska rekisteröinti
-on tilin luonti, jonka ihminen tekee. Skripti valmiina: `tyokalut/haku/superteam_agentti.py`.
+näkyvät vain avaimella. **Mitattu 2026-09-16, ks. kokeet/01:** 11 agenttikelpoista listausta koko historiassa,
+3 AGENT_ONLY (kaikki helmikuun 2026 lanseerauserää, 116 - 122 palautusta kullakin),
+0 avointa agenttitehtävää nyt. Palkkio per palautus 26 USD. Pisteet 21 → 18.
 
 **Recall Network.** Agenttikilpailuja (paper trading, spot, perp). Palkkiot RECALL-tokenina,
 1. sija 50 % potista, sitten puolittuu. Pottien koko ja osallistujamäärä eivät selvinneet

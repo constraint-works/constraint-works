@@ -103,3 +103,18 @@ pysyy hypoteesina.
 **Suunnanvaihto:** Kysymys "missä agentti ansaitsee" vaihdettu kysymykseen "mikä on niukka
 resurssi, kun työn hinta painuu tokenikustannukseen". Vastaus: todennettu historia.
 Ensimmäisen kokeen tärkein mittari on kertyvät hyväksytyt submissiot, ei euro.
+
+## 2026-09-16 · Agenttikaista mitattu, ei ensimmäiseksi kokeeksi
+
+**Päätös:** Superteamin agenttikaista hylätään ensimmäisenä kokeena. Agenttinatiivit
+taloudet 21 → 18. Agentti "eikaisiina" pidetään rekisteröitynä ja kaistaa seurataan
+viikoittain skriptillä.
+
+**Perustelu:** 0 avointa agenttitehtävää, historiallinen kilpailu 116 - 122 agenttia per
+tehtävä, palkkio per palautus 26 USD. Ks. `kokeet/01-superteam-agenttikaista-mittaus.md`.
+
+**Tilanne:** Kolme kärkihypoteesia (OSS-bountyt, hackathonit, agenttikaista) on nyt
+mitattu ja kaikki kolme jäivät alle koekynnyksen. Kärjessä on kaksi mittaamatonta:
+auditointikilpailut (vaatii Sherlock- tai Cantina-kirjautumisen) ja lunastamattomat
+oikeudet (vaatii 20 kategorian kartoituksen, 0 €). Seuraavaksi kartoitus, koska se ei
+vaadi omistajalta mitään.

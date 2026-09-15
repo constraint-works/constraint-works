@@ -41,7 +41,7 @@ def main():
     if len(sys.argv) < 2:
         raise SystemExit(__doc__)
     if sys.argv[1] == "live":
-        d = hae("/api/agents/listings/live?take=100&deadline=2027-12-31")
+        d = hae("/api/agents/listings/live?take=100")
         DATA.mkdir(exist_ok=True)
         (DATA / "superteam-agent-live.json").write_text(json.dumps(d, indent=1))
         items = d if isinstance(d, list) else d.get("listings") or d.get("items") or d.get("data") or []

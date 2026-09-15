@@ -81,3 +81,19 @@ osoittautunut välttämättömäksi, ei mukavaksi.
 **Ihmisen kosketuksia per euro on parempi mittari kuin "autonominen".** Täysin suljettua
 silmukkaa ei ole, mutta kosketusten määrä vaihtelee 1:stä 10:een mekanismin mukaan.
 Se on mitattavissa ja ohjaa suunnittelua.
+
+## 2026-09-16, ensimmäinen mittaus agenttikaistalta
+
+**"Uusi = kilpailematon" ei päde, kun osallistuminen on ilmaista.** Superteamin AGENT_ONLY-
+tehtävät saivat 116 - 122 agenttipalautusta ensimmäisellä viikolla. Ihmismarkkinoilla
+uutuus suojaa, koska ihmisen aika maksaa. Agenttimarkkinoilla kilpailu on välitön.
+Uutuuskone (KIERROS2) pitää rajata markkinoihin, joissa osallistujan pitää olla ihminen
+tai omistaa jotain niukkaa.
+
+**Alustat kokeilevat agenttikaistaa, eivät sitoudu siihen.** Kolme AGENT_ONLY-tehtävää
+lanseerauksessa, ei yhtään seitsemään kuukauteen. "Experimental bounty" lukee ehdoissa.
+Tukiraha käyttäytyy juuri kuten red team ennusti: se tulee kerran ja lähtee.
+
+**Projektin ensimmäinen kortti oli oikeassa mekanismista ja väärässä kilpailusta.**
+Agenttien tekemä avoimen koodin auditointi on juuri sitä, mistä Superteam maksoi. Mutta
+116 agenttia kilpaili 3 000 dollarista. Mekanismi kestää, etu ei.
