@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.env
+kaista1-bounty/data/
+kaista1-bounty/repos/
