@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-15",
+  "note": "Mechanism leads only. No named validated commercial opportunity. Source shows a related mechanism, not our access or profitability.",
+  "cards": [
+    {
+      "id": "conditional-demand",
+      "title": "Ehdollinen yhteinen tuotantoerä",
+      "status": "HYPOTHESIS",
+      "payer_role": "Pienostaja tai valmistaja, kumpaakaan ei vahvistettu",
+      "current_recipient_and_reason": "Nykyinen valmistaja; liian pienet erät jäävät toteutumatta",
+      "scarce_resource": "Yhteensopivat spesifikaatiot, ajankohta ja tilausmäärä",
+      "lawful_acquisition": "Osapuolten suostumus tarpeiden käsittelyyn; myöhemmin ehdolliset tilaukset",
+      "feedback_hypothesis": "Hyväksytty erittely ja toimitushistoria voivat pienentää seuraavan erän sovitustyötä",
+      "strongest_falsifier": "Ostajat ohittavat järjestäjän tai tarpeet eivät sovi yhteen",
+      "mechanism_source": "https://help.kickstarter.com/en-us/articles/16236582-why-is-funding-all-or-nothing",
+      "commercial_gates": {
+        "named_payer": {
+          "status": "UNKNOWN",
+          "evidence": null
+        },
+        "current_cost_evidence": {
+          "status": "UNKNOWN",
+          "evidence": null
+        },
+        "legal_access": {
+          "status": "UNKNOWN",
+          "evidence": null
+        },
+        "payment_basis": {
+          "status": "UNKNOWN",
+          "evidence": null
+        },
+        "reuse_right": {
+          "status": "UNKNOWN",
+          "evidence": null
+        },
+        "observed_second_case_advantage": {
+          "status": "UNKNOWN",
+          "evidence": null
+        }
+      },
+      "qualified_opportunity": false
+    },
+    {
+      "id": "accepted-evidence",
+      "title": "Uudelleenkäytettävä hyväksyttävä näyttö",
+      "status": "HYPOTHESIS",
+      "payer_role": "Prosessin tai järjestelmän omistaja, ei vahvistettua asiakasta",
+      "current_recipient_and_reason": "Sisäinen kehitys tai nykyinen toimittaja hallitsee arviointia ja käyttöönottoa",
+      "scarce_resource": "Edustava sokkotesti ja ostajan hyväksymä mittari",
+      "lawful_acquisition": "Luvallinen henkilötiedoton offline-aineisto ja erillinen oikeus geneeristen testien uudelleenkäyttöön",
+      "feedback_hypothesis": "Testivaranto voi parantaa seuraavan saman perheen tapauksen laatua ja vähentää käsityötä",
+      "strongest_falsifier": "Sama AI ilman historiaa ratkaisee yhtä hyvin tai tietoa ei saa käyttää uudelleen",
+      "mechanism_source": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
+      "commercial_gates": {
+        "named_payer": {
+          "status": "UNKNOWN",
+          "evidence": null
+        },
+        "current_cost_evidence": {
+          "status": "UNKNOWN",
+          "evidence": null
+        },
+        "legal_access": {
+          "status": "UNKNOWN",
+          "evidence": null
+        },
+        "payment_basis": {
+          "status": "UNKNOWN",
+          "evidence": null
+        },
+        "reuse_right": {
+          "status": "UNKNOWN",
+          "evidence": null
+        },
+        "observed_second_case_advantage": {
+          "status": "UNKNOWN",
+          "evidence": null
+        }
+      },
+      "qualified_opportunity": false
+    },
+    {
+      "id": "material-compatibility",
+      "title": "Todistettu fyysinen korvaavuus",
+      "status": "HYPOTHESIS",
+      "payer_role": "Materiaalin luovuttaja tai käyttäjä, kumpaakaan ei vahvistettu",
+      "current_recipient_and_reason": "Nykyinen käsittelytoimija tai vaihtoehtoisen materiaalin toimittaja",
+      "scarce_resource": "Todellinen laatu, määrä, etäisyys, aikataulu ja sallittu käyttötapa",
+      "lawful_acquisition": "Haltijan lupa tiedon käyttöön ja ainekohtainen roolin tarkistus",
+      "feedback_hypothesis": "Hyväksytty kelpoisuusmatriisi voi nopeuttaa seuraavaa erää",
+      "strongest_falsifier": "Jokainen erä vaatii yhtä kalliin näytön tai logistiikka poistaa säästön",
+      "mechanism_source": "https://info-materiaalitori.fi/materiaalihaku/uusiokaytto-ja-kierratys/",
+      "commercial_gates": {
+        "named_payer": {
+          "status": "UNKNOWN",
+          "evidence": null
+        },
+        "current_cost_evidence": {
+          "status": "UNKNOWN",
+          "evidence": null
+        },
+        "legal_access": {
+          "status": "UNKNOWN",
+          "evidence": null
+        },
+        "payment_basis": {
+          "status": "UNKNOWN",
+          "evidence": null
+        },
+        "reuse_right": {
+          "status": "UNKNOWN",
+          "evidence": null
+        },
+        "observed_second_case_advantage": {
+          "status": "UNKNOWN",
+          "evidence": null
+        }
+      },
+      "qualified_opportunity": false
+    }
+  ]
+}
