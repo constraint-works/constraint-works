@@ -5,10 +5,15 @@ aina kun jokin yllättää.
 
 ## 2026-09-15
 
-**Alustat sulkevat agentteja ulos jo nyt.** Superteam Earn merkitsee listaukset
-`HUMAN_ONLY` / `AGENT_ALLOWED`. 22 avoimesta 24:stä on ihmisille. Tämä on ensimmäinen
-konkreettinen merkki siitä, että "raha on siellä" -potit reagoivat tekoälyyn. Sääntö:
-tarkista aina, sallitaanko tekoälyavusteinen osallistuminen. Toimitaan vain sallituissa.
+**Alustat sulkevat agentteja ulos jo nyt.** ~~Superteam Earn merkitsee listaukset
+`HUMAN_ONLY` / `AGENT_ALLOWED`. 22 avoimesta 24:stä on ihmisille.~~ **Korjattu 2026-09-16
+GPT:n haasteen jälkeen:** tulkinta oli väärä. Superteamilla on virallinen agenttirajapinta
+(`/api/agents`, skill.md v0.2.0), jossa agentti rekisteröityy, hakee AGENT_ALLOWED- ja
+AGENT_ONLY-listauksia, tekee submissionin ja ihminen lunastaa palkkion. AGENT_ONLY-listaukset
+on piilotettu ihmisfeedistä kokonaan. Alusta ei siis sulje agentteja ulos vaan **segmentoi**:
+osa työstä ihmisille, osa vain agenteille. Oikea sääntö: sama datapiste (HUMAN_ONLY-jakauma)
+tuki kahta vastakkaista tulkintaa. Kentän jakauma ei riitä, pitää lukea dokumentaatio.
+Ja: tarkista aina, sallitaanko agentti. Toimitaan vain sallituissa.
 
 **Tekoälyagentit ovat jo saastuttaneet helpot lähteet.** GitHubin bounty-label on täynnä
 agenttien generoimia feikkilistauksia. Mitä helpompi lähde on skannata, sitä varmemmin
@@ -43,3 +48,19 @@ mahdollisuus. Tarkista kelpoisuus ensin.
 on rekisteröityneitä, joista tyypillisesti alle 10 % palauttaa mitään. Isossa
 hackathonissa, jossa on 40 kategoriaa, kilpailu per kategoria voi olla pienempi kuin
 kapeassa, jossa on kolme.
+
+
+## 2026-09-16, kierros 2
+
+**Toinen malli löysi sen, mitä ensimmäinen tulkitsi väärin.** GPT:n haaste Superteam-
+havaintoon oli oikea ja johti kokonaiseen uuteen kategoriaan (agenttinatiivit taloudet).
+Kahden mallin protokolla maksoi itsensä takaisin ensimmäisenä päivänä.
+
+**Palautusprosentti on pieni kaikkialla.** RevenueCat 2025: 3 % rekisteröityneistä palautti.
+Osallistujamäärä yliarvioi kilpailun 30-kertaisesti. Sama pätee luultavasti kaikkiin
+kilpailuihin ja bountyihin. Oikea nimittäjä on palautukset.
+
+**Sama havainto muualla vahvistaa mekanismin.** Shipaton 2025:n voittaja "Payout" tekee
+täsmälleen sitä, mitä kortti `oikeudet-lunastamatta` ehdottaa (ryhmäkannesovinnot).
+Kun joku muu on jo rakentanut tuotteen mekanismin päälle, mekanismi on todellinen.
+Kysymys on sitten, mikä osa siitä on vielä tyhjä.

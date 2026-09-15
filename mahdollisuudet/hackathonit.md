@@ -96,10 +96,14 @@ tammikuussa 2027.
 
 Kapeat Devpost-hackathonit hylätty (opiskelijat, krediitit). Jäljellä kaksi suuntaa:
 
-1. **Isot aidon käteisen hackathonit, joissa on monta kategoriaa.** RevenueCat Shipaton
-   (740 000 USD, 26 000 osallistujaa) jakaa rahan kymmeniin kategorioihin. Ratkaiseva luku
-   ei ole osallistujat vaan palautetut työt per kategoria. Se pitää selvittää ennen kuin
-   hylätään. Vaatii App Store -julkaisun, eli Apple-kehittäjätilin (99 USD/v).
+1. **RevenueCat Shipaton, selvitetty 2026-09-16.** Aitoa käteistä yli 700 000 USD:
+   pääpalkinto 100 000, noin 20 kategoriaa à 20 000 / 10 000 / 5 000, yhteensä noin 60
+   rahapalkintoa. Vuonna 2025: 51 882 rekisteröitynyttä, noin 1 600 palautettua sovellusta
+   (34 sivua × 48). Eli noin 3 % palauttaa, ja noin 1 palautus 27:stä sai rahaa. Vaatimus:
+   uusi sovellus julkaistu kauppaan 1.8. - 30.9.2026 RevenueCat SDK:lla. Aikaa on 14 päivää
+   ja App Storen tarkastus vie 1 - 3 päivää. Mahdollista, tiukkaa. Apple-kehittäjätili
+   99 USD/v on ainoa pääoma. Kategoriat, joissa kilpailu on todennäköisesti vähäisin:
+   Influencer-palkinnot (hyvin kapea brief), Samsung Galaxy, Kotlin Multiplatform.
 2. **Sponsorien omat kehittäjäkilpailut** ilman Devpost-välikättä (AssemblyAI 5 000 USD
    käteistä, IBM Bob 10 000 USD). Pienemmät potit, vähemmän palautuksia.
 

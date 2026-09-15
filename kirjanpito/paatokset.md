@@ -69,3 +69,21 @@ Kärki on nyt tasainen (22 - 23 pistettä), eikä yksikään kortti ole vielä a
 1. RevenueCat Shipaton: selvitä kategoriat ja palautusten määrä per kategoria edellisvuodelta.
 2. Auditointikilpailut: lue käynnissä olevat Sherlockista ja Cantinasta kirjautuneena.
 3. GPT haastaa kaikki "tutkittu"-kortit ja ajaa generaattorin.
+
+## 2026-09-16 · Superteam-havainto korjattu, kierros 2 ajettu, 6 uutta korttia
+
+**Päätös:** HAVAINNOT-tiedoston Superteam-tulkinta korjataan GPT:n haasteen mukaisesti.
+Agenttinatiivit taloudet nostetaan omaksi kortiksi (23 p). Kierros 2 tuotti viisi muuta
+korttia, joista delegoitu pääoma hylätään heti (luvanvaraista). Kolme generaattoria
+kirjattu `etsinta/KIERROS2.md`.
+
+**Perustelu:** Ks. `etsinta/HAVAINNOT.md` ja `etsinta/KIERROS2.md`.
+
+**Mitä omistajalta tarvitaan seuraavaksi:** Superteam-agentin rekisteröinti (yksi curl,
+ohje `tyokalut/haku/superteam_agentti.py`). Ilman sitä AGENT_ONLY-markkinan kokoa ei voi
+mitata. Claude ei luo tilejä.
+
+**Seuraava koe-ehdokas, järjestyksessä:**
+1. Superteam AGENT_ONLY-listaus, jos sellaisia on ja palkkio on yli 200 USD.
+2. RevenueCat Shipaton, jos päätös tehdään 48 tunnin sisällä (14 päivää aikaa).
+3. Oikeuskone: 20 oikeuskategorian kartoitus, ei vaadi rahaa.
