@@ -42,6 +42,14 @@ Suoritteen rajakustannus lähestyy nollaa, hinta ei laske, koska tarjonta on 0 -
   kurdi/vietnam/thai/albania 0.
 - Ukrainalaisia tilapäisen suojelun piirissä Suomessa noin 46 000 (FACT, Migri 2026);
   tilapäisen suojelun hakemuksia 2025: 12 018.
+- Kysyntäproxy, hakemuksia 2025 (FACT, EMN/Migri "Maahanmuutto- ja turvapaikkakatsaus
+  Suomi 2025"): ensimmäiset oleskelulupahakemukset perhesiteen perusteella 23 831, työn
+  perusteella 11 324, jatkolupahakemukset 17 795, kansalaisuushakemukset 11 237. Jokaisessa
+  on tyypillisesti 1 - 5 käännettävää asiakirjaa (INFERENCE). Suurimmat kansalaisuudet:
+  Intia, Bangladesh, Sri Lanka, Filippiinit, Nepal, Kiina, Thaimaa, Ukraina, Venäjä.
+  Näistä rekisterissä on kääntäjiä: hindi/bengali/sinhala/tagalog/nepali 0, kiina 1,
+  thai 0, ukraina 6, venäjä 142. Englanninkieliset asiakirjat kattavat osan (Intia,
+  Filippiinit), mutta eivät kaikkia.
 - Tutkinto: 570 €, marraskuussa, yhteen suuntaan kerrallaan, auktorisointi 5 vuotta.
   Läpäisyaste UNKNOWN.
 - Konekäännöksen käytöstä auktorisoidussa kääntämisessä ei löytynyt kieltoa eikä lupaa

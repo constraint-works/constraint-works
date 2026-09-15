@@ -36,3 +36,15 @@ python3 tyokalut/haku/hae_kilpailut.py   auditointikilpailujen historia
 ## Tilanne
 
 Ks. `kirjanpito/paatokset.md` ja `python3 tyokalut/rekisteri.py`.
+
+Yövuoro 1 (2026-09-16): orvot digitaaliset omaisuudet mitattu ja hylätty mekanismina
+(`etsinta/ORVOT-OMAISUUDET.md`), hypoteesi muotoiltu uudelleen: tekoäly tekee työn
+ilmaiseksi ja arvo siirtyy portteihin (oikeus, luottamus, pääsy, vastuu). Avoin haara
+löysi puhtaan esimerkin: auktorisoitu kääntäjä harvinaisessa kielessä
+(`etsinta/AVOIN-HAARA-2.md`). Loki: `etsinta/YO-CLAUDE.md`.
+
+```
+python3 tyokalut/haku/hae_orvot_paketit.py npmjs.org 50     npm/PyPI-orvot (ecosyste.ms)
+python3 tyokalut/haku/hae_orvot_wordpress.py 40             WordPress-orvot (julkinen API)
+python3 tyokalut/haku/hae_orvot_laajennukset.py <csv> 130   Chrome Web Store -otos
+```

@@ -111,6 +111,19 @@ pieni palveluksi, riittävä itsepalvelutyökaluksi, jolla ei ole tuloa. Isot ki
 ovat jo konsulttien hallussa. **Hylätään ansaintana**, kirjataan oikeuskartoitukseen
 kohdaksi 21.
 
+### Generaattorin ensimmäinen ajo: kolme pätevyysrekisteriä
+
+| Rekisteri | Portin hinta | Tarjonta | Hinta per suorite | Työn konemaisuus | Huomio |
+|---|---|---|---|---|---|
+| Auktorisoidut kääntäjät (OPH) | 570 €, tutkinto 1×/v (toissijainen: kieliasiantuntijat.fi) | 1 381, maahanmuuttokielissä 0 - 6 (FACT) | 65 - 105 €/sivu (FACT) | Korkea: kone kääntää, ihminen tarkistaa | Vaatii kielitaidon. Vahvin |
+| Energiatodistuksen laatijat (Varke, ent. ARA) | Pätevyystentti, hinta UNKNOWN | 1 199 perustaso + 79 ylempi (FACT, mutta vuoden 2013 luku) | 229 - 600 €/todistus (FACT, hinnastot 2025 - 2026) | Keskitaso: laskenta konemaista, olemassa olevassa rakennuksessa vaaditaan katselmus paikan päällä | Pakollinen myynnissä ja vuokrauksessa. Tarjonta ei ole niukka |
+| Auktorisoidut teollisoikeusasiamiehet (PRH-lautakunta) | Tutkinto + vuosi kokemusta + ylempi korkeakoulututkinto (FACT) | UNKNOWN | Tuntilaskutus, satoja €/h | Korkea: hakemusten laadinta | Portti liian korkea yhdelle ihmiselle ilman alan taustaa |
+
+Ensimmäinen ajo vahvistaa kriteerin: portin pitää olla **halpa, henkilökohtainen ja harva**.
+Energiatodistus on halpa mutta ei harva. Patenttiasiamies on harva mutta ei halpa.
+Auktorisoitu kääntäjä harvinaisessa kielessä on kaikkea kolmea, mutta vain sille, jolla
+on kieli.
+
 ## Mitä avoin haara opetti
 
 1. **Portti, jonka hinta on jo painunut nollaan, ei ole portti** (EU-edustajat 199 €/v).
