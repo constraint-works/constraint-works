@@ -33,10 +33,16 @@ asti kannattamatonta. Löytäminen vaatii skannausta.
 **Mikä on meidän etumme?** Ylläpidon hinta. Omaisuus, jonka arvo omistajalle on 0,
 on meille positiivinen. Ja skanneri on generaattori.
 
-## Data
+## Data (2026-09-16, GitHub-rajapinta)
 
-Ei vielä. Ensimmäinen tehtävä: skannaa Chrome Web Store laajennuksista, joilla on yli
-10 000 käyttäjää ja viimeinen päivitys yli 24 kk sitten. Laske määrä.
+- Repoja, joilla on yli 1 000 tähteä, ei arkistoitu, ei yhtään commitia kahteen vuoteen:
+  **17 616**. Yli 200 tähteä: 104 389.
+- Niistä Chrome-laajennuksia (topic): 35 yli 1 000 tähden, 153 yli 200 tähden.
+- Avoimia "looking for maintainer" -issueita: **3 835**.
+
+Tähdet eivät ole käyttäjiä, mutta korreloivat. Kohteita on siis kymmeniä tuhansia, ja
+kukaan ei skannaa niitä systemaattisesti ylläpidon näkökulmasta. Chrome Web Storen ja
+App Storen vastaava luku on vielä hakematta (ei julkista rajapintaa, vaatii selaimen).
 
 ## Riskit ja eettinen tarkistus
 
