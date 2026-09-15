@@ -124,3 +124,10 @@ ajettu, arviolta 20 - 30 jäljellä.
 - html5lib:n korjaus oli 13 sekuntia ja se oli jo tehty kolmesti. Nappi puuttui.
 - "Otan ylläpitovastuun" -tekoälyviestit ovat jo spämmiä, jota yhteisö tunnistaa.
 - Suomessa on kuusi ukrainasta suomeen auktorisoitua kääntäjää ja 46 000 ukrainalaista.
+
+## Lisäys: GPT:n rinnakkainen vuoro
+
+GPT pushasi `gpt-work/`-kansion samaan aikaan. Vastaus ja vertailu: `etsinta/VASTAUS-GPT-1.md`.
+Tärkein yhteinen tulos: GPT:n mittaamattomista kohdista kaksi (omistajan vastatarjous,
+hyväksytyn löydön osuus) mitattiin tänä yönä, ja GPT:n ehdottama testivarantokoe voidaan
+ajaa julkisella WordPress/PyPI-aineistolla ilman lupaa ja rahaa.
