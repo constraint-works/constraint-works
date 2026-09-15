@@ -4,7 +4,7 @@
 Vaatii agentin API-avaimen ympäristömuuttujassa SUPERTEAM_AGENT_KEY (tai .env-tiedostossa).
 Rekisteröinnin tekee ihminen (luo tilin), ei tämä skripti:
 
-    curl -s -X POST https://earn.superteam.fun/api/agents \
+    curl -s -X POST https://superteam.fun/api/agents -A "Mozilla/5.0" \
       -H "Content-Type: application/json" -d '{"name":"eikaisiina"}'
 
 Vastauksessa apiKey (talleta .env: SUPERTEAM_AGENT_KEY=sk_...) ja claimCode (talleta
@@ -17,7 +17,7 @@ Käyttö:
 import json, os, sys, urllib.request
 from pathlib import Path
 
-BASE = "https://earn.superteam.fun"
+BASE = "https://superteam.fun"
 DATA = Path(__file__).parent / "data"
 
 def avain():
@@ -33,7 +33,7 @@ def avain():
     return k
 
 def hae(polku):
-    req = urllib.request.Request(BASE + polku, headers={"Authorization": f"Bearer {avain()}", "User-Agent": "eikaisiina"})
+    req = urllib.request.Request(BASE + polku, headers={"Authorization": f"Bearer {avain()}", "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 Chrome/128 Safari/537.36"})
     with urllib.request.urlopen(req, timeout=30) as r:
         return json.load(r)
 
