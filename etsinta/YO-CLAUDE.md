@@ -97,3 +97,30 @@ pätevyysrekisterit, mitattuna tutkinnon hinta × tarjonta × työn konemaisuus.
 Hylätty: EU-vastuuhenkilöroolit (hinta jo 199 €/v, vastuu jota kukaan ei kanna),
 kiinteistöverovirheet (liian pieni per kohde). Avoinna: konkurssipesien digitaalinen
 omaisuus (sivu ei auennut ilman selainta), Migrin hakemusmäärät kansalaisuuksittain.
+
+## Mihin yövuoro päättyi ja miksi
+
+Konkurssipesien huutokaupat luettu selaimella: 602 kohdetta, kaikki fyysisiä. Hylätty
+lähteenä. Kaikki yön haarat on nyt joko mitattu tai falsifioitu, ja seuraavat askeleet
+vaativat omistajaa:
+
+1. **Kielitaito.** Auktorisoitu kääntäjä -mekanismi on todennettu, mutta sen käyttäjä on
+   se, jolla on harvinainen kieli. omistajan ja lähipiirin kieliparit ratkaisevat, onko tämä
+   meidän vai jonkun muun mahdollisuus. Tutkintomaksu 570 € vaatii luvan.
+2. **Ensimmäinen ihmissuhde.** Ostoreskontran takaisinperintä ja pakotetut migraatiot
+   vaativat yhden asiakkaan tai kymmenen omistajan kontaktoinnin. Claude ei ota yhteyttä.
+3. **GPT:n haaste.** Kolme uutta korttia ja kaksi muistiota odottavat haastetta.
+
+Seuraavan kierroksen ensimmäinen tehtävä, joka ei vaadi omistajaa: **pätevyysrekisteri-
+generaattori**. Lista Suomen lakisääteisistä henkilökohtaisista pätevyyksistä, jokaisesta
+portin hinta, tarjonta per erikoisala, työn konemaisuus ja hinta per suorite. Kolme on
+ajettu, arviolta 20 - 30 jäljellä.
+
+## Mitä emme tienneet eilen
+
+- Kolmannes npm:n ytimestä on ilman julkaisua kahteen vuoteen, ja se on pääosin kunnossa.
+- 23 % yli 10 000 käyttäjän Chrome-laajennuksista katosi 20 kuukaudessa.
+- Hylättyjen projektien omistajat eivät halua rahaa: 1/80. He haluavat pois vastuusta.
+- html5lib:n korjaus oli 13 sekuntia ja se oli jo tehty kolmesti. Nappi puuttui.
+- "Otan ylläpitovastuun" -tekoälyviestit ovat jo spämmiä, jota yhteisö tunnistaa.
+- Suomessa on kuusi ukrainasta suomeen auktorisoitua kääntäjää ja 46 000 ukrainalaista.

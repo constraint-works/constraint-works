@@ -91,9 +91,13 @@ portin avautuessa on ainoa hetki, jolloin hinta ei ole vielä 199 €.
 
 Pesänhoitaja myy ohjelmistoja, domaineja, asiakasrekistereitä ja liiketoimintoja
 selvällä omistusoikeudella, nopeasti ja ilman luottamusongelmaa, joka tappoi
-orpo-ohjelmistot. Huutokaupat.com:lla on konkurssipesien oma kategoria (FACT), sisältö
-jäi lukematta (JS-sivu). UNKNOWN: kuinka usein digitaalista omaisuutta myydään ja mihin
-hintaan. Jatketaan seuraavalla kierroksella selaimella.
+orpo-ohjelmistot. Huutokaupat.com:lla on konkurssipesien oma kategoria: **602 ilmoitusta** 2026-09-16
+(FACT, luettu selaimella). Ensimmäiset 40 kohdetta olivat kaikki fyysisiä: laboratorio-
+laitteita, mattoja, polkupyöriä, huoneistoja. Ei yhtään ohjelmistoa, domainia tai
+asiakasrekisteriä. Digitaalinen omaisuus myydään ilmeisesti pesänhoitajan suoralla
+kaupalla, ei julkisessa huutokaupassa (INFERENCE). **Hylätään julkisena lähteenä**;
+säilytetään ajatus: pesänhoitajille suunnattu "ostamme ohjelmistot ja domainit" -kanava
+olisi mahdollinen, mutta se vaatii suhteita, ei skanneria.
 
 ### 4. Ostoreskontran takaisinperintä pk-yrityksille
 

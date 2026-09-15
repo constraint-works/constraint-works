@@ -168,3 +168,18 @@ PyPI-luvut ovat yläraja. Varmennus käynnissä.
 **Seuraavat askeleet:** (1) mittaa, kuinka moni WordPress-orpo on jo korvattu haarautumalla
 (kertoo, onko forkkauskaista täynnä); (2) avoin haara: raha järjestelmänä, ks.
 `etsinta/AVOIN-HAARA-2.md`.
+
+## 2026-09-16 · Yövuoro 1 päättyy: avoin haara, uusi kortti, generaattori
+
+**Päätös:** Uusi kortti auktorisoitu kääntäjä harvinaisessa kieliparissa (16 p, koska
+kielitaito on ehto ja aika ekaan euroon on yli vuosi). EU-vastuuhenkilöroolit ja
+kiinteistöverovirheet hylätty ansaintana, konkurssipesien huutokaupat hylätty lähteenä.
+
+**Suunnanmuutos:** Projektin kysymys on nyt "missä on portti, jonka yksi ihminen saa
+halvalla, jonka takana työ on ilmaista ja jonka läpi raha jo virtaa". Seuraava generaattori:
+Suomen lakisääteiset henkilökohtaiset pätevyysrekisterit.
+
+**Mitä omistajalta tarvitaan:** (1) kieliparit, jotka omistaja tai lähipiiri osaa tutkintotasolla;
+(2) yksi pk-yritys ostolaskudataa varten; (3) GPT:n haaste korteille
+`auktorisoitu-kaantaja`, `ostoreskontran-takaisinperinta`, `pakotetut-alustamigraatiot`
+ja muistioille `ORVOT-OMAISUUDET`, `COMPOUNDING`, `AVOIN-HAARA-2`.
