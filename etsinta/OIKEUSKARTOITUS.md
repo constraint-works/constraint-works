@@ -29,6 +29,7 @@ omistaja itse ymmärtää sen. Tila: `todennettu` = luku lähteestä, `arvio` = 
 | 18 | Dieselgate-tyyppiset joukkokorvaukset | Auton omistus | Kyllä, rekisteristä | `tuntematon` | Oikeusprosessi | Asianajo | Ei | Yksittäinen | Heikko, juristit |
 | 19 | Vakuutuskorvaukset hakematta (matka, henki) | Vakuutus + tapahtuma | Osittain | `tuntematon` | Tietämättömyys | Arkaluonteista | Osittain | Generaattori | Tuntematon, tutkittava |
 | 20 | EU- ja kansalliset yritystuet hakematta | Y-tunnus + toimiala | Kyllä, tukiehdoista | `tuntematon` | Byrokratia | Y-tunnus, valtuutus | Osittain | Generaattori: joka tuki | Keskiheikko, hidasta |
+| 21 | Kiinteistöveron rakennustietovirheet (lisätty yövuoro 1) | Kiinteistön omistus | Kyllä, verotuspäätöksen ja rakennusrekisterin vertailusta | Vero 2 429 M €/v; ammattitarkastuksissa palautus keskim. 7 % (toissijainen, Sustera) | Omistaja ei tiedä eikä tarkista | OmaVero, omistaja itse | Kyllä (vertailu), ei (tarkastus paikan päällä) | Generaattori: rekisterivirhe × maksaja | Pieni per kohde (100 - 300 €), isot kiinteistöt konsulttien hallussa. Itsepalvelutyökalu, ei ansainta |
 
 ## Mitä niukkuuslinssi paljasti
 

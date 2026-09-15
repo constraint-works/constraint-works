@@ -16,11 +16,11 @@ Skripti: `tyokalut/haku/hae_orvot_paketit.py`. Data: `data/orvot/*.csv`.
 
 | | npm | PyPI |
 |---|---|---|
-| Orpoja 5 000 ladatuimmasta | **1 674 (33,5 %)** | **1 116 (22,3 %)** |
-| Orpojen osuus latauksista | **30,0 %** (211 mrd/kk) | 10,0 % (14,3 mrd/kk) |
-| Viimeinen julkaisu yli 5 v sitten | 802 | 418 |
+| Orpoja 5 000 ladatuimmasta | **1 674 (33,5 %)** | **959 (19,2 %)**, varmennettu PyPI:stä (ecosyste.ms sanoi 1 116) |
+| Orpojen osuus latauksista | **30,0 %** (211 mrd/kk) | 8,1 % (11,6 mrd/kk) |
+| Viimeinen julkaisu yli 5 v sitten | 802 | 347 |
 | Yksi ylläpitäjä | 1 042 | 717 |
-| Tunnettu haavoittuvuus (advisory) | 99 | 32 |
+| Tunnettu haavoittuvuus (advisory) | 99 | 21 |
 | Vähintään 50 avointa issuea repossa | 315 | 270 |
 | Enintään 15 versiota (pieni, valmis) | 1 006 | 580 |
 
@@ -236,9 +236,9 @@ Tulos 9 minuutissa ja 82 000 tokenilla:
 pääsyongelma. Tuote ei ole patchi vaan luotettu ihminen, jolla on oikeudet ja agentti.
 
 **Datan laatuhuomio:** ecosyste.ms:n julkaisupäivä oli PyPI:ssä vanhentunut 11/30
-satunnaisotoksessa (7/30 ei enää orpo), npm:ssä 1/30. PyPI-luvut ovat siis yläraja noin
-25 % liikaa; täysi varmennus PyPI:n omasta rajapinnasta on käynnissä
-(`tyokalut/haku/data/orvot/pypi-varmennettu.jsonl`). html5lib:n oikea viimeinen
+satunnaisotoksessa (7/30 ei enää orpo), npm:ssä 1/30. Kaikki 1 116 PyPI-orpoa varmennettiin
+PyPI:n omasta rajapinnasta: 959 (86 %) oli yhä orpoja, taulukon PyPI-luvut on korjattu.
+npm-luvut ovat ecosyste.ms:n, otosvirhe 1/30. html5lib:n oikea viimeinen
 julkaisu on 2020-06-22, ei 2017-12.
 
 ## 5. Kuka jo tekee tätä: HeroDevs

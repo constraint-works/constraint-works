@@ -1,0 +1,167 @@
+slug,asennukset,paivitetty,haku,korvaajia,paras,paras_asennukset,paras_paivitetty
+template-kit-import,400000,2024-08-01,template kit 8211,0,,0,
+limit-login-attempts,300000,2023-04-04,limit login attempts,1,limit-login-attempts-reloaded,1000000,2026-09-10
+health-check,200000,2024-07-25,health check amp,0,,0,
+layout-grid,200000,2023-07-11,layout grid block,0,,0,
+search-and-replace,100000,2024-08-26,search amp replace,0,,0,
+addquicktag,100000,2021-05-20,addquicktag,0,,0,
+woosidebars,100000,2024-04-03,woosidebars,0,,0,
+wp-downgrade,100000,2023-05-08,downgrade specific core,0,,0,
+backupwordpress,80000,2024-04-24,backupwordpress,0,,0,
+disable-json-api,80000,2023-09-14,disable rest api,1,disable-xml-rpc-api,100000,2026-02-04
+heartbeat-control,80000,2023-08-31,heartbeat control,0,,0,
+q2w3-fixed-widget,70000,2023-03-30,fixed sticky elements,1,mystickyelements,40000,2026-09-03
+php-code-widget,70000,2022-03-30,php code,3,insert-php-code-snippet,90000,2026-06-22
+facebook-messenger-customer-chat,70000,2022-07-05,facebook chat 8211,0,,0,
+title-remover,70000,2021-06-03,title remover,0,,0,
+hotjar,70000,2023-10-25,hotjar,0,,0,
+async-javascript,70000,2023-06-22,async javascript,0,,0,
+wp-show-posts,60000,2024-04-16,show posts,0,,0,
+woocommerce-extra-checkout-fields-for-brazil,60000,2024-02-17,brazilian market woocommerce,0,,0,
+easy-theme-and-plugin-upgrades,60000,2022-04-20,theme upgrades,0,,0,
+enhanced-media-library,60000,2024-07-15,enhanced media library,4,media-library-assistant,70000,2026-09-07
+column-shortcodes,60000,2022-10-11,column shortcodes,0,,0,
+all-in-one-favicon,60000,2023-08-08,all one favicon,1,change-wp-admin-login,60000,2026-08-18
+add-from-server,60000,2020-12-11,add from server,1,auto-image-attributes-from-filename-with-bulk-updater,100000,2026-09-01
+html-editor-syntax-highlighter,60000,2024-03-16,html editor syntax,0,,0,
+sakura-rs-wp-ssl,50000,2019-11-25,ssl sakura rental,0,,0,
+contact-form-7-add-confirm,50000,2018-02-27,contact form add,16,forminator,600000,2026-08-27
+portfolio-post-type,40000,2020-08-29,portfolio post type,2,custom-post-type-ui,1000000,2026-07-14
+wp-extra-file-types,40000,2023-10-28,extra file types,0,,0,
+revision-control,40000,2018-04-01,revision control,0,,0,
+wp-edit,40000,2018-10-15,edit,2,pw-bulk-edit,20000,2026-09-13
+login-logo,40000,2024-09-11,login logo,0,,0,
+disable-google-fonts,40000,2019-02-24,disable google fonts,3,disable-remove-google-fonts,100000,2026-09-13
+underconstruction,40000,2024-03-08,underconstruction,0,,0,
+upload-max-file-size,40000,2023-08-14,increase maximum upload,2,wp-maximum-upload-file-size,70000,2026-08-01
+my-plugins,30000,2013-07-02,my-plugins,15,my-calendar,20000,2026-09-14
+export-media-library,30000,2023-04-05,export media library,4,media-library-assistant,70000,2026-09-07
+recaptcha-for-mw-wp-form,30000,2024-05-09,recaptcha form,1,wpcf7-recaptcha,200000,2026-06-05
+hide-title,30000,2019-05-22,hide title,1,hide-page-and-post-title,40000,2026-09-04
+display-php-version,30000,2023-05-16,display php version,0,,0,
+enhanced-text-widget,30000,2024-07-17,enhanced text,0,,0,
+ts-webfonts-for-sakura,30000,2024-02-14,webfonts,1,xserver-typesquare-webfonts,100000,2025-12-04
+wp-updates-notifier,30000,2020-02-14,updates notifier,0,,0,
+selfhost-google-fonts,30000,2018-06-15,self hosted google,0,,0,
+scripts-n-styles,30000,2023-06-06,scripts styles,0,,0,
+lightweight-social-icons,30000,2020-03-18,lightweight social icons,2,easy-social-icons,20000,2025-11-09
+social-media-widget,30000,2024-06-10,social media,8,ultimate-social-media-icons,100000,2026-08-25
+exclude-pages,20000,2017-11-28,exclude pages,0,,0,
+jetsticky-for-elementor,20000,2023-08-24,jetsticky elementor,0,,0,
+link-manager,20000,2017-11-28,link manager,2,betterlinks,20000,2026-09-10
+site-offline,20000,2024-03-20,site offline coming,0,,0,
+block-options,20000,2024-05-28,gutenberg block editor,5,gutenkit-blocks-addon,80000,2026-08-30
+mega-addons-for-visual-composer,20000,2024-01-11,mega addons wpbakery,0,,0,
+automatic-updater,20000,2021-06-04,advanced automatic updates,0,,0,
+disable-feeds,20000,2018-03-30,disable feeds,1,disable-feeds-wp,10000,2026-05-29
+change-login-logo,20000,2024-07-31,change login logo,1,my-wp-login-logo,10000,2026-02-17
+hide-admin-notices,20000,2024-02-18,hide admin notices,2,disable-admin-notices,100000,2026-09-14
+cf7-phone-mask-field,20000,2021-01-07,contact form 8211,0,,0,
+any-mobile-theme-switcher,20000,2024-09-03,any mobile theme,1,mystickysidebar,10000,2026-08-13
+wp-maximum-execution-time-exceeded,20000,2021-01-25,maximum execution time,1,wp-maximum-upload-file-size,70000,2026-08-01
+material-design-icons-for-elementor,20000,2024-03-20,material design icons,0,,0,
+spiderblocker,20000,2024-05-07,spider blocker,0,,0,
+seed-fonts,20000,2024-08-06,seed fonts,0,,0,
+elegro-payment,20000,2019-11-22,elegro crypto payment,0,,0,
+pushpress,20000,2022-03-04,pushpress,0,,0,
+wp-test-email,20000,2024-07-31,test email,0,,0,
+external-thumbnail,20000,2016-06-17,external thumbnail,0,,0,
+visual-form-builder,20000,2022-05-27,visual form builder,8,forminator,600000,2026-08-27
+add-category-to-pages,20000,2019-10-19,add category pages,2,pages-with-category-and-tag,50000,2026-08-13
+jivochat,20000,2023-10-25,jivochat live chat,1,button-contact-vr,50000,2026-08-13
+multiple-post-thumbnails,20000,2018-11-26,multiple post thumbnails,0,,0,
+meks-simple-flickr-widget,20000,2024-07-29,meks flickr,0,,0,
+seo-image,10000,2017-11-28,seo friendly images,1,seo-optimized-images,10000,2026-09-10
+cookies-for-comments,10000,2019-06-04,cookies comments,0,,0,
+simple-taxonomy-ordering,10000,2023-03-22,taxonomy ordering,0,,0,
+dash-notifier,10000,2021-03-26,dash notifier,0,,0,
+audit-trail,10000,2017-11-28,audit trail,1,stream,70000,2026-08-31
+granular-controls-for-elementor,10000,2018-03-29,granular controls elementor,0,,0,
+google-pagespeed-insights,10000,2024-07-07,insights from google,1,analytics-insights,10000,2026-05-24
+seo-ultimate,10000,2016-11-03,seo ultimate,0,,0,
+bulk-page-creator,10000,2022-05-07,bulk page creator,0,,0,
+disable-right-click-for-wp,10000,2023-11-26,disable right click,3,no-right-click-images-plugin,20000,2026-08-16
+visual-term-description-editor,10000,2024-08-17,visual term description,0,,0,
+kt-tinymce-color-grid,10000,2023-08-16,central color palette,0,,0,
+lazy-load,10000,2018-11-22,lazy load,6,wp-smushit,1000000,2026-08-24
+button-visually-impaired,10000,2021-09-01,button visually impaired,0,,0,
+meks-smart-social-widget,10000,2024-07-29,meks smart social,0,,0,
+blank-slate,10000,2023-03-10,blank slate,0,,0,
+accordion-blocks,10000,2022-02-07,accordion blocks,1,easy-accordion-free,70000,2026-08-20
+hide-featured-image,10000,2018-05-28,hide featured image,2,featured-image-from-url,60000,2026-09-09
+options-framework,10000,2017-11-01,options framework,0,,0,
+simple-map,10000,2018-03-11,map,7,wp-google-maps,300000,2026-09-01
+search-everything,10000,2017-11-28,search everything,1,search-replace-wpcode,20000,2026-07-28
+jquery-pin-it-button-for-images,10000,2020-10-01,jquery pin button,0,,0,
+wd-instagram-feed,10000,2023-02-09,10websocial,0,,0,
+remove-yoast-seo-comments,10000,2018-09-25,remove yoast seo,3,wordpress-seo,10000000,2026-09-15
+wp-jalali,10000,2017-11-28,jalali,0,,0,
+meks-smart-author-widget,10000,2024-07-23,meks smart author,0,,0,
+animated-typing-effect,10000,2023-10-26,typing effect,0,,0,
+tinymce-clear-buttons,10000,2018-08-01,tinymce clear float,0,,0,
+wp-no-base-permalink,10000,2020-05-06,base permalink,0,,0,
+breadcrumb-trail,10000,2017-11-28,breadcrumb trail,1,breadcrumb,10000,2025-12-17
+easy-twitter-feed-widget,10000,2017-12-20,twitter feed,1,custom-twitter-feeds,100000,2026-09-14
+adjust-admin-categories,10000,2022-06-27,adjust admin categories,0,,0,
+meks-easy-ads-widget,10000,2024-07-25,meks ads,0,,0,
+meks-easy-social-share,10000,2024-07-29,meks social share,0,,0,
+related-posts-flatsome,10000,2022-08-22,related posts flatsome,0,,0,
+lockdown-wp-admin,10000,2017-11-28,lockdown admin,0,,0,
+uber-login-logo,10000,2017-11-28,uber login logo,0,,0,
+wp-notification-bars,10000,2022-02-28,notification bars,0,,0,
+bulk-post-update-date,10000,2024-08-02,bulk post update,0,,0,
+posts-in-page,10000,2019-05-13,posts page,0,,0,
+advanced-tinymce-configuration,10000,2023-04-10,advanced tinymce configuration,0,,0,
+wp-tab-widget,10000,2022-01-26,tab,2,simple-side-tab,10000,2026-07-12
+g-meta-keywords,10000,2019-06-19,meta keywords,0,,0,
+lightweight-grid-columns,10000,2019-03-14,lightweight grid columns,0,,0,
+disable-theme-and-plugin-auto-update-emails,10000,2023-10-24,disable theme auto,1,disable-update-notifications,10000,2026-09-07
+tag-pages,10000,2022-06-24,tag pages,1,pages-with-category-and-tag,50000,2026-08-13
+robots-txt-editor,10000,2021-01-16,robots txt editor,0,,0,
+show-hidecollapse-expand,10000,2023-03-19,show hide collapse,0,,0,
+typekit-fonts-for-wordpress,10000,2024-07-17,adobe fonts formerly,0,,0,
+wp-security-hardening,10000,2024-09-13,hardening discontinued,0,,0,
+zopim-live-chat,10000,2020-08-20,zendesk chat,0,,0,
+multiple-domain,10000,2021-04-11,multiple domain,0,,0,
+video-user-manuals,10000,2019-06-02,video user manuals,0,,0,
+blog-designer,10000,2024-08-12,blog designer,1,blog-designer-pack,30000,2026-08-27
+custom-css-and-javascript,10000,2024-08-12,custom css javascript,3,css-javascript-toolbox,10000,2026-08-26
+shortcodes-for-divi,10000,2024-08-13,shortcodes divi,0,,0,
+wp-missed-schedule-posts,10000,2017-07-20,missed schedule posts,2,missed-scheduled-posts-publisher,30000,2026-03-16
+parent-category-toggler,10000,2017-11-28,parent category toggler,0,,0,
+yandex-metrika,10000,2017-11-28,yandex-metrika,5,yandex-metrica,20000,2026-08-20
+sticky-header-oceanwp,10000,2021-10-22,oceanwp sticky header,1,mystickymenu,100000,2026-09-15
+public-post-preview-configurator,10000,2021-09-23,public post preview,1,public-post-preview,100000,2026-06-17
+wc-password-strength-settings,10000,2023-10-11,password strength settings,0,,0,
+shortcode-ui,10000,2019-01-16,shortcake shortcode,0,,0,
+delete-pending-comments,10000,2024-01-28,delete pending comments,1,delete-all-comments-of-website,20000,2026-06-29
+meks-themeforest-smart-widget,10000,2024-07-23,meks themeforest smart,0,,0,
+auth0,10000,2024-07-12,login auth0,0,,0,
+wp-content-copy-protection,10000,2023-06-27,content copy protection,3,wp-content-copy-protector,100000,2026-09-13
+use-google-libraries,10000,2017-11-28,use google libraries,0,,0,
+bootstrap-for-contact-form-7,10000,2018-05-24,bootstrap contact form,3,ninja-forms,600000,2026-09-07
+popup-trigger-url-for-elementor-pro,10000,2020-06-16,popup trigger url,0,,0,
+wp-author-date-and-meta-remover,10000,2021-01-25,author date meta,1,wp-meta-and-date-remover,90000,2026-05-31
+search-by-sku-for-woocommerce,10000,2021-07-16,search sku woocommerce,4,ajax-search-for-woocommerce,100000,2026-09-07
+social-icons,10000,2021-02-08,social icons,7,ultimate-social-media-icons,100000,2026-08-25
+simple-full-screen-background-image,10000,2023-03-29,full screen background,0,,0,
+wp-font-awesome,10000,2024-07-09,font awesome,3,font-awesome,400000,2026-08-13
+rest-api,10000,2017-11-28,rest api version,4,disable-wp-rest-api,30000,2026-08-10
+shortcodes-to-show-or-hide-content,10000,2019-10-01,show hide content,0,,0,
+cyclone-demo-importer,10000,2024-06-18,cyclone demo importer,0,,0,
+tc-custom-javascript,10000,2023-02-24,custom javascript,0,,0,
+ultimate-posts-widget,10000,2024-07-17,ultimate posts,1,ultimate-post,40000,2026-09-09
+ot-flatsome-vertical-menu,10000,2020-06-17,flatsome vertical menu,1,wpb-accordion-menu-or-category,10000,2026-09-15
+gravity-forms-no-captcha-recaptcha,10000,2017-11-28,gravity forms captcha,2,gravity-forms-zero-spam,100000,2026-09-01
+woocommerce-colors,10000,2020-08-27,woocommerce colors,1,woocommerce,7000000,2026-09-03
+dashboard-notepad,10000,2017-07-30,dashboard notepad,0,,0,
+acf-theme-code,10000,2023-11-28,acf theme code,0,,0,
+disable-real-mime-check,10000,2017-11-28,disable real mime,0,,0,
+create-and-assign-categories-for-pages,10000,2024-01-19,create assign categories,0,,0,
+pdfjs-viewer-for-elementor,10000,2024-01-24,pdf viewer elementor,3,pdf-embedder,300000,2026-08-14
+custom-post-template,10000,2017-11-28,custom post template,4,custom-post-type-ui,1000000,2026-07-14
+genesis-columns-advanced,10000,2024-06-23,genesis columns advanced,0,,0,
+scroll-back-to-top,10000,2017-11-28,scroll back top,3,wpfront-scroll-top,200000,2026-08-18
+woocommerce-grid-list-toggle,10000,2018-05-11,woocommerce grid list,1,wc-product-table-lite,10000,2026-09-15
+contact-form-7-success-page-redirects,10000,2017-11-28,contact form 8211,0,,0,
+italy-cookie-choices,10000,2023-07-24,italy cookie choices,0,,0,

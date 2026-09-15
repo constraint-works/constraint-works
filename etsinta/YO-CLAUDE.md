@@ -60,3 +60,40 @@ tested up to), "adopt-me"-tagi (virallinen luovutuskanava: vain 17 lisäosaa, 3 
 asennusta yhteensä, eli vapaaehtoinen luovutuskanava on käytännössä tyhjä).
 
 Jatkuu alla sitä mukaa kun data valmistuu.
+
+## Iteraatio 3, tulokset
+
+- Chrome-otos 390: 23 % yli 10 k käyttäjän laajennuksista poistettu 20 kuukaudessa
+  (98 M käyttäjää tammikuussa 2025). Elossa olevista 31 % orpoja, mutta kärki on
+  yritysten valmiita laajennuksia. Yli miljoonan käyttäjän orvot menettävät 60 %
+  käyttäjistä vuodessa.
+- WordPress 10 000: 2 354 orpoa (23,5 %), 8,47 M asennusta, 166 yli 10 k asennuksella,
+  joista **40 %:lla on jo ylläpidetty korvaaja hakemistossa, ja 59:ssä korvaaja on jo
+  suurempi**. Fork-kaista on siis puoliksi täynnä, ja se täyttyy ilman meitä.
+- 80 issuen luokittelu: omistajat eivät pyydä rahaa (1/80), pääsy annetaan alle
+  puolessa, "otan ylläpidon" -tekoälyspämmi on jo ilmiö.
+- html5lib-koe: koodi 13 sekuntia, julkaisunappi 2,5 vuotta jumissa.
+
+**Falsifiointi 2:** "ylläpito halpenee" ei ole mekanismi. Pullonkaula on julkaisuoikeus ja
+luottamus. Kortti hylätty (23 → 17). Kaksi elävää muotoa erotettu omiksi korteiksi:
+pakotetut migraatiot omistajan lukuun (22 p) ja jatkaja-palvelu (HeroDevs-malli, vaatii
+todennetun historian, ei kortti vaan `COMPOUNDING.md`).
+
+## Iteraatio 4: mikä on yleisempi mekanismi?
+
+**Vastaus:** tekoäly tekee työn ilmaiseksi, arvo siirtyy portteihin. Portti on oikeus,
+luottamus, pääsy tai vastuu. Kysymys projektille muuttuu: "missä on portti, jonka yksi
+ihminen saa halvalla, jonka takana työ on nyt ilmaista ja jonka läpi raha jo virtaa?"
+
+## Iteraatio 5: avoin haara, raha järjestelmänä
+
+Ks. `AVOIN-HAARA-2.md`. Viisi kandidaattia mitattu. Vahvin: **auktorisoitu kääntäjä**.
+Rekisterissä 1 381 kääntäjää, ukraina→suomi 6, somali→suomi 0, portin hinta 570 €,
+hinta asiakkaalle 65 - 105 €/sivu, 46 000 ukrainalaista tilapäisen suojelun piirissä.
+Red team: portti vaatii kielitaidon, jota meillä ei ehkä ole. Mekanismi on silti puhdas
+esimerkki, ja siitä seuraa generaattori: **kaikki lakisääteiset henkilökohtaiset
+pätevyysrekisterit, mitattuna tutkinnon hinta × tarjonta × työn konemaisuus.**
+
+Hylätty: EU-vastuuhenkilöroolit (hinta jo 199 €/v, vastuu jota kukaan ei kanna),
+kiinteistöverovirheet (liian pieni per kohde). Avoinna: konkurssipesien digitaalinen
+omaisuus (sivu ei auennut ilman selainta), Migrin hakemusmäärät kansalaisuuksittain.
