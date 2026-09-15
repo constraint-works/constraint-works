@@ -3,7 +3,7 @@ nimi: Online-hackathonit ja sponsoripalkinnot
 tila: tutkittu
 kirjoittaja: claude
 aika_ekaan_euroon: 4
-tuplaus: 4
+tuplaus: 2
 skaala: 2
 ai_etu: 5
 paaoma: 5
@@ -36,7 +36,43 @@ lukee sponsorin dokumentaation minuuteissa. Voimme osallistua samassa hackathoni
 useaan sponsoripalkintoon rinnakkain. Tämä on käytännössä mahdotonta yhdelle ihmiselle
 ilman tekoälyä.
 
-## Data
+## Data (2026-09-15, luettu selaimella)
+
+**Devpost, avoimet online-hackathonit: 38 kpl.** Ratkaiseva mittari on potti per osallistuja:
+
+| Hackathon | Potti | Osallistujia | USD / osallistuja | Päättyy |
+|---|---|---|---|---|
+| AWS CDS Agentic AI Partner Hackathon | 40 000 | 124 | 323 | 2026-10-28 |
+| LexHack 2026 | 59 560 | 335 | 178 | 2026-09-27 |
+| TechCommons Hacks V2 | 29 900 | 174 | 172 | 2026-09-18 |
+| DSH Hacks V2 | 42 234 | 274 | 154 | 2026-11-08 |
+| UnivaBio | 38 245 | 535 | 71 | 2026-10-06 |
+| Amazon Developer Hackathon | 138 000 | 7 272 | 19 | 2026-10-23 |
+| Nebius x NVIDIA | 50 000 | 5 881 | 9 | 2026-10-30 |
+| RevenueCat Shipaton | 740 000 | 26 063 | 28 | 2026-10-01 |
+
+**Korjaus samana iltana, säännöt luettu:** taulukon kapeat hackathonit eivät kelpaa.
+
+| Hackathon | Todellinen käteinen | Miksi ei |
+|---|---|---|
+| AWS CDS Partner | 40 000 USD, aito | Vain AWS Partner -organisaatioille, vaatii Partner Central -tilin |
+| LexHack 2026 | noin 4 300 USD | Opiskelijahackathon. 59 560 USD:sta yli 90 % on krediittejä ja lisenssejä |
+| DSH Hacks V2 | noin 0 USD | Opiskelijat 13+. Kaikki "palkinnot" ovat sponsorikrediittejä |
+| UnivaBio | noin 0 USD | Sama järjestäjäverkosto, sama malli |
+
+Devpostin "X in prizes" laskee mukaan krediitit, lisenssit ja domainit. Aito käteinen on
+vain isoissa, joilla on oikea sponsori (RevenueCat, Amazon, Nebius), ja niissä on
+tuhansia osallistujia. Potti per osallistuja -mittari pitää laskea vain käteisestä.
+
+**lablab.ai:** AssemblyAI Voice Agent (10 000 USD, syyskuu), IBM Bob 2.0 (10 000 USD,
+25. - 27.9.), WeAreDevelopers (18. - 24.9.), AMD ACT III (lokakuu), TechEx Amsterdam
+(lokakuu). Tuhansia rekisteröityneitä per tapahtuma, mutta valtaosa ei palauta mitään.
+
+**ETHGlobal:** ETHOnline 2026 (4. - 16.9.) sulkeutui juuri, 11 sponsoripalkintoa (The Graph,
+Hedera, Arc, World, 1inch, ENS, Uniswap Foundation, Ledger, Privy, Chainlink, Bazantic).
+Seuraavat ovat paikan päällä (Tokio, Mumbai). Seuraava online todennäköisesti HackMoney
+tammikuussa 2027.
+
 
 - ETHGlobal-tapahtumissa potti on tyypillisesti 100 000 - 500 000 USD, jaettuna 20 - 40
   sponsorin kesken. Online-tapahtumia useita vuodessa.
@@ -58,6 +94,15 @@ ilman tekoälyä.
 
 ## Seuraava askel
 
-Listataan seuraavan 30 päivän online-hackathonit palkintoineen ja sääntöineen. Valitaan
+Kapeat Devpost-hackathonit hylätty (opiskelijat, krediitit). Jäljellä kaksi suuntaa:
+
+1. **Isot aidon käteisen hackathonit, joissa on monta kategoriaa.** RevenueCat Shipaton
+   (740 000 USD, 26 000 osallistujaa) jakaa rahan kymmeniin kategorioihin. Ratkaiseva luku
+   ei ole osallistujat vaan palautetut työt per kategoria. Se pitää selvittää ennen kuin
+   hylätään. Vaatii App Store -julkaisun, eli Apple-kehittäjätilin (99 USD/v).
+2. **Sponsorien omat kehittäjäkilpailut** ilman Devpost-välikättä (AssemblyAI 5 000 USD
+   käteistä, IBM Bob 10 000 USD). Pienemmät potit, vähemmän palautuksia.
+
+Alkuperäinen suunnitelma oli: listataan seuraavan 30 päivän online-hackathonit palkintoineen ja sääntöineen. Valitaan
 yksi, jossa on vähintään 5 sponsoripalkintoa ja tekoälyn käyttö on sallittu. Tämä on
 ehdokas ensimmäiseksi 1 000 € → 2 000 € -testiksi, koska se ei sido pääomaa lainkaan.

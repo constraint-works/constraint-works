@@ -40,3 +40,32 @@ eettisesti kyseenalainen), airdrop-farmaus (sybil rikkoo sääntöjä), vedonly�
 
 **Odotettu tulos:** Ensimmäinen 1 000 € → 2 000 € -koe valitaan hackathonien tai
 issue-bountyjen väliltä sen jälkeen, kun käynnissä olevat on listattu selaimella.
+
+## 2026-09-15 · Ensimmäinen data kärkikorteista, pisteet korjattu
+
+**Päätös:** Avoimen koodin bountyt lasketaan 25 → 22 (Algora hiipunut, GitHub-label
+roskaantunut, Superteam pääosin HUMAN_ONLY). Hackathonit pysyy kärjessä, tuplaus 4 → 3.
+
+**Perustelu:** Ks. `etsinta/HAVAINNOT.md`. Devpostissa on juuri nyt 38 avointa
+online-hackathonia, ja niistä 4 - 5 on kapeita (alle 400 osallistujaa, potti yli
+30 000 USD). Niissä potti per osallistuja on 150 - 320 USD.
+
+**Seuraava askel:** Luetaan kapeiden hackathonien säännöt (tekoälyn käyttö, kelpoisuus
+Suomesta, tiimikoko). Jos yksi läpäisee, siitä tulee ensimmäinen koe `kokeet/`-kansioon.
+
+## 2026-09-16 · Kapeat Devpost-hackathonit hylätty, hackathonit 24 → 23
+
+**Päätös:** AWS CDS, LexHack, DSH Hacks ja UnivaBio hylätään koe-ehdokkaina. Hackathon-
+kortin tuplaus-pisteet 3 → 2.
+
+**Perustelu:** AWS on vain partnereille. Kolme muuta ovat opiskelijahackathoneja, joiden
+ilmoitetusta potista käteistä on 0 - 7 %. Ks. `etsinta/HAVAINNOT.md`.
+
+**Mitä tämä tarkoittaa projektille:** Ensimmäisen illan data on korjannut kaksi kärkikorttia
+alaspäin. Se on oikea tulos, ei epäonnistuminen: kone toimii, koska se hylkää nopeasti.
+Kärki on nyt tasainen (22 - 23 pistettä), eikä yksikään kortti ole vielä ansainnut koetta.
+
+**Seuraavat askeleet, järjestyksessä:**
+1. RevenueCat Shipaton: selvitä kategoriat ja palautusten määrä per kategoria edellisvuodelta.
+2. Auditointikilpailut: lue käynnissä olevat Sherlockista ja Cantinasta kirjautuneena.
+3. GPT haastaa kaikki "tutkittu"-kortit ja ajaa generaattorin.

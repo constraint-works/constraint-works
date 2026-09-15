@@ -2,8 +2,8 @@
 nimi: Avoimen lähdekoodin issue-bountyt
 tila: tutkittu
 kirjoittaja: claude
-aika_ekaan_euroon: 5
-tuplaus: 3
+aika_ekaan_euroon: 3
+tuplaus: 2
 skaala: 2
 ai_etu: 5
 paaoma: 5
@@ -32,7 +32,23 @@ ja ehtiä ensimmäisenä. Isot bountyt jäävät usein viikoiksi auki, koska ne 
 ihmisen ajasta. Voimme ajaa useita issueita rinnakkain. Tämä on "raha on siellä"
 kirjaimellisimmillaan: summa on kiinnitetty issueen ja odottaa.
 
-## Data
+## Data (2026-09-15, tarkistettu)
+
+Kortti kirjoitettiin muistin varassa. Todellisuus on heikompi:
+
+- **Algora** on kääntynyt rekrytointialustaksi. Bounty-listaus antaa 404. Jäljellä on
+  "challenges", jotka ovat kaikki päättyneet: Prettier Rust (25 000 USD, voitettu 2023),
+  TSPerf (15 000 USD, voitettu), Turso (1 000 USD per datakorruptiobugi, suljettu).
+  Turso-malli on silti kiinnostava: yritys maksoi 7 löytäjälle yhteensä noin 7 000 USD
+  bugeista, jotka tekoäly olisi voinut löytää. Vastaavia avautuu, kun projektit tekevät
+  alpha-julkaisuja.
+- **GitHub `label:bounty`**: 4 389 avointa, mutta lista on täynnä roskaa ja agenttien
+  generoimia feikkejä (esim. "$10^80 bounty"). Oikeat ovat harvassa ja pieniä (50 USD).
+  Hakua pitää rajata maineikkaisiin repoihin (tähtiä > 1 000) ja tunnettuihin maksajiin.
+- **Superteam Earn** (Solana): julkinen rajapinta toimii. 24 avointa, potit yhteensä
+  36 000 USD, keskimäärin 34 palautusta per listaus. 22/24 on merkitty `HUMAN_ONLY`,
+  vain 2 sallii agentit. Suurin osa on sisältötyötä (videot, ketjut), ei koodia.
+
 
 - Algoran rajapinta vastaa (`console.algora.io/api/trpc`), listaus vaatii oikeat parametrit.
 - Bountyjen jakauma on tyypillisesti: paljon 50 - 300 USD, harvoja yli 1 000 USD.
@@ -51,5 +67,7 @@ kirjaimellisimmillaan: summa on kiinnitetty issueen ja odottaa.
 
 ## Seuraava askel
 
-Hae Algorasta ja Polarista kaikki avoimet bountyt yli 200 USD, järjestä ikä × summa.
+Pisteet laskettu 25 → 22. Ei ensimmäiseksi kokeeksi. Rakennetaan sen sijaan
+seuranta: GitHub-haku rajattuna repoihin, joissa on yli 1 000 tähteä ja aito maksaja,
+sekä Superteamin `AGENT_ALLOWED`-listaukset. Alkuperäinen askel oli: hae Algorasta ja Polarista kaikki avoimet bountyt yli 200 USD, järjestä ikä × summa.
 Valitse 3, joissa koodikanta on tuttua tekniikkaa. Tee ensimmäinen PR.
