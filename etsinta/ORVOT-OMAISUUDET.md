@@ -57,8 +57,31 @@ GitHub LFS). Käyttäjämääräjakauma (CALC):
 | alle 1 k | 174 407 |
 
 Aineistossa ei ole päivityspäivää. Skripti `tyokalut/haku/hae_orvot_laajennukset.py`
-hakee kauppasivulta "Updated"-päivän ja nykyisen käyttäjämäärän ositetulle otokselle
-(130 per luokka). Tulos: ks. kohta 1b, täydennetään kun ajo valmistuu.
+haki kauppasivulta "Updated"-päivän ja nykyisen käyttäjämäärän ositetulle satunnais-
+otokselle, 130 laajennusta per luokka (tammikuun 2025 käyttäjämäärän mukaan). Tulos
+`data/orvot/cws-otos-390.json` (CALC, FACT-sivuista 2026-09-16):
+
+| Luokka (käyttäjiä 2025-01) | n | Poistettu kaupasta | Elossa | Orpo 2 v | Orpo 1 v | Käyttäjämuutos, orvot | Käyttäjämuutos, päivitetyt |
+|---|---|---|---|---|---|---|---|
+| 10 k - 100 k | 130 | 36 (28 %) | 94 | 41 (44 %) | 54 | 0 % (mediaani) | 0 % |
+| 100 k - 1 M | 130 | 28 (22 %) | 102 | 33 (32 %) | 47 | 0 % | 0 % |
+| 1 M+ | 130 | 27 (21 %) | 103 | 19 (18 %) | 38 | **-60 %** (n=37) | 0 % (n=63) |
+
+- **23 % laajennuksista, joilla oli yli 10 000 käyttäjää tammikuussa 2025, on poistettu
+  kaupasta 20 kuukaudessa.** Niillä oli yhteensä 98 M käyttäjää (mediaani 100 k).
+  Ajoitus sopii Manifest V2 -poistoon: Chrome esti MV2-laajennukset heinäkuussa 2025 ja
+  poisti listaukset 2026-08-31 (FACT, developer.chrome.com). Osuus MV2:sta on INFERENCE,
+  aineistossa ei ole manifest-versiota.
+- Elossa olevista 31 % ei ole päivitetty 2 vuoteen. Yhteensä 160 M käyttäjää, mutta
+  kärki on yritysten "valmiita" laajennuksia (Google Drive Launcher 94 M, Webex 22 M,
+  Zoom 6 M, Google Drawings vuodelta 2015). Sama valmis ≠ hylätty -ilmiö kuin npm:ssä.
+- **Orvot menettävät käyttäjiä vain suurimmassa luokassa.** Yli miljoonan käyttäjän
+  laajennukset ilman päivitystä vuoteen: mediaanimuutos -60 %. Pienemmissä luokissa
+  kaupan pyöristys (10 k, 100 k) piilottaa muutoksen. Käyttäjät siis lähtevät hitaasti,
+  eivät heti.
+- Ekstrapolaatio koko aineistoon (CALC, karkea): 9 640 laajennusta yli 10 k käyttäjällä
+  → noin 2 200 poistettu, 7 400 elossa, joista noin 2 300 orpoa (2 v). Yksityis-
+  henkilöiden osuutta ei mitattu.
 
 ### Mobiilisovellukset
 
@@ -76,8 +99,30 @@ sovellus per neljännes (CALC, jakauma varmasti erittäin vino).
 
 FACT: 1 066 avointa ja 1 242 suljettua issuea, joiden otsikossa on "looking for
 maintainer(s)" tai vastaava (GitHub search 2026-09-16). Top 100 reaktioiden mukaan:
-`data/orvot/maintainer-wanted-avoimet-top100.csv`. Aliagentti luokittelee, pyytävätkö
-omistajat rahaa ja mitä suljetuissa tapauksissa tapahtui. Tulos kohdassa 3.
+`data/orvot/maintainer-wanted-avoimet-top100.csv`. 40 avointa + 40 suljettua luettu
+kokonaan kommentteineen: `data/orvot/maintainer-wanted-luokittelu-80.md`. Tulos kohdassa 3.
+
+### WordPress.org-lisäosat (julkinen rajapinta, 10 000 suosituinta)
+
+Skripti `tyokalut/haku/hae_orvot_wordpress.py`, data `data/orvot/wordpress-orvot-top10000.csv`
+(CALC, FACT-rajapinnasta 2026-09-16):
+
+| | |
+|---|---|
+| Ei päivitystä 2 v | **2 354 (23,5 %)**, yhteensä 8,47 M aktiivista asennusta |
+| Ei päivitystä 3 v | 1 872 (18,7 %), 5,67 M asennusta |
+| Orpoja, joilla yli 10 k asennusta | **166**, joista 153 yksityishenkilön tai pienen tekijän (3,84 M asennusta) |
+| Orpoja, joilla yli 100 k asennusta | 8 |
+| Orpoja, joilla hakemiston varoitus "ei testattu 3 viimeisellä pääversiolla" | 2 353 / 2 354 |
+| Virallinen luovutuskanava, tagi "adopt-me" | **17 lisäosaa, 3 210 asennusta yhteensä** |
+
+WordPress on paras aineisto, koska asennukset ovat oikeita sivustoja (ei koneita) ja
+omistajat ovat usein yksityishenkilöitä. Ja siinä on valmis luonnollinen koe:
+**`limit-login-attempts`** (Automattic, 300 k asennusta, viimeinen päivitys 2023-04) vs.
+sen haarautuma **`limit-login-attempts-reloaded`** (WPChef, lisätty 2016, 1 M+ asennusta,
+päivitetty 2026-09-10, maksullinen pilvitaso). Sama kuvio: `search-and-replace` (WP Media,
+100 k, orpo) vs. `better-search-replace` (WP Engine, 1 M). **Käyttäjät siirtyivät
+haarautumaan ilman omistajanvaihdosta.** Hakemisto, ei omistaja, hallitsee käyttäjiä.
 
 ## 2. Voiko omistajuuden siirtää laillisesti
 
@@ -130,12 +175,71 @@ markkina. Jos sitä on, se on **listaamattomassa** omaisuudessa: laajennuksissa,
 annetaan pois ilmaiseksi, ja projekteissa, joiden omistaja kirjoittaa "looking for
 maintainer" -issuen.
 
-**GitHub-issuet:** aliagentin luokittelu, täydennetään.
+**GitHub-issuet (FACT, 40 avointa + 40 suljettua luettu kokonaan):**
+
+| | Avoimet (n=40) | Suljetut (n=40) |
+|---|---|---|
+| Omistaja pyysi rahaa | 1 (poetry2nix: "open for contract work" yhtenä vaihtoehtona) | 0 |
+| Omistaja tarjosi myyntiä | 0 | 0 |
+| Omistaja tarjosi luovutusta ilmaiseksi | 35 | - |
+| Vapaaehtoisia ilmoittautui | 38 (mediaani ~6 henkilöä) | - |
+| Pääsy oikeasti annettu | 18 (+2 osittaista) | 31 uusi ylläpitäjä |
+| Uusi ylläpitäjä aiempi contributor / ulkopuolinen | 12 / 6 | 12 / 13 (+6 sekatiimi) |
+| Käyttäjät tarjosivat rahaa | 6 | 15 ketjussa raha esillä |
+| Raha johti mihinkään | 0 | 0 |
+| Omistaja mainitsi luottamuksen/vetoamisen | 5 | 5 |
+| xz tai event-stream mainittu | 0 | 0 |
+| Repo aktiivinen 12 kk sisällä | 22 | 32 |
+
+Havainnot:
+- **Omistajat eivät halua rahaa, he haluavat eroon vastuusta.** 1/80 pyysi rahaa, 0/80
+  myi. Kolme torjui rahan nimenomaisesti ("my bottleneck really isn't money").
+- **Vapaaehtoisia on enemmän kuin luovutuksia.** Yleisin malli on "aloita PR:illä,
+  katsotaan kuukauden päästä" (14/40), ja se kynnys jää usein ylittämättä. Pullonkaula
+  on omistajan huomio ja luottamus, ei tarjonta.
+- **Ulkopuolinen onnistuu, kun se on yritys tai tunnettu hahmo, tai kun se teki ensin
+  forkin/PR:t.** Suljetuissa 13/31 uusista ylläpitäjistä oli ulkopuolisia, näistä 5
+  yrityksiä (Software Mansion ×2, Quantstack, antfu, Infinite Red).
+- **Yhteisöfork korvasi alkuperäisen 9/40 avoimessa tapauksessa** (eslint-plugin-node →
+  eslint-plugin-n, kafkajs → charon, razzle → dazzle). Sama kuin WordPressissä.
+- **Uusi ilmiö 2026:** sama LLM-tyylinen vapaaehtoisboilerplate ("issue triage and
+  reproduction… earn trust progressively", "maintenance lane") postattiin samana päivänä
+  kuuteen otoksen repoon samalta tililtä; yhdessä ketjussa käyttäjät kysyivät, onko
+  kyseessä botti. **Tekoälypohjainen "otan ylläpidon" -tarjous on jo spämmiä**, ja se
+  laskee jokaisen uuden tarjoajan uskottavuutta. Meidän suunnittelemamme lähestymistapa
+  on siis jo kilpailtu ja jo epäluulon kohde.
 
 ## 4. Miksi hylätty, ja mitä ylläpito oikeasti vaatii
 
-Todellinen mittaus: `kokeet/02-yllapitokoe-html5lib.md` (aliagentti, 25 min aikaraja,
-html5lib 30 M latausta/kk, viimeinen julkaisu 2017). Täydennetään.
+**Miksi hylätty (FACT, 80 issuen otos):** siirtynyt muuhun tekniikkaan tai ei käytä
+itse 13, ei aikaa (työ, perhe) 11, omistaja kokonaan kadonnut 5, uusi työ 2, burnout 2,
+kuolema tai terveys 2, yhtiö lopetti resursoinnin 1. Ei yhtään "ylläpito on liian
+kallista". Syy on elämä, ei kustannus.
+
+**Mitä ylläpito vaatii, mitattu:** `kokeet/02-yllapitokoe-html5lib.md`. html5lib
+(PyPI, viimeinen julkaisu 2020-06, master 2024-02, 80 avointa issuea, 20 avointa PR:ää).
+Tulos 9 minuutissa ja 82 000 tokenilla:
+- 17 499 testiä vihreänä Python 3.14:llä. Rikki oli vain pakkausinfra (`pkg_resources`,
+  `ast.Str`), korjaus 13 sekuntia komentoaikaa.
+- **Sama korjaus oli jo kolmessa avoimessa, mergeable-tilaisessa PR:ssä** (2025-09,
+  2026-02, 2026-03). Tekoälyn lisäarvo koodissa oli nolla.
+- "Please make a new release" -issue avoinna 2024-01 lähtien, 9 kommenttia, ei vastausta
+  oikeuksien haltijalta. Tietoturvatutkijan SECURITY.md-pyyntö vastaamatta.
+- 15 issuen otanta: 47 % tekoäly korjaa yksin, 40 % vaatii ihmisen suunnittelupäätöksen,
+  13 % vanhentunut. **100 % tekoälyn korjauksista on hyödyttömiä ilman julkaisuoikeutta.**
+- Yhteisö kiersi ongelman forkilla: `html5lib-modern` 1.2 PyPI:ssä 2024-09.
+- Jatkuva ylläpito tekoälyllä: 0,2 - 0,6 M tokenia/kk (kympeistä kymmeniin euroihin).
+  Ihmisen 1 - 3 h/kk merge-, julkaisu-, tietoturva- ja suunnittelupäätöksiin on ainoa
+  niukka osa.
+
+**Johtopäätös:** orpojen pakettien ylläpito ei ole tekoälylle koodiongelma vaan
+pääsyongelma. Tuote ei ole patchi vaan luotettu ihminen, jolla on oikeudet ja agentti.
+
+**Datan laatuhuomio:** ecosyste.ms:n julkaisupäivä oli PyPI:ssä vanhentunut 11/30
+satunnaisotoksessa (7/30 ei enää orpo), npm:ssä 1/30. PyPI-luvut ovat siis yläraja noin
+25 % liikaa; täysi varmennus PyPI:n omasta rajapinnasta on käynnissä
+(`tyokalut/haku/data/orvot/pypi-varmennettu.jsonl`). html5lib:n oikea viimeinen
+julkaisu on 2020-06-22, ei 2017-12.
 
 ## 5. Kuka jo tekee tätä: HeroDevs
 

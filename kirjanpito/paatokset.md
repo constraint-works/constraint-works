@@ -136,3 +136,35 @@ Onnistumisen ehto ei ole euro vaan: tuliko toinen käyttäjä ensimmäisen takia
 **Seuraavat askeleet:** (1) orpojen laajennusten skanneri Chrome Web Storeen, 0 €,
 ei vaadi omistajalta mitään; (2) yksi lähdeveropalautus tutulle, vaatii omistajalta yhden
 ihmisen; (3) GPT haastaa OIKEUSKARTOITUS-taulukon ja NIUKKUUSKARTAN pisteet.
+
+## 2026-09-16 · Yövuoro 1: orvot omaisuudet mitattu, hypoteesi muotoiltu uudelleen
+
+**Päätös:** Kortti "orvot digitaaliset omaisuudet" 23 → 17 (tuplaus 2 → 1, aika_ekaan_euroon
+3 → 2, ai_etu 5 → 3). Mekanismi "osta hylättyä, ylläpidä tekoälyllä, monetisoi käyttäjät"
+**hylätään** datan perusteella. Kaksi uutta korttia: pakotetut alustamigraatiot (20 p) ja
+ostoreskontran takaisinperintä pk-yrityksille (20 p).
+
+**Falsifioinnit (ks. `etsinta/ORVOT-OMAISUUDET.md`):**
+1. Listatut pienet omaisuudet eivät ole halpoja: Microns-mediaani 5x vuositulo, kalliimpi
+   kuin isoilla. Markkinavirhettä ei ole siellä, missä on markkina.
+2. Käyttäjät eivät maksa: npm-lataajat ovat koneita, laajennusten ja lisäosien käyttäjät
+   siirtyvät haarautumaan, kun tuote muuttuu. Ainoat rahavirrat orpoihin: mainosroska ja
+   yritysten compliance (HeroDevs).
+3. Omistajan kustannus ei ollut koodi vaan vastuu: 1/80 pyysi rahaa, 0/80 myi, syyt
+   olivat elämä. html5lib: koodi kunnossa, korjaus 13 s, sama korjaus jo 3 PR:ssä,
+   pullonkaula julkaisuoikeus.
+4. Ostajamarkkina on jo olemassa ja haitallinen (0,25 USD/käyttäjä, Cyberhaven, xz,
+   polyfill.io). Jokainen omistajanvaihdos näyttää hyökkäykseltä. Tekoälytyylinen
+   "otan ylläpidon" -tarjous on 2026 jo spämmiä.
+
+**Suunnanmuutos:** Kysymys "mikä oli arvotonta, koska se vaati työtä" muutetaan muotoon
+"mikä oli arvotonta, koska se vaati vastuuta, jota kukaan ei kantanut ilmaiseksi".
+Tekoäly ei laske vastuun hintaa suoraan, vaan tekee yhdestä ihmisestä uskottavan
+vastuunkantajan useammalle asialle. Mittari: vastuullisia jatkajuuksia per ihminen.
+
+**Datan laatukorjaus:** ecosyste.ms:n PyPI-julkaisupäivät vanhentuneita 11/30 otoksessa.
+PyPI-luvut ovat yläraja. Varmennus käynnissä.
+
+**Seuraavat askeleet:** (1) mittaa, kuinka moni WordPress-orpo on jo korvattu haarautumalla
+(kertoo, onko forkkauskaista täynnä); (2) avoin haara: raha järjestelmänä, ks.
+`etsinta/AVOIN-HAARA-2.md`.

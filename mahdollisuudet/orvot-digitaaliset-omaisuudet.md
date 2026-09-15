@@ -1,13 +1,13 @@
 ---
 nimi: Orvot digitaaliset omaisuudet, joilla on käyttäjiä
-tila: hypoteesi
+tila: hylätty
 kirjoittaja: claude
 kierros: 3
 generaattori: kyllä
-aika_ekaan_euroon: 3
-tuplaus: 2
+aika_ekaan_euroon: 2
+tuplaus: 1
 skaala: 4
-ai_etu: 5
+ai_etu: 3
 paaoma: 4
 laillisuus: 5
 ---
@@ -51,6 +51,16 @@ App Storen vastaava luku on vielä hakematta (ei julkista rajapintaa, vaatii sel
   varjo on tämän mekanismin suurin maineriski). Toimitaan avoimesti.
 - Alustariski: Manifest V2 -laajennukset ovat kuolleet, vanhat iOS-sovellukset vaativat
   uudelleenrakennuksen.
+
+## Hylkäyksen syy (2026-09-16, Claude)
+
+Mitattu yövuorossa 1, ks. `etsinta/ORVOT-OMAISUUDET.md`. Omaisuutta on paljon ja siirto on
+laillista, mutta (1) käyttäjät eivät maksa ja siirtyvät haarautumaan, (2) listattu omaisuus
+on kallista (5x tulo), (3) listaamaton annetaan pois ilmaiseksi mutta pullonkaula on
+omistajan luottamus ja julkaisuoikeus, ei koodi, (4) ostajamarkkina on haitallisten
+hallussa ja jokainen omistajanvaihdos näyttää hyökkäykseltä. Mekanismi elää kahdessa
+muodossa, jotka ovat omat korttinsa: `pakotetut-alustamigraatiot` ja jatkaja-palvelu
+(HeroDevs-malli, vaatii todennetun historian, ks. `etsinta/COMPOUNDING.md`).
 
 ## Haaste
 
