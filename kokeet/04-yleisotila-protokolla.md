@@ -125,3 +125,56 @@ olemassa olevilta tileiltä. UNKNOWN-tapauksen toinen kanava samoin tuoreelta Re
 tililtä. Tilin luo omistaja. Nollakarma on neutraali lähtötila; alustan mahdollinen
 tuoreen tilin rajoitus kirjataan osana mittausta. Repo-linkki on projektin, ei henkilön.
 Perustelu: `etsinta/LAHTORESURSSISAANTO.md` §5 ja §10.
+
+## Lisäys 2 (2026-09-16): jakeluportti ennen AUDIENCE-tulkintaa
+
+**Tarkistetut faktat (HN:n oma FAQ ja dokumentoidut käytännöt):**
+- FACT: "Do posts by users with more karma rank higher? No." Sijoitus = pisteet jaettuna
+  ajan potenssilla; lisäksi liput, väärinkäytösohjelmisto, sivustopainotus ja
+  moderointi. Alle 2 viikon tili näkyy vihreänä. Postaus voi kuolla ohjelmallisesti,
+  lippujen tai moderaattorin toimesta ([dead], [flagged]).
+- FACT: HN:llä on "second-chance pool": moderaattorit voivat nostaa huomiotta jääneen
+  postauksen etusivun alaosaan; HN:n mukaan omankin artikkelin saa ehdottaa
+  osoitteeseen hn@ycombinator.com.
+- Toissijainen: noin 300 - 400 postausta päivässä, etusivulla 30; noin 90 % ei koskaan
+  pääse etusivulle; etusivu tuo 10 000 - 30 000 kävijää vuorokaudessa. Etusivulle
+  pääsemättömän postauksen kävijämäärää ei ole dokumentoitu; se on pieni ja tulee
+  /newest-sivulta. Käyttäjien raportoima virhe "your account is too new to submit this
+  site" on olemassa, mutta sen ehdot ovat UNKNOWN.
+
+**Johtopäätös:** ilman jakeluporttia U < 50 mittaisi todennäköisimmin sitä, ettei postaus
+saanut jakelua, ei sitä, ettei sisältö kiinnosta. Siksi AUDIENCE tulkitaan kahdessa
+vaiheessa. ACCESS-määritelmä ja -kynnykset eivät muutu. U:n kynnykset 500 / 50 eivät
+muutu; ne sovelletaan vain jakeluportin läpäisseeseen postaukseen.
+
+**Vaihe D, jakelu (lukittu):** postaus on saanut jakelua, jos 48 tunnin sisällä
+täyttyy vähintään yksi: (a) pisteitä ≥ 5, (b) postaus on ollut HN:n topstories-listan
+30 ensimmäisen joukossa vähintään yhdellä 15 minuutin välein tehdyllä mittauksella,
+(c) kommentteja ≥ 3 muilta kuin postaajalta. Jakelu on epäonnistunut, jos postaus on
+[dead] tai [flagged] 2 tunnin kuluessa tai mikään ehdoista (a) - (c) ei täyty 48
+tunnissa. Mittaus: `kokeet/04-hn-seuranta.py` (HN:n julkinen Firebase-rajapinta, ei
+tiliä, 15 min välein 48 h, tulos `kokeet/04-hn-seuranta.jsonl`).
+
+**Tulkinta:**
+- D läpäisty → AUDIENCE tulkitaan alkuperäisillä rajoilla (U ≥ 500 PASS, U < 50 KILL,
+  välissä UNKNOWN).
+- D epäonnistui → AUDIENCE = **NO DISTRIBUTION** (kanavatulos, ei sisältötulos).
+  Sallitut jatkot järjestyksessä, kumpikin kerran: (1) toisen mahdollisuuden pooli:
+  omistaja lähettää HN:n ohjeen mukaisen lyhyen viestin osoitteeseen hn@ycombinator.com
+  (sallittu HN:n oman FAQ:n mukaan; ei markkinointia, vain linkki ja yksi lause);
+  jos moderaattorit nostavat postauksen, D arvioidaan uudelleen 48 h; (2) toinen
+  kanava (r/opensource, tuore tili) kuten alkuperäisessä UNKNOWN-haarassa. Jos
+  molemmat päättyvät NO DISTRIBUTIONiin, AUDIENCE = UNKNOWN (kanavat eivät antaneet
+  jakelua), ei KILL, ja se kirjataan tuoreen identiteetin jakelurajoitteena.
+- ACCESS mitataan koko 14 päivän ajan riippumatta D:stä. Pääsy ilman jakelua on
+  sallittu tulos (matriisin rivi KILL/PASS pätee muodossa NO DISTRIBUTION / PASS).
+
+**Tilin luonti:** omistaja luo projektin HN-tilin ennen postausta. Tilillä ei tehdä
+kommentteja tai äänestyksiä maineen keräämiseksi; nollahistoria on lähtötila. Jos
+postaus estyy virheeseen "account is too new to submit this site", virhe kirjataan,
+odotetaan 14 päivää ja yritetään kerran uudelleen; sen jälkeen siirrytään toiseen
+kanavaan. Postaustyyppi: tavallinen linkki repon julkiseen tiivistelmään, otsikko =
+tiivistelmän otsikko, ei "Show HN".
+
+**Mitä tämä ei poista:** ajoitus ja /newest-sivun satunnaisuus vaikuttavat D:hen
+edelleen. Yksi postaus on n = 1. Siksi NO DISTRIBUTION ei koskaan tulkita KILLiksi.

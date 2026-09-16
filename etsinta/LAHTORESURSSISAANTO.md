@@ -143,10 +143,16 @@ Ei sallittua: mikään §2:n "kyllä"-rivi pääsyn, luottamuksen tai jakelun l�
 | Mikä taho laskuttaa | Sama; Y-tunnus riittää, ALV-rekisteröinti vasta rajan ylittyessä | Kyllä |
 | Pseudonyymi ja oikea osapuoli | Julkinen loki ei nimeä henkilöä; vastapuoli tietää oikean nimen sopimuksessa. Tämä ei riko neutraaliutta, jos vastapuoli tavoitettiin neutraalisti eikä tunne henkilöä ennestään. Julkisessa lokissa vastapuolia ei nimetä | Kyllä |
 
-Olemassa olevan yrityksen käyttö kuorena on sallittua vain, jos sen nimeä, historiaa,
-asiakkaita tai referenssejä ei käytetä eikä vastapuoli tunne sitä. Puhtaampi vaihtoehto
-on uusi toiminimi kokeen aikana, ja se on budjetin sisällä. Päätös on omistajan; kumpikin
-kirjataan pääsyreittiin.
+**Oikeushenkilösääntö (omistajan muotoilu 2026-09-16, sitova):** olemassa oleva yritys
+saa olla oikeushenkilö, koska sen olemassaolo itsessään ei ratkaise ACCESS-porttia. Uusi
+palvelubrändi rakennetaan kokeessa nollasta. Yritys saa näkyä siellä, missä oikeushenkilön
+kuuluukin näkyä: tietosuojaselosteessa, ehdoissa, sopimuksessa, laskulla ja tarvittaessa
+footerissa. Sen historiaa, referenssejä, asiakkaita, verkostoa tai mainetta ei saa
+käyttää luottamuksen rakentamiseen. Tarkoitus ei ole peittää yritystä vaan estää sen
+goodwillin käyttö vipuna. Uutta yritystä ei perusteta pelkän metodologisen puhtauden
+takia, koska kuka tahansa vastaavassa tilanteessa voisi käyttää olemassa olevaa
+oikeushenkilöä hallinnollisena kuorena. Aiempi muotoilu "ilman viittausta historiaan"
+korvataan tällä.
 
 ## 7. Vaikutus teoriaan
 

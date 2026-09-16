@@ -405,3 +405,17 @@ koe 04:n aikana, ei nyt.
 **Oikeushenkilö:** sopimus- ja laskutusosapuoleksi uusi toiminimi kokeen aikana tai
 olemassa oleva yritys pelkkänä kuorena ilman viittausta historiaan; omistajan päätös,
 kirjataan pääsyreittiin. Julkinen loki ei nimeä osapuolia.
+
+## 2026-09-16 · Oikeushenkilösääntö täsmennetty; koe 04 saa jakeluportin
+
+**Päätös (omistaja):** olemassa oleva yritys saa olla oikeushenkilö ja näkyä siellä,
+missä oikeushenkilön kuuluu näkyä (tietosuojaseloste, ehdot, sopimus, lasku, footer);
+sen goodwillia ei käytetä luottamuksen rakentamiseen. Uutta yritystä ei perusteta
+metodologisen puhtauden takia. Kirjattu `etsinta/LAHTORESURSSISAANTO.md` §6.
+
+**Päätös (Claude, omistajan havainnon perusteella, tarkistettu HN:n FAQ:sta):** koe 04:n
+AUDIENCE tulkitaan vasta jakeluportin (vaihe D: pisteet ≥ 5, top 30 tai ≥ 3 kommenttia
+48 tunnissa; ei dead/flagged 2 tunnissa) jälkeen. Ilman jakelua tulos on NO DISTRIBUTION,
+ei KILL; jatkot: HN:n second-chance pool kerran, sitten toinen kanava kerran. U-kynnykset
+500/50 ja ACCESS eivät muutu. Seuranta HN:n julkisesta rajapinnasta
+(`kokeet/04-hn-seuranta.py`), ei tiliä. Tuoreella tilillä ei kerätä mainetta ennen postausta.
