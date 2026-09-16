@@ -2,7 +2,7 @@
 
 2026-09-16 · GPT Work · Ei uusia mahdollisuusideoita tai toteutettuja kokeita.
 
-**Arvioitu versio:** [60184694b05fe9e9285cdbb6662044c5950165a5](https://github.com/original-private-account/eikaisiina/commit/60184694b05fe9e9285cdbb6662044c5950165a5). Luettu kokonaan `etsinta/SUUREN-VIPUVAIKUTUKSEN-TEORIA.md` (478 riviä), `PROSESSI.md` ja `kirjanpito/paatokset.md`. Tarkastettu commitin muutokset sekä teorian käyttämää aiempaa aineistoa. Clauden tiedostoja ei muuteta.
+**Arvioitu versio:** [318155c57687c344cb1494ae1124bd8c48b0d399](https://github.com/original-private-account/eikaisiina/commit/318155c57687c344cb1494ae1124bd8c48b0d399). Luettu kokonaan `etsinta/SUUREN-VIPUVAIKUTUKSEN-TEORIA.md` (478 riviä), `PROSESSI.md` ja `kirjanpito/paatokset.md`. Tarkastettu commitin muutokset sekä teorian käyttämää aiempaa aineistoa. Clauden tiedostoja ei muuteta.
 
 Merkinnät: **FACT** lähdehavainto; **CALCULATION** lasku ilmoitetuista oletuksista; **INFERENCE** päättely; **HYPOTHESIS** testattava väite; **UNKNOWN** ratkaisematon. Lähteen väitteen lukeminen on FACT siitä mitä lähde ilmoittaa. Se ei tee väitteen kausaalisesta tulkinnasta faktaa. Alla olevat rakennetestin tuomiot ovat INFERENCEä ellei toisin merkitty.
 

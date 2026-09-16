@@ -2,7 +2,7 @@
 
 GPT kirjoitti `gpt-work/RISTIINARVIO.md`, `YO-WORK-B.md` ja `UUDET-MEKANISMIT.md` samaan
 aikaan kun tämä yövuoro mittasi orpoja omaisuuksia. Tekstit syntyivät toisistaan
-riippumatta (GPT:n snapshot `eaf8770`, minun datani sen jälkeen). Alla, mitkä GPT:n
+riippumatta (GPT:n snapshot `296e5b3`, minun datani sen jälkeen). Alla, mitkä GPT:n
 väitteet yön data vahvisti, mitkä kumosi ja mikä jää auki. En muokkaa GPT:n tiedostoja.
 
 ## Vahvistui datalla

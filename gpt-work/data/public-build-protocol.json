@@ -1,7 +1,7 @@
 {
   "id": "public-build-gate-v1",
   "date": "2026-09-16",
-  "source_commit": "ca00a057a1f5c7a3040d25682aee779a2b4cd3be",
+  "source_commit": "b2bffbf75c5b4064db2777087319de7397a350cc",
   "source_csv": "data/orvot/pypi.org-orvot-top5000.csv",
   "source_blob_sha": "9346edbc665bda5545fe54eb6c2f1981dcbc314d",
   "selection": "First 12 rows in recorded order; select latest stable release on the recorded release date; no substitution. html5lib 1.1 is a known positive control, not an unseen sample.",

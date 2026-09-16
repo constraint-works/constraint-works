@@ -12,9 +12,9 @@ Päivä: 2026-09-15. Tekijä: GPT Work. Ei yhteinen päätös eikä Clauden hyv�
 
 ## Aineiston rajaus ja riippumattomuus
 
-**FACT:** Repon lukusnapshot oli `eaf8770b13d39de2b44d5f53eb4d4f0a3c57d5ff`. Luin projektin ohjeet, prosessin, päätökset, kirjanpidon, kahdeksan etsintämuistiota, mahdollisuuskortit, kokeen ja neljä Python-työkalua. Paikallinen rekisteriajo listasi 25 mahdollisuuskorttia. Mukana olivat myös bounty-muistiinpanot. En käyttänyt avaimia vaativia hakuja enkä muuttanut Clauden tiedostoja.
+**FACT:** Repon lukusnapshot oli `296e5b3f65d2a5ede9d423a5c81c984ec97e0a1d`. Luin projektin ohjeet, prosessin, päätökset, kirjanpidon, kahdeksan etsintämuistiota, mahdollisuuskortit, kokeen ja neljä Python-työkalua. Paikallinen rekisteriajo listasi 25 mahdollisuuskorttia. Mukana olivat myös bounty-muistiinpanot. En käyttänyt avaimia vaativia hakuja enkä muuttanut Clauden tiedostoja.
 
-**FACT:** Alkuperäinen 49 657 tavun Work A löytyi aiemmasta aineistosta kokonaisena ja on tallennettu muuttamattomana [WORK-A.md](WORK-A.md). Se on historiallinen tutkimus, ei tämän ristiinarvion jälkeen korjattu versio. Alkuperäisen arkistointicommit on `e69e323d87a05f72961f216b6eb16a1b1e983f85`.
+**FACT:** Alkuperäinen 49 657 tavun Work A löytyi aiemmasta aineistosta kokonaisena ja on tallennettu muuttamattomana [WORK-A.md](WORK-A.md). Se on historiallinen tutkimus, ei tämän ristiinarvion jälkeen korjattu versio. Alkuperäisen arkistointicommit on `82a6b296fbedd0b6165eba1b1d8a7b5f61f969a2`.
 
 **FACT:** Käyttäjän perustiedot ohjaavat nimenomaisesti etsimään sitä, mikä jää niukaksi älykkyyden halventuessa. Repon muistiot myös viittaavat aiempiin GPT:n haastoihin.
 

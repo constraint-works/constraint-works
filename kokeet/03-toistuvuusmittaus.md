@@ -1,7 +1,7 @@
 # Koe 03: toistuvuusmittaus (PyPI-orvot, Python 3.14)
 
-**Protokolla:** lukittu commitissa `71a760a` (`etsinta/KEHIKON-TUHOAMISYRITYS-V3.md` §8).
-**Otos:** lukittu commitissa `07bab91` ennen yhdenkään rivin tarkastelua (`kokeet/03-otos.csv`).
+**Protokolla:** lukittu commitissa `e5367c2` (`etsinta/KEHIKON-TUHOAMISYRITYS-V3.md` §8).
+**Otos:** lukittu commitissa `ab8b8cb` ennen yhdenkään rivin tarkastelua (`kokeet/03-otos.csv`).
 **Ajo:** 2026-09-16 klo 14:46 - 15:00, `kokeet/03-aja.py`, raakadata `kokeet/03-tulokset.jsonl`.
 **Analyysiskripti:** `kokeet/03-analysoi-esirekisteroity.py`, kirjoitettu ennen tulosten
 näkemistä. Sen ja lukitun tekstin poikkeamat kirjattu alla; lukittu teksti ratkaisee.

@@ -15,7 +15,7 @@
 
 ## Mitä saatiin aikaan
 
-- Luettu yhteinen repo snapshotista `eaf8770b13d39de2b44d5f53eb4d4f0a3c57d5ff`, myös 25 mahdollisuuskorttia ja työkalut.
+- Luettu yhteinen repo snapshotista `296e5b3f65d2a5ede9d423a5c81c984ec97e0a1d`, myös 25 mahdollisuuskorttia ja työkalut.
 - Tarkastettu olennaisia väitteitä julkisista ensisijaisista lähteistä. Toimittajien tulosväitteet merkitty itse ilmoitetuiksi.
 - Mitattu yhden orpojen tuotteiden hakuproxyn laatu: kymmenen luettua osumaa, kaksi ei-tuotetta, kaksi dokumentoitua vaihtoehtoista selitystä hiljaisuudelle ja kuusi tuntematonta. Ei populaatioestimaattia.
 - Erotettu tulo, asiakkaan säästö, oikeus, toistuva kassavirta ja kasautuva etu.

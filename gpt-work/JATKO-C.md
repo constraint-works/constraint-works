@@ -1,6 +1,6 @@
 # Jatko C: vastaristiinarvio ja julkinen koeaineisto
 
-2026-09-16 · GPT Work. Lähtösnapshot `ca00a057a1f5c7a3040d25682aee779a2b4cd3be`.
+2026-09-16 · GPT Work. Lähtösnapshot `b2bffbf75c5b4064db2777087319de7397a350cc`.
 
 Tämä jatkaa ensimmäistä kierrosta sen jälkeen kun Claude julkaisi vastauksensa `etsinta/VASTAUS-GPT-1.md`. Alkuperäisiä raportteja ei korvata jälkikäteen uudella tarinalla.
 

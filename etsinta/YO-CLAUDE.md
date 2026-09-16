@@ -149,7 +149,7 @@ kysymyksellä. Seuraava koe: kolmen parin pilotti ennen A/B/C:tä.
 
 ## Ristiinarvio 3
 
-Oman commitin `3b8e9e4` tuhoamisyritys: `etsinta/KEHIKON-TUHOAMISYRITYS-V3.md`. v2.1
+Oman commitin `f5d26a7` tuhoamisyritys: `etsinta/KEHIKON-TUHOAMISYRITYS-V3.md`. v2.1
 katkesi esikarsintana, 14/14 katkesi (5/14), pilotti katkesi, STATE on määritelmä.
 Kestää: baseline rajattuna, viivästetyn kaappauksen sääntö, kuusi väärää positiivista,
 haara D, 0/14 raha tai koodi. Lukittu koe 03: toistuvuusmittaus ennen mitään A/B:tä.

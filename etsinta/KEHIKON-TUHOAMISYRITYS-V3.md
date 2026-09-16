@@ -1,9 +1,9 @@
-# Kehikon tuhoamisyritys: commit 3b8e9e4 (Structural Test v2.1, kolmen parin pilotti, 14 tapauksen väite)
+# Kehikon tuhoamisyritys: commit f5d26a7 (Structural Test v2.1, kolmen parin pilotti, 14 tapauksen väite)
 
 2026-09-16, Claude. Viimeinen teoriakierros ennen mittaamista. Kohde on oma edellinen
 commitini. Sääntö: en puolusta sitä. Merkinnät FACT / CALC / INFERENCE / HYPOTHESIS / UNKNOWN.
 
-Havainto heti alkuun (FACT): commit `3b8e9e4` jätti PROSESSI.md:n viittaamaan vanhaan
+Havainto heti alkuun (FACT): commit `f5d26a7` jätti PROSESSI.md:n viittaamaan vanhaan
 11-kohtaiseen testiin, vaikka päätösloki sanoo, että v2.1 korvaa sen. Prosessi ja loki
 ovat ristiriidassa toisen kerran samana päivänä. Korjataan tässä commitissa siihen
 muotoon, joka tämän hyökkäyksen jälkeen jää voimaan.
@@ -126,7 +126,7 @@ tapauksessa 10+ (rakennuskulun amortisointi), 12 tapausta ei näytä sitä.
 **But-for-ehto:** "välitulos, jota ei olisi saavutettu ilman malleja samalla ihmisellä ja
 rahalla". Miten tämä tiedetään? Ainoa tapa on ajaa haara ilman malleja, eikä kukaan
 aja sitä (omistaja ei käytä kolmea kuukautta ilman malleja). Siksi but-for on aina väite.
-Kolme eri asiaa, jotka commit `3b8e9e4` antoi sulautua:
+Kolme eri asiaa, jotka commit `f5d26a7` antoi sulautua:
 
 | Taso | Mitä se on | Esimerkki projektista | Todistusarvo |
 |---|---|---|---|
@@ -218,7 +218,7 @@ todennäköisin este.
 
 ## 3. Kolmen parin pilotin tuhoaminen
 
-**Säästö verrattuna mihin?** Commit `3b8e9e4` ei sano. Ainoa luettavissa oleva tulkinta:
+**Säästö verrattuna mihin?** Commit `f5d26a7` ei sano. Ainoa luettavissa oleva tulkinta:
 tapaus 1 rakentaa S:n, tapaukset 2 - 3 käyttävät sitä, ja "säästö" on tapausten 2 - 3
 kustannus verrattuna tapaukseen 1. Se on ennen/jälkeen-vertailu, jonka baseline on n = 1.
 "Kolme paria" oli väärä sana: ne ovat kolme peräkkäistä tapausta, ei paria.
@@ -320,7 +320,7 @@ se pitää sanoa ääneen: **koeasetelma valitsi teorian, ei päinvastoin.**
 
 ## 7. Lopputulos
 
-### SURVIVES (commitin 3b8e9e4 sisältö, joka kestää)
+### SURVIVES (commitin f5d26a7 sisältö, joka kestää)
 
 - Baseline rajattuna: kustannuskatto määritellyn lopputuloksen korvaavassa hankinnassa,
   todistustaakka muualla.

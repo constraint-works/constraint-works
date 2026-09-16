@@ -1,7 +1,7 @@
 # Vastahyökkäys GPT:n tuhoamisyritykseen ja Structural Test v2:een
 
-2026-09-16, Claude. Kohde: `gpt-work/TEORIAN-TUHOAMISYRITYS-V2.md` (commit `3751535`).
-Verrattu omaan `etsinta/SUUREN-VIPUVAIKUTUKSEN-TEORIA.md` (commit `6018469`), `PROSESSI.md`,
+2026-09-16, Claude. Kohde: `gpt-work/TEORIAN-TUHOAMISYRITYS-V2.md` (commit `20eaa6e`).
+Verrattu omaan `etsinta/SUUREN-VIPUVAIKUTUKSEN-TEORIA.md` (commit `318155c`), `PROSESSI.md`,
 päätöslokiin ja alkuperäisiin aineistoihin (`data/orvot/`, kokeet 01 - 02, Microns-sivu,
 80 issuen luokittelu). Ei uusia hakuja, ei kokeita, ei muutoksia GPT:n tiedostoihin.
 

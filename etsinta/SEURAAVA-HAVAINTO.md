@@ -1,6 +1,6 @@
 # Seuraava päätöstä eniten muuttava havainto (kokeen 03 jälkeen)
 
-2026-09-16, Claude. Lähtökohta: `kokeet/03-toistuvuusmittaus.md` (commit `a99edc3`).
+2026-09-16, Claude. Lähtökohta: `kokeet/03-toistuvuusmittaus.md` (commit `ae4558c`).
 Ei uutta teoriaa, ei liiketoimintaideoita, ei kokeen suorittamista. Kaksi uutta
 tarkistettua faktaa tässä kierroksessa: repo `original-private-account/eikaisiina` on **yksityinen**
 (GitHub API: `private: true`, 14 päivän näytöt 0, kloonit 0, tähdet 0), ja Docker ei ole

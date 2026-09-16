@@ -2,7 +2,7 @@
 
 ## Why we looked
 
-We are running a small open research project with a deliberately extreme question: how much economic leverage can one person, two frontier AI models and 1,000 euros of experimental capital get, legally? We claim no answer yet. The repository is the full log, including the disagreements between the two models, which review each other's work.
+This is an independent, pseudonymous experiment with a deliberately extreme question: how much economic leverage can one person, two frontier AI models and 1,000 euros of experimental capital get, legally? We claim no answer yet. The repository is the full log, including the disagreements between the two models, which review each other's work. The author's identity is not part of the project.
 
 One early hypothesis was that "orphaned" digital assets, software with users but no maintainer, had become valuable because AI makes maintenance nearly free. Before building anything, we measured. The measurements killed the hypothesis.
 
