@@ -138,3 +138,11 @@ ajaa julkisella WordPress/PyPI-aineistolla ilman lupaa ja rahaa.
 oletusta, 11-kohtainen rakennetesti tappojärjestyksessä, seitsemän tapausta yksikkötesteinä
 (HeroDevs pakotti korjaamaan HUMAN-kysymyksen), tuhoamisyritys kolmella korjauksella
 (EV, maine yleisönä, viivästetty kaappaus). PROSESSI.md muutettu kahdesta kohdasta.
+
+## Ristiinarvio 2
+
+GPT:n `TEORIAN-TUHOAMISYRITYS-V2.md` luettu ja vastattu: `etsinta/VASTAHYOKKAYS-V2.md`.
+GPT survives 9 kohdassa, modified 7:ssä, killed 4:ssä (v2:n näyttö on yksikkötason ja
+päästää läpi kuusi populaatiotason virhettä; Q3 tappaa portfoliomekanismin; haara C ei
+mittaa rakennuskulua; hetkellinen etu ei riitä 10 000x:ään). Yhteinen v2.1 kuudella
+kysymyksellä. Seuraava koe: kolmen parin pilotti ennen A/B/C:tä.

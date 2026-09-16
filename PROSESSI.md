@@ -53,7 +53,7 @@ jättäminen. (Lisätty 2026-09-16, perustelu teoriassa ja GPT:n ristiinarviossa
 | `aika_ekaan_euroon` | Kuinka nopeasti tulee ensimmäinen euro. 5 = alle viikko. |
 | `tuplaus` | Todennäköisyys, että 1 000 € → 2 000 € tätä kautta 90 päivässä. |
 | `skaala` | Voiko tämä realistisesti olla osa 10 M€ polkua. 5 = kyllä yksin. |
-| `ai_etu` | Kuinka paljon tekoäly muuttaa peliä. 5 = mahdotonta ilman. |
+| `ai_etu` | Kuinka suuri osa hyväksytystä tuloksesta katoaa, jos mallit poistetaan samalla ihmisellä ja rahalla. 5 = välitulos ei synny ilman. (Korjattu 2026-09-16 ristiriidan takia, ks. `etsinta/VASTAHYOKKAYS-V2.md`.) |
 | `paaoma` | Kuinka vähän pääomaa sitoo. 5 = nolla. |
 | `laillisuus` | 5 = täysin selvä. 3 = tarkistettava. 1 = hylkää. |
 

@@ -211,3 +211,30 @@ historiallisesti yleisin 10 000x-polku. Projekti etsii odotusarvoa, ei onnea.
 **Puuttuva evidenssi:** yhtään kierros N → N+1 -mittausta vastafaktuaalilla ei ole tehty.
 Se on seuraavan kierroksen ensimmäinen tehtävä (WordPress "tested up to" -perhe, kaksi
 riippumatonta rikkoutunutta lisäosaa, GPT:n protokolla). Ei vaadi lupaa eikä rahaa.
+
+## 2026-09-16 · Ristiinarvio 2: GPT:n tuhoamisyritys ja Clauden vastahyökkäys
+
+**Muuttuneet johtopäätökset** (ks. `etsinta/VASTAHYOKKAYS-V2.md`):
+1. Baseline-sääntö ei ole yleinen hintalaki. Se on kustannuskatto määritellyn
+   lopputuloksen korvaavassa hankinnassa ja todistustaakan oletusarvo muualla.
+2. SCARCITY poistuu itsenäisenä porttina; kysymys "miksi sisääntulo ei syö katetta"
+   siirtyy kohortti 2 -kysymyksen sisään.
+3. "Asiakkaan oppiminen lopettaa kaappauksen" kumottu (Red Hat). Oikea ehto on
+   sisäistämiskustannus > hinta.
+4. "Verkko on ainoa 10 000x-rakenne" kumottu. "Tuotanto skaalautuu vain kiinnitetyn
+   niukkuuden kanssa" säilyy.
+5. "Pääoma ei ole rajoite" kumottu yleisväitteenä; säilyy rajattuna: 14 tapauksessa
+   1 000 € ei olisi ostanut tunnistettua puuttuvaa tilaa.
+6. Säilyvän tilan P1, P3, P5 katkeavat välttämättömyyksinä; P2 muutetaan muotoon
+   "tilan käyttö ei kasva volyymin mukana"; P4 ja P6 kestävät. STATE-ydinväite on
+   kahden mallin ristiinarvioinnin läpäissyt päätelmä, ei empiirinen tulos.
+7. Structural Test v2.1 (kuusi kysymystä) korvaa sekä alkuperäisen 11-kohtaisen
+   testin että GPT:n v2:n. PROSESSI.md:n viittaus säilyy, testi luetaan v2.1:stä.
+
+**Korjaukset:** HeroDevs 125 M USD on rahoitus, ei arvo. Superteam 26 USD on potin
+jakolasku. Micronsin 6 toteutunutta kauppaa 1,7 - 8,6x. 20 %:n tuotto johdettiin tulosta,
+ei voitosta. Päätöslokin aiempi tiivistys PROSESSI:n kysymyksestä 4 ("mahdotonta ilman")
+oli väärä; alkuperäinen oli "jos ihminen tekisi saman yhtä hyvin". `ai_etu`-rivi korjattu.
+
+**Seuraava koe:** kolmen parin pilotti ilman kontrolleja ennen GPT:n A/B/C-koetta.
+Tehtäväluokkaa ei ole valittu. Rahaa ei käytetä.
