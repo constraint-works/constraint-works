@@ -1,3 +1,8 @@
+> **SUPERSEDED 2026-09-16.** Tämä protokolla käytti omistajan olemassa olevaa verkostoa
+> pääsyn hankintaan ja rikkoo lähtöresurssisääntöä (`etsinta/LAHTORESURSSISAANTO.md`).
+> Sitä ei suoritettu eikä ketään kontaktoitu. Säilytetään historiassa. Korvaava neutraali
+> pääsytesti suunnitellaan koe 06:na koe 04:n jälkeen.
+
 # Koe 05: yhteydenottoviesti (identtinen kaikille kolmelle, ei muuteta)
 
 Lähettäjä: omistaja omalla nimellään, omille tutuilleen. Kanava vapaa (viesti,

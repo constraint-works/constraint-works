@@ -1,3 +1,8 @@
+> **SUPERSEDED 2026-09-16.** Tämä protokolla käytti omistajan olemassa olevaa verkostoa
+> pääsyn hankintaan ja rikkoo lähtöresurssisääntöä (`etsinta/LAHTORESURSSISAANTO.md`).
+> Sitä ei suoritettu eikä ketään kontaktoitu. Säilytetään historiassa. Korvaava neutraali
+> pääsytesti suunnitellaan koe 06:na koe 04:n jälkeen.
+
 # Koe 05: pääsytesti omassa verkostossa, lukittu protokolla
 
 Lukittu 2026-09-16 omistajan korjausten jälkeen. Korvaa `etsinta/RISTIINARVIO-WORK.md`

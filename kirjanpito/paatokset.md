@@ -379,3 +379,29 @@ vahva kolmen valikoituneen henkilön otokselle. Lisäksi palkkio lukittu yhteen 
 20 % toteutuneesta ja vahvistetusta takaisin saadusta rahasta, ja koe pidetään
 puhtaana pääsytestinä. Protokolla `kokeet/05-paasytesti-protokolla.md`, viesti
 `kokeet/05-pyynto.md`.
+
+## 2026-09-16 · Lähtöresurssisääntö; koe 05 superseded; koe 04 säilyy tuoreella tilillä
+
+**Metodologinen päätös (omistaja ja Claude):** ennen koetta kertynyttä henkilökohtaista
+pääomaa (verkosto, maine, yritykset, asiakkuudet, data, luvat, yleisöt, tunnusten
+historia, portin tavoin toimiva erityispätevyys) ei käytetä pääsyn, luottamuksen tai
+jakelun hankintaan. Sääntö kirjattu PROSESSI.md:hen ja perusteltu
+`etsinta/LAHTORESURSSISAANTO.md`:ssä. Symmetrinen: koehenkilön erityinen rajoite ei ole
+mekanismin KILL.
+
+**Koe 05 (oma verkosto): superseded.** Se olisi mitannut suhdetta, ei mekanismia.
+Protokolla ja viesti säilyvät historiassa merkittyinä. Ei suoritettu, ei kontaktoitu.
+Samalla peruttu perustelu "koe 05 dominoi koe 04:ää": se nojasi piilopääomaan.
+
+**Auditointi:** kaikki suoritetut kokeet (01 - 03) ja skannaukset olivat neutraaleja.
+Kolme aiempaa suunnitelmaa (lähdevero tutulle, jälkitarkastus tutulle, kääntäjän
+lähipiiri) luokitellaan piilopääomasta riippuviksi; niiden mitattuja tuloksia ei ole.
+
+**Koe 04 säilyy** seuraavana havaintona yhdellä lisäyksellä: postaus tuoreelta
+projekti-tililtä. Mittarit ja kynnykset ennallaan. Sen jälkeen suunnitellaan koe 06:
+neutraali kylmä B2B-pääsytesti satunnaisotokselle tuntemattomia yrityksiä, lukitaan
+koe 04:n aikana, ei nyt.
+
+**Oikeushenkilö:** sopimus- ja laskutusosapuoleksi uusi toiminimi kokeen aikana tai
+olemassa oleva yritys pelkkänä kuorena ilman viittausta historiaan; omistajan päätös,
+kirjataan pääsyreittiin. Julkinen loki ei nimeä osapuolia.

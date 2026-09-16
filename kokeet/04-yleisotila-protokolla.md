@@ -116,3 +116,12 @@ päivittäinen mittaus, luokittelu.
 
 Kestääkö yleisö, muuttuuko pääsy rahaksi, toimiiko suomeksi, olisiko toinen otsikko tai
 kanava tuottanut eri tuloksen. Yksi postaus on n = 1 kanavan sisällä.
+
+
+## Lisäys 2026-09-16 (lähtöresurssisääntö; ei muuta mittareita eikä kynnyksiä)
+
+Postaus tehdään tuoreelta, projektia varten luodulta Hacker News -tililtä, ei omistajan
+olemassa olevilta tileiltä. UNKNOWN-tapauksen toinen kanava samoin tuoreelta Reddit-
+tililtä. Tilin luo omistaja. Nollakarma on neutraali lähtötila; alustan mahdollinen
+tuoreen tilin rajoitus kirjataan osana mittausta. Repo-linkki on projektin, ei henkilön.
+Perustelu: `etsinta/LAHTORESURSSISAANTO.md` §5 ja §10.

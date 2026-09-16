@@ -37,6 +37,18 @@ hypoteesi → tutkittu → koe → aktiivinen → skaalataan
 - **aktiivinen**: koe onnistui, mekanismi tuottaa
 - **hylätty**: syy kirjattu korttiin
 
+## Lähtöresurssisääntö
+
+Kokeen syötteenä hyväksytään: 1 000 €, kaksi frontier-mallia, tietokone ja internet,
+yhden ihmisen aika ja tavallinen osaaminen, sekä kaikki, mikä on hankittu kokeen aikana
+sallituilla toimilla ja budjetilla. Ennen koetta kertynyttä verkostoa, mainetta,
+yrityksiä, asiakkuuksia, dataa, lupia, yleisöjä, tunnusten historiaa tai portin tavoin
+toimivaa erityispätevyyttä ei käytetä pääsyn, luottamuksen tai jakelun hankintaan.
+Jokaisesta hankitusta pääsystä kirjataan reitti: miten tuntematon mutta uskottava
+henkilö olisi saanut saman samalla budjetilla ja mekanismilla. Jos reittiä ei voi
+kirjata, tulos on piilopääoma-avusteinen eikä kelpaa vipuvaikutuksen näytöksi.
+Perustelu ja rajanvedot: `etsinta/LAHTORESURSSISAANTO.md`. (Lisätty 2026-09-16.)
+
 ## Rakennetesti ennen pisteytystä
 
 Uusi löydös ajetaan ensin **pöytätestin** läpi (Structural Test v2.2,
