@@ -238,3 +238,32 @@ oli väärä; alkuperäinen oli "jos ihminen tekisi saman yhtä hyvin". `ai_etu`
 
 **Seuraava koe:** kolmen parin pilotti ilman kontrolleja ennen GPT:n A/B/C-koetta.
 Tehtäväluokkaa ei ole valittu. Rahaa ei käytetä.
+
+## 2026-09-16 · Ristiinarvio 3: oman kehikon tuhoamisyritys, v2.1 → v2.2, koe 03 lukittu
+
+**Muuttuneet johtopäätökset** (ks. `etsinta/KEHIKON-TUHOAMISYRITYS-V3.md`):
+1. Structural Test v2.1 ei ole lukittava esikarsintatesti: kolme kuudesta kysymyksestä
+   on vastattavissa vasta mittauksen jälkeen. Korvataan v2.2:lla: kolmen kysymyksen
+   pöytätesti ennen mittausta ja yksi kohortti 2 -talouslaskelma sen jälkeen. PROSESSI.md
+   päivitetty vastaamaan tätä; aiempi viittaus 11-kohtaiseen testiin poistettu.
+2. "14/14 tapauksessa este oli oikeus, luottamus tai pääsy" oli väärin: 5/14. Kysyntä tai
+   kilpailu oli este vähintään 5/14. Kestävä FACT: 0/14 tapauksessa este oli 1 000 euron
+   puute tai mallien koodauskyky. Ennuste seuraavan löydöksen kaatumisesta OSUUS-
+   kysymykseen peruttu; todennäköisin kaatumissyy on kysyntä tai kilpailu.
+3. Kolmen tapauksen sekventiaalinen pilotti hylätty päätöskelvottomana (ei erota S:ää
+   oppimisesta, vaikeuserosta ja ympäristön pystytyksestä). "Kymmenesosalla hinnasta"
+   ei ollut laskettu; laskettuna suhde on noin 1/12 tokeneissa, mutta perusteena
+   merkityksetön.
+4. STATE-ydinväite on analyyttisesti tosi eikä rajaa hakutilaa. Hakutilaa rajaa
+   projektin valittu veto artefaktitiloihin, koska vain niitä voi mitata 0 eurolla.
+   Kirjataan HYPOTHESIS:ksi, ei teoreemaksi.
+5. html5lib on tapaus, jossa but-for on epätosi: ihmiset tekivät saman korjauksen
+   kolmesti. Mallien vipu siinä oli nopeus, ei mahdollistaminen.
+
+**Seuraava koe, lukittu:** koe 03, toistuvuusmittaus (20 satunnaisriviä siemenellä
+20260916, lukittu taksonomia T1 - T7, kynnykset K ≥ 3 ja R ≥ 0,3 jatkoon, K ≤ 1 tai
+R < 0,15 tappo). Ei korjauksia, ei A/B:tä, ei rahaa. Sen jälkeen vasta paritettu koe B,
+ja vasta sen jälkeen GPT:n täysi koe haaralla D.
+
+**omistajalta tarvitaan:** portfolion tappiobudjetti lukuna (tokeneina tai euroina), jotta
+v2.2:n "kirjataan sivuun määräajalla" on täytäntöönpantavissa.

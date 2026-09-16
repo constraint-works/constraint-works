@@ -39,12 +39,15 @@ hypoteesi → tutkittu → koe → aktiivinen → skaalataan
 
 ## Rakennetesti ennen pisteytystä
 
-Uusi löydös ajetaan ensin 10M-rakennetestin läpi (`etsinta/SUUREN-VIPUVAIKUTUKSEN-TEORIA.md`
-§6): BASELINE → CAPTURE → HUMAN → SCARCITY → STATE → FEEDBACK → VALUE → CAPITAL → CEILING →
-FALSIFIER → EV. Yksi tappo riittää hylkäykseen. Kolme UNKNOWNia peräkkäin tarkoittaa, että
-mitataan ennen arviointia. Vain läpäissyt löydös saa kortin ja pisteet. Baseline on aina
-asiakkaan halvin hänen omilla rajoitteillaan hyväksyttävä vaihtoehto, ei tekemättä
-jättäminen. (Lisätty 2026-09-16, perustelu teoriassa ja GPT:n ristiinarviossa.)
+Uusi löydös ajetaan ensin **pöytätestin** läpi (Structural Test v2.2,
+`etsinta/KEHIKON-TUHOAMISYRITYS-V3.md` §7): (P1) liikkuuko raha jo, kuka sen saa nyt ja
+miksi; (P2) onko oikeus, pääsy ja laillisuus hankittavissa ja mihin hintaan; (P3) onko
+kantaja artefakti ja onko luokassa toistuvuutta. Kaikki kolme vaaditaan jatkoon. Vasta
+mittauksen jälkeen täytetään mittauslomake (kohortti 2 -nettotalous). Vain sen läpäissyt
+löydös saa kortin ja pisteet. Baseline on maksajan halvin hänen rajoitteillaan
+hyväksyttävä vaihtoehto määritellyn lopputuloksen hankinnassa; muualla hyötyero on
+osoitettava maksajan mittarilla. (Lisätty 2026-09-16, muutettu samana päivänä kolmannen
+ristiinarviokierroksen jälkeen; aiemmat versiot teoriassa ja GPT:n V2:ssa.)
 
 ## Pisteytys (1 - 5 jokaiseen)
 

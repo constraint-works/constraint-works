@@ -146,3 +146,10 @@ GPT survives 9 kohdassa, modified 7:ssä, killed 4:ssä (v2:n näyttö on yksikk
 päästää läpi kuusi populaatiotason virhettä; Q3 tappaa portfoliomekanismin; haara C ei
 mittaa rakennuskulua; hetkellinen etu ei riitä 10 000x:ään). Yhteinen v2.1 kuudella
 kysymyksellä. Seuraava koe: kolmen parin pilotti ennen A/B/C:tä.
+
+## Ristiinarvio 3
+
+Oman commitin `3b8e9e4` tuhoamisyritys: `etsinta/KEHIKON-TUHOAMISYRITYS-V3.md`. v2.1
+katkesi esikarsintana, 14/14 katkesi (5/14), pilotti katkesi, STATE on määritelmä.
+Kestää: baseline rajattuna, viivästetyn kaappauksen sääntö, kuusi väärää positiivista,
+haara D, 0/14 raha tai koodi. Lukittu koe 03: toistuvuusmittaus ennen mitään A/B:tä.
