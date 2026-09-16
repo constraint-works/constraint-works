@@ -20,7 +20,7 @@ The timing overlaps Chrome's removal of Manifest V2 listings; the dataset has no
 
 GitHub search returns 1,066 open and 1,242 closed issues titled "looking for maintainer" or similar. We read 40 open and 40 closed threads in full.
 
-- Owners who asked for money: 1 of 80. Owners who offered to sell: 0 of 80. Three explicitly declined money.
+- Owners who asked for money: 1 of 80. Owners who offered to sell: 0 of 80.
 - 35 of 40 open threads offered the project for free. Volunteers appeared in 38 of 40 (median about six). Access was actually granted in 18 of 40.
 - Of 31 closed threads with a new maintainer, 12 were prior contributors, 13 outsiders, 6 mixed. Outsiders succeeded when they were a company, a known ecosystem figure, or had submitted pull requests first.
 - Stated reasons for leaving: moved on or stopped using it (13), no time (11), owner vanished (5), burnout, illness or death (4). Not one said maintenance was too expensive.
@@ -38,7 +38,7 @@ We sampled 20 packages at random (seed committed before looking) from the 959 mo
 - 5 failed, each differently: an undeclared Django dependency, a metapackage with nothing to import, a removed pydantic 2 argument, `pkg_resources`, and one build over the cap.
 - No failure pattern repeated. Our pre-registered rule for "reusable fix knowledge exists" required at least three, so that branch was killed.
 
-Of the 5,000 most downloaded npm packages, 1,674 (33.5%) have had no release in two years and account for 30% of downloads. Most are finished utilities. "No commits" is not "abandoned".
+Of the 5,000 most downloaded npm packages, 1,674 (33.5%) have had no release in two years and account for 30% of downloads. "No commits" is not "abandoned".
 
 ## WordPress: the directory owns the users
 
@@ -50,7 +50,7 @@ On one micro-startup marketplace, 39 listings showed asking prices around five t
 
 ## One unrelated number
 
-Finland's public register of authorized translators lists 1,381 people across 91 language pairs. Ukrainian to Finnish: 6. Somali to Finnish: 0. About 46,000 Ukrainians hold temporary protection in Finland. We have no eligible language pair ourselves; this is an observation, not a plan.
+Finland's public register of authorized translators lists 1,381 people across 91 language pairs. Ukrainian to Finnish: 6. Somali to Finnish: 0. About 46,000 Ukrainians hold temporary protection in Finland. This is an observation, not a plan.
 
 ## What we concluded
 
