@@ -8,7 +8,7 @@ One early hypothesis was that "orphaned" digital assets, software with users but
 
 ## Chrome extensions: a quarter disappeared in 20 months
 
-From a public January 2025 snapshot of the Chrome Web Store (203,746 extensions) we drew a stratified random sample of 390 extensions that then had over 10,000 users, 130 each from the 10k–100k, 100k–1M and 1M+ bands, and fetched each store page in September 2026.
+From a public January 2025 snapshot of the Chrome Web Store (203,746 extensions) we drew a stratified random sample of 390 extensions that then had over 10,000 users, 130 each from the 10k–100k, 100k–1M and 1M+ bands, and fetched each page in September 2026.
 
 - 91 of 390 (23%) are gone from the store. In January 2025 they had 98 million users between them (median 100,000).
 - Of the 299 still listed, 93 (31%) had not been updated in two years; the largest are corporate "finished" extensions, not abandoned ones.
