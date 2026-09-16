@@ -155,3 +155,21 @@ kontekstina.
 
 **Tila: NOT READY.** Ainoa todellinen blokkeri on GitHub-identiteetin luonti tai siihen
 pääsy (reitti A tai B), joka vaatii selaimen. Kaikki muu on tehty.
+
+## Toteutus 2026-09-16 ilta: uusi repo luotu ja historia siirretty
+
+- Omistaja loi uuden GitHub-tilin (tyhjä profiili, luotu 2026-09-16) ja sen alle yksityisen
+  repon `constraint-works`. Tilin ensimmäinen väliaikainen käyttäjänimi vaihdettiin ennen
+  julkistusta. Ensimmäinen kutsu meni vahingossa väärälle käyttäjänimelle
+  (`sege23`); se poistettiin ja kutsu lähetettiin oikealle tilille. Claude hyväksyi kutsun
+  rajapinnasta (write-oikeus) ja pushasi uudelleenkirjoitetun historian.
+- Skriptin `REPO`-oletus ja GPT:n V2-tiedoston linkin host päivitetty osoitteeseen
+  `constraint-works/constraint-works`. Sisältö ennallaan.
+- Vanha yksityinen repo säilyy ennallaan (`main` koskematon) ja saa varmuuskopiohaaran
+  `cw-migration`. Uusi kehitys pushataan uuteen repoon.
+- Avoin suositus: tilin käyttäjänimi `constraint-works/constraint-works` muistuttaa omistajan etunimeä. Vaihto
+  nimeen `constraint-works` (Settings → Account → Change username) on ilmainen ja jälkiä
+  jättämätön ennen julkistusta; julkistuksen jälkeen vaihto jättää uudelleenohjauksen.
+  Päätös on omistajan. Jos nimi vaihdetaan, `REPO`-oletus ja GPT-linkki päivitetään.
+- 2026-09-16 ilta: omistaja vaihtoi tilin käyttäjänimen lopulliseen muotoon `constraint-works`
+  ennen julkistusta (sama tili, id täsmää). Repo on nyt `constraint-works/constraint-works`.

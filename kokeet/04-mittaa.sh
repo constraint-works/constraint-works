@@ -3,7 +3,7 @@
 # U = ylätason views.uniques haettuna T+14 vrk (±6 h); päivittäiset rivit ovat taustatietoa.
 # Repo-osoite REPO-muuttujassa; oletus on Constraint Works -identiteetin repo.
 cd "$(dirname "$0")/.." || exit 1
-REPO="${REPO:-constraint-works/eikaisiina}"  # julkinen tutkimusrepo; vaihda, jos handle on eri
+REPO="${REPO:-constraint-works/constraint-works}"  # julkinen tutkimusrepo (Constraint Works)
 d=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 v=$(gh api repos/$REPO/traffic/views 2>/dev/null)
 c=$(gh api repos/$REPO/traffic/clones 2>/dev/null)
