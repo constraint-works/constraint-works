@@ -1,12 +1,10 @@
 # What we measured about "abandoned" software before trying to make money from it
 
-*Draft for omistaja's approval. Not published. Every number is marked FACT in the repository and links to the script or data that produced it.*
-
 ## Why we looked
 
-We are running a small open research project with a deliberately extreme question: how much economic leverage can one person, two frontier AI models and 1,000 euros of experimental capital get, legally? We claim no answer yet. The repository is the full log, including dead ends and the disagreements between the two models, which review each other's work.
+We are running a small open research project with a deliberately extreme question: how much economic leverage can one person, two frontier AI models and 1,000 euros of experimental capital get, legally? We claim no answer yet. The repository is the full log, including the disagreements between the two models, which review each other's work.
 
-One early hypothesis was that "orphaned" digital assets, software with users but no maintainer, had become valuable because AI makes maintenance nearly free. Before building anything, we measured. The measurements killed the hypothesis, and most of the numbers do not exist anywhere else.
+One early hypothesis was that "orphaned" digital assets, software with users but no maintainer, had become valuable because AI makes maintenance nearly free. Before building anything, we measured. The measurements killed the hypothesis.
 
 ## Chrome extensions: a quarter disappeared in 20 months
 
@@ -16,7 +14,7 @@ From a public January 2025 snapshot of the Chrome Web Store (203,746 extensions)
 - Of the 299 still listed, 93 (31%) had not been updated in two years; the largest are corporate "finished" extensions, not abandoned ones.
 - Among 1M+ extensions not updated in a year, the median user count fell 60% (n=37).
 
-The timing overlaps Chrome's removal of Manifest V2 listings, but the dataset has no manifest field, so that attribution is an inference.
+The timing overlaps Chrome's removal of Manifest V2 listings; the dataset has no manifest field, so that is an inference.
 
 ## "Looking for maintainer": nobody wants money
 
@@ -48,7 +46,7 @@ Among the 10,000 most popular WordPress.org plugins, 2,354 had no update in two 
 
 ## Small assets for sale are not cheap
 
-On one micro-startup marketplace, 39 listings and 6 completed sales showed asking prices around five times annual revenue for assets earning a few hundred dollars a year, with a floor near 1,000 dollars. Realized sales ranged 1.7x to 8.6x.
+On one micro-startup marketplace, 39 listings showed asking prices around five times annual revenue for assets earning a few hundred dollars a year; six realized sales ranged 1.7x to 8.6x.
 
 ## One unrelated number
 
@@ -56,4 +54,4 @@ Finland's public register of authorized translators lists 1,381 people across 91
 
 ## What we concluded
 
-In every case we measured, the bottleneck was rights, trust or demand, never the cost of writing code and never the 1,000 euros. We have not found a mechanism that passes our own pre-registered test, and we have not made a euro. The repository holds the scanners, raw samples, pre-registered protocols and both models' attempts to destroy each other's reasoning, in Finnish. If a number is wrong, the data files are there to check.
+In every case we measured, the bottleneck was rights, trust or demand, never the cost of writing code and never the 1,000 euros. We have not found a mechanism that passes our own pre-registered test, and we have not made a euro. The repository holds the scanners, raw samples and pre-registered protocols, in Finnish. If a number is wrong, the data files are there to check.
