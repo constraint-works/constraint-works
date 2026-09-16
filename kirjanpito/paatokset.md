@@ -346,3 +346,25 @@ pakotettu GitHubiin. Raportti `kokeet/04-sanitointi.md`. Repo yhä yksityinen.
 **Jäljellä ennen julkistusta:** repon sijainti käyttäjätilin alla (siirto organisaatioon
 "eikaisiina" on omistajan päätös), vanhojen commit-objektien poisto GitHubista (tukipyyntö),
 paikallisen varmuuskopion käsittely. Koe 04 odottaa omistajan hyväksyntää.
+
+## 2026-09-16 · Ristiinarvio Workin tutkimukseen, agenttipalkkaus-luokka, koe 05 lukittu
+
+**Päätökset (uudet, evidenssiin perustuvat):**
+1. Workin finalisti A (rahasaatava) on sama mekanismi kuin kortti
+   `ostoreskontran-takaisinperinta`; se säilyy palvelumekanismina. Finalistit B (SEC-
+   palkkio) ja C (tekninen parannus) eivät saa koetta: B on optio ilman toistettavuutta ja
+   SEC:n 2020-sääntö sulkee pois "reasonably apparent" -analyysin; C:n vipu kuuluu
+   kustannuspohjan omistajalle. Ks. `etsinta/RISTIINARVIO-WORK.md`.
+2. Agentti → raha → ihminen -luokka: yhtään dokumentoitua suljettua positiivista silmukkaa
+   ei löytynyt (Vend 1 tappio, Vend 2 palkkaus kielletty, Truth Terminal ihmisneuvosto,
+   RentAHuman 12,2 % valmistuu). Luokitellaan skaalauskertoimeksi, ei mekanismiksi.
+   Botto on ainoa AI-ansaittu silmukka ja sen kone on yleisötila.
+3. **Koe 05, pääsytesti omassa verkostossa, lukittu** (0 €, omistaja 1 - 2 h, ≤ 3 pyyntöä,
+   PASS Y ≥ 1, KILL 0/3). Se dominoi koe 04:ää seuraavana havaintona, koska se testaa
+   suoraan estettä, johon 14 tapausta ja kolme tutkimuslinjaa osoittavat. Koe 04 säilyy
+   rinnakkaisena ja lukittuna; kumpikaan ei odota toista.
+4. Teoriaan kolme tarkennusta, ei rakennemuutosta: SEC 21F-4(b)(3) esimerkkinä liikkuvasta
+   baselinesta; Botto yleisötilan näyttönä; agenttipalkkaus kertoimena.
+
+**Omistajalta tarvitaan:** koe 05:n pyyntötekstin hyväksyntä ja enintään kolme nimeä
+omasta verkostosta (eivät tule repoon); erikseen koe 04:n julkaisupäätös.
