@@ -153,3 +153,9 @@ Oman commitin `3b8e9e4` tuhoamisyritys: `etsinta/KEHIKON-TUHOAMISYRITYS-V3.md`. 
 katkesi esikarsintana, 14/14 katkesi (5/14), pilotti katkesi, STATE on määritelmä.
 Kestää: baseline rajattuna, viivästetyn kaappauksen sääntö, kuusi väärää positiivista,
 haara D, 0/14 raha tai koodi. Lukittu koe 03: toistuvuusmittaus ennen mitään A/B:tä.
+
+## Koe 03
+
+Toistuvuusmittaus ajettu lukitulla protokollalla: R = 0,25, K = 1, H = 0,75 → KILL.
+Artefakti-S kuollut PyPI-luokassa. 15/20 orvoista toimii Python 3.14:llä. Raportti
+`kokeet/03-toistuvuusmittaus.md`, raakadata `kokeet/03-tulokset.jsonl`.

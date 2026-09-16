@@ -238,7 +238,12 @@ pääsyongelma. Tuote ei ole patchi vaan luotettu ihminen, jolla on oikeudet ja 
 **Datan laatuhuomio:** ecosyste.ms:n julkaisupäivä oli PyPI:ssä vanhentunut 11/30
 satunnaisotoksessa (7/30 ei enää orpo), npm:ssä 1/30. Kaikki 1 116 PyPI-orpoa varmennettiin
 PyPI:n omasta rajapinnasta: 959 (86 %) oli yhä orpoja, taulukon PyPI-luvut on korjattu.
-npm-luvut ovat ecosyste.ms:n, otosvirhe 1/30. html5lib:n oikea viimeinen
+npm-luvut ovat ecosyste.ms:n, otosvirhe 1/30.
+
+**Koe 03 (2026-09-16, FACT):** 20 satunnaista ladatuinta PyPI-orpoa (siemen 20260916):
+15/20 asentuu lähteestä ja wheelinä ja importoituu Python 3.14:llä (H = 0,75). Viisi
+epäonnistumista, viisi eri syytä (K = 1). "Orpo" on tässä luokassa pääosin "valmis".
+Ks. `kokeet/03-toistuvuusmittaus.md`. html5lib:n oikea viimeinen
 julkaisu on 2020-06-22, ei 2017-12.
 
 ## 5. Kuka jo tekee tätä: HeroDevs

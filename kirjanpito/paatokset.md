@@ -267,3 +267,29 @@ ja vasta sen jälkeen GPT:n täysi koe haaralla D.
 
 **omistajalta tarvitaan:** portfolion tappiobudjetti lukuna (tokeneina tai euroina), jotta
 v2.2:n "kirjataan sivuun määräajalla" on täytäntöönpantavissa.
+
+## 2026-09-16 · Koe 03 suoritettu: toistuvuusmittaus, tulos KILL
+
+**Tulos (lukittu protokolla, `kokeet/03-toistuvuusmittaus.md`):** R = 0,25 (5/20),
+K = 1, H = 0,75 (15/20). Kynnys "K ≤ 1 → KILL" täyttyy mekaanisesti. Artefakti-S-haara
+(uudelleenkäytettävä korjaustieto) kuolee PyPI:n ladatuimpien orpojen luokassa. Vaihtoehtoa
+B ei ajeta tälle luokalle, otosta ei laajenneta.
+
+**Poikkeamien käsittely:** esirekisteröity analyysiskripti normalisoi laajemmin kuin
+lukittu teksti (olisi antanut K = 3, UNKNOWN). Lukittu teksti sovellettu. Rivi 11 on
+protokollan artefakti (metapaketti ilman moduulia) ja rivi 19 aikarajan tuottama; kumpikaan
+ei muuta tulosta.
+
+**Mikä muuttuu:** pöytätestin P3 kaatuu tässä luokassa; "orpo = rikki" -premissi heikkenee
+kolmannen kerran (H = 0,75); pakotetut alustamigraatiot -kortin Python-premissi heikkenee.
+PROSESSI.md ei muutu. Teoriavaihe pysyy suljettuna.
+
+**Tappiobudjetti:** omistaja asetti 200 € ulos maksettavaa rahaa per tutkimushaara; mallien
+käyttö tilauksen sisällä ei lasketa, erilliset API-kulut lasketaan. Kirjattu. Koe 03
+käytti 0 €.
+
+**Seuraava halvin päätöstä muuttava havainto (ei suoritettu):** sama protokolla WordPress-
+listalle (`data/orvot/wordpress-orvot-top10000.csv`, aktivointi tuoreessa WP 7.1:ssä
+WP-CLI:llä). Vaatii PHP:n, MySQL:n ja WP-CLI:n asennuksen tälle koneelle tai konttiin.
+Jos sekin antaa KILL, artefakti-S-haara kirjataan kuolleeksi kokonaan ja jäljelle jäävät
+tilat (yleisö, sopimus, luottamus) vaativat omistajaa.
