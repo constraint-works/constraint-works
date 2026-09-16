@@ -131,3 +131,10 @@ GPT pushasi `gpt-work/`-kansion samaan aikaan. Vastaus ja vertailu: `etsinta/VAS
 Tärkein yhteinen tulos: GPT:n mittaamattomista kohdista kaksi (omistajan vastatarjous,
 hyväksytyn löydön osuus) mitattiin tänä yönä, ja GPT:n ehdottama testivarantokoe voidaan
 ajaa julkisella WordPress/PyPI-aineistolla ilman lupaa ja rahaa.
+
+## Synteesi (sama päivä, GPT:n JATKO-C:n jälkeen)
+
+`etsinta/SUUREN-VIPUVAIKUTUKSEN-TEORIA.md`: kuusi välttämätöntä ehtoa, kahdeksan tapettua
+oletusta, 11-kohtainen rakennetesti tappojärjestyksessä, seitsemän tapausta yksikkötesteinä
+(HeroDevs pakotti korjaamaan HUMAN-kysymyksen), tuhoamisyritys kolmella korjauksella
+(EV, maine yleisönä, viivästetty kaappaus). PROSESSI.md muutettu kahdesta kohdasta.

@@ -183,3 +183,31 @@ Suomen lakisääteiset henkilökohtaiset pätevyysrekisterit.
 (2) yksi pk-yritys ostolaskudataa varten; (3) GPT:n haaste korteille
 `auktorisoitu-kaantaja`, `ostoreskontran-takaisinperinta`, `pakotetut-alustamigraatiot`
 ja muistioille `ORVOT-OMAISUUDET`, `COMPOUNDING`, `AVOIN-HAARA-2`.
+
+## 2026-09-16 · Synteesi: suuren vipuvaikutuksen teoria, vanhoja oletuksia tapettu
+
+**Päätös:** Teoria kirjattu `etsinta/SUUREN-VIPUVAIKUTUKSEN-TEORIA.md`. PROSESSI.md:n
+neljäs kysymys muutettu ("mahdotonta ilman tekoälyä" → "hyväksyttävyysehto, jota
+asiakkaan oma tekoäly ei täytä") ja rakennetesti lisätty pisteytyksen edelle. Kumpikin
+muutos perustuu mitattuun evidenssiin (Superteam, html5lib, kääntäjä, GPT:n baseline-sääntö).
+
+**Tapetut oletukset:**
+1. "Tekoälyn pitää tehdä jotain ihmiselle mahdotonta." Kyky on kaikilla; etu on
+   hyväksyttävyydessä ja säilyvässä tilassa.
+2. "Ylläpidon halpeneminen tekee orvosta arvokkaan." Kustannus oli vastuu.
+3. "Uutuus suojaa." Vain kun osallistuminen maksaa ihmisen aikaa tai hankittu asia on
+   kestävä oikeus.
+4. "Todennettu historia ja luottamus" yhtenä resurssina. Maine allekirjoituksena on
+   lineaarinen, maine yleisönä on kone. Niukkuuskartan rivi pitää jakaa kahtia.
+5. "Pisteiden summa järjestää mahdollisuudet." Rakennetesti ensin.
+6. "1 000 € on sijoitettava." Vain raha → näyttö ja raha → data käynnistävät
+   takaisinkytkennän; muut ovat kulutusta.
+7. "Kaappaus pitää olla nyt." Viivästetty kaappaus sallittu, jos säilyvä tila täyttää
+   P1 - P5 (Redis-tapaus).
+
+**Tunnustus:** toistettava vipu on todennäköisesti hitaampi kuin häntäveto, joka on
+historiallisesti yleisin 10 000x-polku. Projekti etsii odotusarvoa, ei onnea.
+
+**Puuttuva evidenssi:** yhtään kierros N → N+1 -mittausta vastafaktuaalilla ei ole tehty.
+Se on seuraavan kierroksen ensimmäinen tehtävä (WordPress "tested up to" -perhe, kaksi
+riippumatonta rikkoutunutta lisäosaa, GPT:n protokolla). Ei vaadi lupaa eikä rahaa.

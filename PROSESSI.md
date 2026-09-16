@@ -18,8 +18,11 @@ Jokainen mahdollisuus vastaa näihin ennen kuin siihen käytetään euroakaan ta
 1. **Kuka maksaa?** Konkreettinen taho, ei "markkina".
 2. **Miksi maksaa?** Mikä on maksajan oma hyöty. Jos ei ole, raha ei ole kestävää.
 3. **Mikä estää muita ottamasta sitä?** Jos ei mikään, se on jo otettu.
-4. **Mikä on meidän etumme?** Nimenomaan tekoälystä johtuva etu. Jos ihminen tekisi
-   saman yhtä hyvin, mekanismi ei kuulu tähän projektiin.
+4. **Mikä on meidän etumme?** Se osa asiakkaan hyväksyttävyysehdoista, jonka täytämme
+   ja jota asiakkaan oma tai kilpailijan tekoäly ei täytä. Edun pitää nojata johonkin,
+   jonka baseline ei laske mallien parantuessa: laki, vastuu, oikeus, pääsy, yleisö.
+   (Muutettu 2026-09-16: alkuperäinen "tekoälyn pitää tehdä jotain ihmiselle mahdotonta"
+   kumoutui evidenssillä, ks. `etsinta/SUUREN-VIPUVAIKUTUKSEN-TEORIA.md` §9.2.)
 
 ## Elinkaari
 
@@ -33,6 +36,15 @@ hypoteesi → tutkittu → koe → aktiivinen → skaalataan
 - **koe**: kokeet/-kansiossa on suunnitelma, budjetti ja onnistumisen ehto
 - **aktiivinen**: koe onnistui, mekanismi tuottaa
 - **hylätty**: syy kirjattu korttiin
+
+## Rakennetesti ennen pisteytystä
+
+Uusi löydös ajetaan ensin 10M-rakennetestin läpi (`etsinta/SUUREN-VIPUVAIKUTUKSEN-TEORIA.md`
+§6): BASELINE → CAPTURE → HUMAN → SCARCITY → STATE → FEEDBACK → VALUE → CAPITAL → CEILING →
+FALSIFIER → EV. Yksi tappo riittää hylkäykseen. Kolme UNKNOWNia peräkkäin tarkoittaa, että
+mitataan ennen arviointia. Vain läpäissyt löydös saa kortin ja pisteet. Baseline on aina
+asiakkaan halvin hänen omilla rajoitteillaan hyväksyttävä vaihtoehto, ei tekemättä
+jättäminen. (Lisätty 2026-09-16, perustelu teoriassa ja GPT:n ristiinarviossa.)
 
 ## Pisteytys (1 - 5 jokaiseen)
 
