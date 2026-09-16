@@ -1,6 +1,6 @@
 ---
 nimi: Auktorisoitu kääntäjä harvinaisessa kieliparissa (allekirjoitus tuotteena)
-tila: hypoteesi
+tila: hylätty (meille)
 kirjoittaja: claude
 kierros: yövuoro 1, avoin haara
 generaattori: kyllä
@@ -68,6 +68,15 @@ Suoritteen rajakustannus lähestyy nollaa, hinta ei laske, koska tarjonta on 0 -
   kaksinkertaisen tarkistuksen.
 - Migri hyväksyy myös muualla EU:ssa auktorisoidut käännökset. Ukrainassa tehdyt eivät
   ole EU-auktorisoituja.
+
+## Lähtötila 2026-09-16 (omistaja)
+
+Suomi ja englanti varmasti, ruotsi hyvällä tasolla. Ei tiedossa olevaa auktorisoidun
+kääntäjän tai vastaavaa tutkintokelpoisuutta millään kieliparilla. Suomi↔englanti
+(259 + 202 kääntäjää) ja suomi↔ruotsi (170 + 137) ovat rekisterin täysimmät parit, joissa
+tarjonta ei ole niukka. **Kortti hylätään meille.** Mekanismi (laki luo halvan
+henkilökohtaisen portin, jonka takana työ on konemaista) säilyy havaintona ja
+pätevyysrekisteri-generaattorin syötteenä; sen käyttäjä on harvinaisen kielen natiivi.
 
 ## Haaste
 

@@ -316,3 +316,22 @@ koskaan käynnistetty.
 **omistajalta:** (1) päätös repon julkistamisesta ja tiivistelmän hyväksyntä; (2) vastaus
 kysymykseen, mitä kielipareja omistaja tai lähipiiri osaa tutkintotasolla (ratkaisee
 kääntäjäkortin 5 minuutissa).
+
+## 2026-09-16 · Koe 04 lukittu AUDIENCE/ACCESS-erottelulla; salaisuustarkistus tehty; kääntäjäkortti hylätty meille
+
+**Päätös (omistaja):** koe 04 tehdään seuraavaksi, WordPress jätetään ajamatta. Protokolla
+korjattu omistajan ohjeen mukaan: AUDIENCE (U: 500 / 50) ja ACCESS (I: asiallinen yhteydenotto,
+neljän ehdon määritelmä, kaksi itsenäistä luokittelijaa) mitataan ja tulkitaan erikseen;
+yhdistetty päätösmatriisi lukittu. `kokeet/04-yleisotila-protokolla.md`.
+
+**Salaisuustarkistus (FACT):** ei avaimia historiassa, `.env` ei koskaan committoitu.
+Julkistuessa paljastuu commit-tekijän sähköposti (poistettu) (27 commitia) ja
+kolmansien julkisia sähköposteja johdetuissa datatiedostoissa (WordPress-tekijäkenttä,
+yksi CWS-tarjoaja, yksi PyPI-maintainer). Näkyvyyttä ei muutettu; odottaa omistajan päätöstä.
+
+**Julkaisuteksti:** `etsinta/JULKAISU-1.md`, englanti, vain FACT-luvut, odottaa hyväksyntää.
+
+**Kääntäjäkortti:** omistajan kielet suomi, englanti, ruotsi; ei tutkintokelpoisuutta
+harvinaisessa parissa. Kortti hylätty meille, mekanismi säilyy generaattorin syötteenä.
+
+**Pysähdys:** koetta ei suoriteta ennen omistajan hyväksyntää tekstille ja julkistukselle.
