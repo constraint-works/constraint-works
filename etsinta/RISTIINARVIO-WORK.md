@@ -255,7 +255,7 @@ yleisötila, mikä tukee maineen kahtiajakoa (allekirjoitus vs. yleisö); (3) ag
 palkkaamiskyky luokitellaan kertoimeksi, ei mekanismiksi, ja sen edellytys on
 positiivinen yksikkötalous.
 
-## 6. Koe 05: pääsytesti omassa verkostossa (lukittu, ei suoritettu)
+## 6. Koe 05: pääsytesti omassa verkostossa (luonnos; lopullinen lukittu versio omistajan korjauksin: `kokeet/05-paasytesti-protokolla.md`)
 
 **Hypoteesi H5:** yksi pk-yrityksen omistaja tai kirjanpitäjä omistajan omasta
 verkostosta antaa rajatun lukuoikeuden ostolaskuaineistoon ja hyväksyy periaatteessa

@@ -368,3 +368,14 @@ paikallisen varmuuskopion käsittely. Koe 04 odottaa omistajan hyväksyntää.
 
 **Omistajalta tarvitaan:** koe 05:n pyyntötekstin hyväksyntä ja enintään kolme nimeä
 omasta verkostosta (eivät tule repoon); erikseen koe 04:n julkaisupäätös.
+
+## 2026-09-16 · Koe 05: ACCESS FAIL rajataan pääsyreittiin, ei mekanismiperheeseen
+
+**Päätös (omistaja):** kolmen oman verkoston henkilön negatiivinen tulos kokeessa 05
+tappaa vain hypoteesin "saamme recovery-auditin ensimmäisen oikean aineiston halvasti
+nykyisen oman verkoston kautta". Se ei tapa recovery audit / data + success fee
+-mekanismiperhettä eikä muita pääsyreittejä. Aiempi luonnos ("perhe sivuun") oli liian
+vahva kolmen valikoituneen henkilön otokselle. Lisäksi palkkio lukittu yhteen arvoon,
+20 % toteutuneesta ja vahvistetusta takaisin saadusta rahasta, ja koe pidetään
+puhtaana pääsytestinä. Protokolla `kokeet/05-paasytesti-protokolla.md`, viesti
+`kokeet/05-pyynto.md`.
