@@ -159,3 +159,9 @@ haara D, 0/14 raha tai koodi. Lukittu koe 03: toistuvuusmittaus ennen mitään A
 Toistuvuusmittaus ajettu lukitulla protokollalla: R = 0,25, K = 1, H = 0,75 → KILL.
 Artefakti-S kuollut PyPI-luokassa. 15/20 orvoista toimii Python 3.14:llä. Raportti
 `kokeet/03-toistuvuusmittaus.md`, raakadata `kokeet/03-tulokset.jsonl`.
+
+## Seuraava havainto
+
+`etsinta/SEURAAVA-HAVAINTO.md`: koe 03 opetti "ei hallitsevaa yhteistä syytä", ei "ei
+toistuvuutta"; WordPress hylätty seuraavana kokeena (matala informaatio); "artefakti-S kuolee
+kokonaan" korjattu; valittu koe 04 yleisötila (repo on yksityinen, tila on ollut 0).

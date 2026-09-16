@@ -293,3 +293,26 @@ listalle (`data/orvot/wordpress-orvot-top10000.csv`, aktivointi tuoreessa WP 7.1
 WP-CLI:llä). Vaatii PHP:n, MySQL:n ja WP-CLI:n asennuksen tälle koneelle tai konttiin.
 Jos sekin antaa KILL, artefakti-S-haara kirjataan kuolleeksi kokonaan ja jäljelle jäävät
 tilat (yleisö, sopimus, luottamus) vaativat omistajaa.
+
+## 2026-09-16 · Seuraava havainto valittu: koe 04 yleisötila, ei WordPress
+
+**Päätös:** WordPress-toistuvuusmittausta ei ajeta seuraavaksi. Sen KILL olisi viides
+samansuuntainen havainto (mm. 15/166 WP-orvosta yli 10 k asennuksella on avoimia
+tukiketjuja) ja PASS:n ennakko on matala. Seuraava koe on **koe 04: yleisötilan mittaus**
+(`etsinta/SEURAAVA-HAVAINTO.md` §5): repo julkiseksi, yksi englanninkielinen tiivistelmä
+yhteen kanavaan, 14 päivän mittaus GitHubin traffic-rajapinnasta, kynnykset lukittu.
+Vaatii omistajan päätöksen ja alle tunnin. 0 €.
+
+**Korjattu väite:** "jos WordPresskin KILL, artefakti-S kuolee kokonaan" oli väärin.
+Artefakti-S on ominaisuus, ei mekanismi; PyPI ja WordPress ovat saman alaluokan
+(hylätty ohjelmisto julkisessa hakemistossa) kaksi tapausta. Oikeuksien lunastuksessa
+toistuvuus on rakenteellinen. Rajattu väite: "artefakti-S hylätyn ohjelmiston
+korjauksessa" on se, mikä voisi kuolla.
+
+**Uusi FACT, joka muutti vertailua:** repo on yksityinen; yleisötila on ollut 0
+rakenteellisesti, ei mitattuna. Kolme muistiota on nimennyt yleisösilmukan, jota ei ole
+koskaan käynnistetty.
+
+**omistajalta:** (1) päätös repon julkistamisesta ja tiivistelmän hyväksyntä; (2) vastaus
+kysymykseen, mitä kielipareja omistaja tai lähipiiri osaa tutkintotasolla (ratkaisee
+kääntäjäkortin 5 minuutissa).
