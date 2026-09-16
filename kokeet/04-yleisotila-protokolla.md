@@ -178,3 +178,93 @@ tiivistelmän otsikko, ei "Show HN".
 
 **Mitä tämä ei poista:** ajoitus ja /newest-sivun satunnaisuus vaikuttavat D:hen
 edelleen. Yksi postaus on n = 1. Siksi NO DISTRIBUTION ei koskaan tulkita KILLiksi.
+
+## Lisäys 3 (2026-09-16): pre-flight-korjaukset. Tämä lisäys korvaa lisäyksen 2 D-portin ja alkuperäisen U-määritelmän ja päätösmatriisin.
+
+### U:n määritelmä
+
+FACT (GitHub REST, `GET /repos/{owner}/{repo}/traffic/views`): vastaus sisältää
+14 viimeisen päivän `count` ja `uniques` sekä `views`-taulukon päiväkohtaisine
+`count`/`uniques`-arvoineen; `per=week` antaa viikkoerittelyn. Dokumentaatio ei määrittele,
+miten GitHub tunnistaa uniikin kävijän. Tarkistettu tästä reposta: 14 päivän rivit,
+ylätason `uniques` erikseen. `GET .../traffic/popular/referrers` palauttaa 10 suurinta
+viittaajaa 14 päivältä kenttineen `referrer`, `count`, `uniques`.
+
+Päiväkohtaisten `uniques`-arvojen summa ei ole 14 päivän uniikkien määrä, koska sama
+kävijä voi esiintyä usean päivän luvussa. Siksi:
+
+- **U = ylätason `uniques`, haettuna kerran ajanhetkellä T + 14 vrk (± 6 h), missä T on
+  postauksen ajankohta.** Rajapinnan 14 päivän ikkuna kattaa silloin täsmälleen
+  postauksen jälkeisen jakson. Baseline ennen T:tä on mitattu: 0. U on GitHubin
+  määrittelemä 14 päivän uniikkien kävijöiden määrä repon kaikilla sivuilla, ei
+  "uniikkeja lukijoita" eikä "eri ihmisiä" muussa merkityksessä kuin GitHubin.
+- **U_hn** (täydentävä, ei päätösmittari) = `referrers`-erittelyn `uniques` viittaajalle
+  `news.ycombinator.com` samalla hakuhetkellä. Kertoo, kuinka suuri osa U:sta tuli
+  kanavasta. Referrer voi puuttua selainasetusten takia, joten U_hn on alaraja.
+- Päivittäiset otokset (`04-mittaa.sh`) jatkuvat taustatietona; niistä ei lasketa U:ta.
+- Jos T + 14 vrk -haku epäonnistuu, käytetään lähintä onnistunutta hakua ja kirjataan
+  poikkeama. Mittaus 15 vuorokauden jälkeen ei ole hyväksyttävä, koska ikkuna on
+  silloin siirtynyt.
+
+### D-portti: RIITTÄMÄTÖN HAVAITTU ALTISTUS (Insufficient Observable Exposure, IOE)
+
+Pisteet ja kommentit ovat reaktioita ja riippuvat sisällöstä, joten ne eivät kelpaa
+altistuksen mittariksi. Ainoa suoraan havaittava altistus on **sijoitus HN:n
+topstories-listan 30 ensimmäisen joukossa** (etusivu), jonka `04-hn-seuranta.py`
+mittaa 15 minuutin välein 48 tuntia. Pisteet, kommentit ja dead/flagged-tila kirjataan,
+mutta niitä ei käytetä D:n arviointiin.
+
+- **E** = niiden 15 minuutin mittausten määrä 48 tunnissa, joissa postaus oli top 30:ssä.
+  E × 15 min on havaitun etusivualtistuksen alaraja.
+- **Altistus havaittu:** E ≥ 4 (vähintään noin tunti etusivulla). Vasta tällöin U
+  tulkitaan AUDIENCE-tuloksena.
+- **IOE:** E ≤ 3. Merkitys: *meillä ei ole riittävää havaintoa siitä, että sisältö altistui
+  tarpeeksi suurelle yleisölle AUDIENCE-tuloksen tulkitsemiseksi.* Se **ei** tarkoita,
+  ettei sisältöä näytetty ihmisille: /newest-sivun lukijat ja E:n 1 - 3 mittausta ovat
+  altistusta, jota emme voi määrällistää. IOE ei ole KILL eikä NO DISTRIBUTION.
+- Dead tai flagged 2 tunnin sisällä kirjataan erikseen ("moderoitu pois"), ja se on IOE:n
+  alatapaus.
+
+### AUDIENCE-kynnykset ja niiden perustelu
+
+U:n semantiikka muuttui summasta 14 päivän uniikeiksi, mikä pienentää lukua. Kynnykset
+arvioitiin uudelleen eikä säilytetty automaattisesti:
+
+- **PASS: U ≥ 500** riippumatta E:stä. Perustelu: 500 GitHubin uniikkia kävijää 14
+  päivässä tuoreelle repolle, jonka baseline on 0, on selvä signaali riippumatta
+  reitistä. Toissijaiset lähteet raportoivat etusivun tuovan 10 000 - 30 000 kävijää
+  vuorokaudessa ja noin 35 - 40 kävijää minuutissa sijalla 17; 500 on siitä murto-osa,
+  joten raja ei vaadi etusivumenestystä, vain havaittavan kiinnostuksen.
+- **KILL: E ≥ 4 ja U < 50.** Perustelu: jos postaus oli vähintään tunnin etusivulla,
+  altistus oli tuhansia näyttöjä (INFERENCE toissijaisista luvuista), ja alle 50
+  uniikkia kävijää tarkoittaa, että altistuneet eivät klikanneet. Se on sisältötulos.
+  KILL koskee tätä sisältöä, kanavaa ja identiteettiä, ei yleisötilaa yleensä.
+- **UNKNOWN: E ≥ 4 ja 50 ≤ U < 500.** Sallii toisen kanavan kerran.
+- **IOE: E ≤ 3 ja U < 500.** AUDIENCE ei tulkittavissa.
+
+Luvut 500 ja 50 ovat päätösrajoja, eivät datasta johdettuja vakioita. Muutos edelliseen:
+KILL vaatii nyt havaitun altistuksen; ilman sitä alhainen U on IOE.
+
+### ACCESS
+
+Määritelmä ja mittari I ennallaan (neljä ehtoa, kaksi itsenäistä luokittelijaa).
+Tulosnimet: **ACCESS PASS** (I ≥ 1) ja **ACCESS EI HAVAITTU** (I = 0 ja epäselviä 0
+14 päivässä). Jälkimmäinen tarkoittaa vain, ettei tämä julkaisu tuottanut
+oma-aloitteista pääsyä 14 päivässä; se ei tarkoita, ettei pääsyä voi rakentaa.
+Epäselviä ≥ 1 ja I = 0 → ACCESS UNKNOWN.
+
+### Korjattu päätösmatriisi
+
+| AUDIENCE | ACCESS | Mitä voidaan päätellä | Mitä ei voida päätellä | Päätös |
+|---|---|---|---|---|
+| PASS | PASS | Tuore identiteetti sai sekä huomiota että pääsyä tällä sisällöllä | Kestävyys, rahaksi muuttuminen | Pääsy käsitellään; koe 06 suunnitellaan sisääntulevan reitin rinnalle; toinen julkaisu aikaisintaan 30 pv |
+| PASS | EI HAVAITTU | Huomio syntyi, pääsyä ei 14 päivässä | Että huomio ei voi muuttua pääsyksi (aikaikkuna oli 14 pv, n = 1) | Ei uutta postausta; koe 06 (neutraali kylmä reitti) seuraavaksi |
+| KILL | PASS | Altistuneet eivät klikanneet, mutta joku otti yhteyttä | Yleisötilan mahdottomuus | Pääsy käsitellään; yleisöreitti sivuun tällä sisällöllä |
+| KILL | EI HAVAITTU | Tämä sisältö, kanava ja identiteetti eivät tuottaneet kumpaakaan | Että projekti ei voi rakentaa yleisöä muulla sisällöllä tai kanavalla | Yleisöreitti sivuun määräajalla; koe 06 seuraavaksi |
+| UNKNOWN | mikä tahansa | Kiinnostusta oli, määrä ei ratkaise | - | Toinen kanava kerran (r/opensource, tuore tili), sitten tulkinta uudelleen |
+| IOE | PASS | Pääsy syntyi ilman mitattavaa altistusta | Mitään yleisöstä | Pääsy käsitellään; AUDIENCE jää tulkitsematta |
+| IOE | EI HAVAITTU | Ei riittävää havaintoa altistuksesta; pääsyä ei 14 päivässä | Mitään sisällön kiinnostavuudesta | Second-chance pool kerran (HN:n FAQ:n mukainen viesti hn@ycombinator.com), jos nostetaan → uusi 48 h D-mittaus; muuten toinen kanava kerran; jos yhä IOE → AUDIENCE UNKNOWN, kirjataan tuoreen identiteetin jakelurajoitteena |
+
+Yleissääntö: yhdestäkään rivistä ei päätellä mitään mekanismista, rahasta tai
+yleisötilan yleisestä mahdollisuudesta. Kaikki tulokset koskevat tätä sisältöä, tätä
+kanavaa, tätä identiteettiä ja 14 päivän ikkunaa.

@@ -419,3 +419,16 @@ AUDIENCE tulkitaan vasta jakeluportin (vaihe D: pisteet ≥ 5, top 30 tai ≥ 3 
 ei KILL; jatkot: HN:n second-chance pool kerran, sitten toinen kanava kerran. U-kynnykset
 500/50 ja ACCESS eivät muutu. Seuranta HN:n julkisesta rajapinnasta
 (`kokeet/04-hn-seuranta.py`), ei tiliä. Tuoreella tilillä ei kerätä mainetta ennen postausta.
+
+## 2026-09-16 · Koe 04 pre-flight: U:n määritelmä, IOE-portti, matriisi, neutraali julkaisu
+
+**Päätökset:** (1) U = GitHubin ylätason 14 päivän `uniques` haettuna T + 14 vrk, ei
+päivittäisten uniikkien summa; U_hn referrer-erittelystä täydentävänä. (2) D-portti
+korvataan käsitteellä RIITTÄMÄTÖN HAVAITTU ALTISTUS (IOE): altistus havaittu vain, jos
+postaus on ollut top 30:ssä vähintään 4 × 15 min; pisteitä ja kommentteja ei käytetä
+altistuksen mittarina. (3) Kynnykset arvioitu uudelleen: PASS U ≥ 500; KILL vain, jos
+altistus havaittu ja U < 50; muuten UNKNOWN tai IOE. (4) ACCESS-tulos nimetään
+"EI HAVAITTU", ei KILL. (5) Julkaisutekstin johtopäätös pehmennetty. (6) Julkaisu ei
+tapahdu osoitteesta `original-private-account/eikaisiina`; suunnitelma: uusi käyttäjä `eikaisiina`, uusi
+repo, push ilman siirtoa ja ilman historian uudelleenkirjoitusta, vanha repo poistetaan
+30 päivän päästä (`kokeet/04-preflight.md`). Tila: NOT READY, kunnes tarkistuslista on tehty.

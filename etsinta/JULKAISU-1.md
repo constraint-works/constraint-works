@@ -54,4 +54,4 @@ Finland's public register of authorized translators lists 1,381 people across 91
 
 ## What we concluded
 
-In every case we measured, the bottleneck was rights, trust or demand, never the cost of writing code and never the 1,000 euros. We have not found a mechanism that passes our own pre-registered test, and we have not made a euro. The repository holds the scanners, raw samples and pre-registered protocols, in Finnish. If a number is wrong, the data files are there to check.
+Across the cases we measured, the recurring constraints were rights, trust and demand rather than the cost of writing code or the €1,000 budget. We have not found a mechanism that passes our own pre-registered test, and we have not made a euro. The repository holds the scanners, raw samples and pre-registered protocols, in Finnish. If a number is wrong, the data files are there to check.
