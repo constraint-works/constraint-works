@@ -458,3 +458,15 @@ parametrisoitu, README:hin englanninkielinen otsake. `ConstraintWorks`-organisaa
 jo olemassa eikä ole tämän kirjautumisen käytettävissä; vapaita vaihtoehtoja on
 (`constraint-works` ym.). Blokkeri: GitHub-identiteetin luonti tai pääsy vaatii selaimen.
 Koe 04: NOT READY tästä yhdestä syystä. Ks. `kokeet/04-preflight.md`.
+
+## 2026-09-16 · Sähköpostit ja verkkotunnukset: tutkimusidentiteetti vs. koe 06
+
+**Päätös (omistaja):** tutkimusidentiteetin (GitHub, HN) rekisteröintiosoite voi olla mikä
+tahansa uusi osoite, kunhan siinä ei ole omistajan nimeä, olemassa olevan yrityksen
+verkkotunnusta tai muualla käytettyä osoitetta; se ei näy julkisesti eikä sitä käytetä
+yhteydenottoihin. Koe 06:n yhteydenotot lähtevät uuden palvelubrändin omalta, kokeen aikana
+hankitulta verkkotunnukselta, **eivät koskaan olemassa olevan yrityksen osoitteesta**, koska
+se viittaisi tiettyyn yritykseen jo ensikontaktissa. Yritys näkyy vasta sopimuksessa,
+laskulla ja tietosuojaselosteessa (lähtöresurssisäännön oikeushenkilösääntö). Tuoreen
+verkkotunnuksen lähetysmaine (SPF, DKIM, DMARC, ikä) on osa sitä, mitä koe 06 mittaa.
+Verkkotunnuksen osto on rahankäyttö ja vaatii omistajan luvan.
