@@ -29,10 +29,12 @@
    SHA-viittaukset pysyvät voimassa.
 4. Yksi uusi commit: `original-private-account` → `eikaisiina` viidessä tiedostossa. GPT:n tiedostossa
    muutetaan vain linkin osoite, sisältö ei muutu; commit-viesti kertoo sen.
-5. Vanha repo `original-private-account/eikaisiina` pysyy yksityisenä 30 päivää varmuuskopiona ja
-   poistetaan sitten, jolloin vanhat irralliset objektit poistuvat. **Ei siirtoa
-   (transfer)**, koska siirto luo GitHubiin pysyvän uudelleenohjauksen vanhasta
-   osoitteesta uuteen, ja vanha osoite sisältää käyttäjänimen.
+5. Vanha repo `original-private-account/eikaisiina` pysyy yksityisenä tutkimuksen alkuperäisenä
+   GitHub-kontekstina vähintään koko kokeen ajan; sitä ei poisteta automaattisesti
+   (omistajan päätös 2026-09-16). Vanhat irralliset objektit jäävät siten haettaviksi
+   suoralla SHA:lla yksityisessä reposta, mikä vaatii kirjautumisen ja on hyväksytty
+   jäännösriski. **Ei siirtoa (transfer)**, koska siirto loisi pysyvän uudelleenohjauksen
+   vanhasta osoitteesta uuteen, ja vanha osoite sisältää käyttäjänimen.
 6. Repon kuvaus, README:n ensimmäinen kappale ja kaikki badge- ja remote-viittaukset
    tarkistetaan uudessa reposta ennen julkistusta (nyt: ei badgeja, ei homepagea).
 7. Vasta sitten: repo julkiseksi, HN-tili projektisähköpostilla, postaus.
@@ -64,8 +66,33 @@ neutraalit.
 - [ ] GitHub-käyttäjä `eikaisiina` luotu, profiili tyhjä
 - [ ] Uusi yksityinen repo `eikaisiina/eikaisiina`, historia pushattu (Claude voi tehdä pushin, kun remote on olemassa ja omistaja antaa oikeuden)
 - [ ] `original-private-account` → `eikaisiina` -commit uudessa reposta (Claude)
-- [ ] Julkaisuteksti hyväksytty
-- [ ] Superteam-agentin nimestä päätös
+- [x] Julkaisuteksti hyväksytty (omistaja 2026-09-16, commit b571703)
+- [x] Superteam-agentin nimi jää: syntynyt kokeen aikana, ei perittyä pääomaa. Varmistettava vain, etteivät claim/profile-linkit johda henkilöllisyyteen (omistaja tarkistaa Superteamin puolella)
 - [ ] HN-tili luotu projektisähköpostilla, ei kommentteja
 - [ ] Repo julkiseksi (omistaja)
 - [ ] Postaus, item-id Claudelle, seuranta 48 h + 14 pv
+
+## Omistajan päätökset 2026-09-16 (lukittu)
+
+- JULKAISU-1.md hyväksytty sellaisenaan.
+- omistajan olemassa oleva yritys pysyy myöhempien kaupallisten kokeiden juridisena taustana; ei ratkaista
+  koe 04:ää varten.
+- Superteam-agentin nimi `eikaisiina` jää: se on syntynyt tämän kokeen aikana ja on
+  projektin itse rakentamaa historiaa. Henkilöllisyyteen johtavat claim/profile-linkit
+  varmistetaan erikseen.
+- Uusi GitHub-käyttäjä `eikaisiina` (jos vapaa) uudella projektisähköpostilla: ei bioa,
+  kuvaa, seuraamisia tai muuta historiaa. Sen alle uusi yksityinen repo. Claude pushaa
+  nykyisen historian ja tekee viisi osoitekorjausta. Omistaja tarkistaa uuden repon ennen
+  julkiseksi muuttamista. Vasta sen jälkeen HN-tili ja koe 04.
+- Vanhaa repoa ei poisteta automaattisesti; se säilyy yksityisenä vähintään koko kokeen ajan.
+- **Identiteettien erottelu:** `eikaisiina` (GitHub, HN) on tutkimusprojektin identiteetti.
+  Mahdollinen recovery-palvelu rakennetaan myöhemmin omaksi uudeksi brändikseen
+  omistajan olemassa olevan yrityksen alle. Tutkimusyleisöstä syntyvää luottamusta ei käytetä myöhemmässä
+  kylmässä B2B-kokeessa (koe 06). Tämä on lähtöresurssisäännön sovellus kokeen sisällä:
+  kokeen aikana rakennettu maine on sallittua, mutta se kirjataan reitiksi, ja koe 06
+  mittaa pääsyn rakentamista ilman sitä.
+
+## Seuraava konkreettinen askel (omistaja)
+
+1. Projektisähköposti. 2. GitHub-käyttäjä `eikaisiina`. 3. Tyhjä yksityinen repo
+`eikaisiina/eikaisiina`. 4. Ilmoitus Claudelle → push, osoitekorjaukset, tarkistusraportti.

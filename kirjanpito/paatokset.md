@@ -432,3 +432,14 @@ altistus havaittu ja U < 50; muuten UNKNOWN tai IOE. (4) ACCESS-tulos nimetään
 tapahdu osoitteesta `original-private-account/eikaisiina`; suunnitelma: uusi käyttäjä `eikaisiina`, uusi
 repo, push ilman siirtoa ja ilman historian uudelleenkirjoitusta, vanha repo poistetaan
 30 päivän päästä (`kokeet/04-preflight.md`). Tila: NOT READY, kunnes tarkistuslista on tehty.
+
+## 2026-09-16 · Koe 04: toteutuspäätökset (omistaja)
+
+Julkaisuteksti hyväksytty. omistajan olemassa oleva yritys pysyy kaupallisten kokeiden juridisena taustana,
+ei ratkaista koe 04:ää varten. Superteam-agentin nimi `eikaisiina` jää (kokeen aikana
+syntynyt, ei perittyä pääomaa); claim/profile-linkit varmistetaan. Uusi GitHub-käyttäjä
+`eikaisiina` ja uusi yksityinen repo; Claude pushaa historian ja korjaa osoitteet; omistaja
+tarkistaa ennen julkistusta; HN-tili ja koe 04 vasta sen jälkeen. Vanhaa repoa ei poisteta
+automaattisesti. Tutkimusidentiteetti `eikaisiina` erotetaan tulevista kaupallisista
+brändeistä: tutkimusyleisön luottamusta ei käytetä koe 06:ssa. Koe 04:n rakennetta ei enää
+muuteta.
