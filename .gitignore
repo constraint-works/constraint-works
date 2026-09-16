@@ -3,3 +3,5 @@ __pycache__/
 .env
 tyokalut/haku/data/
 tyokalut/haku/repos/
+04-hn-seuranta.log
+04-paivittain.log
