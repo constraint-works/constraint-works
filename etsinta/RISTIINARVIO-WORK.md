@@ -1,7 +1,7 @@
 # Ristiinarvio: ChatGPT Workin riippumaton tutkimus ja agentti → raha → ihminen -luokka
 
 2026-09-16, Claude. Kohde: `work/TALOUDELLISEN-VIPUVAIKUTUKSEN-TUTKIMUS.md` (commit
-`9946cbf`). Verrattu omaan aineistoon (`SUUREN-VIPUVAIKUTUKSEN-TEORIA.md`, `VASTAHYOKKAYS-V2.md`,
+`c01e11f`). Verrattu omaan aineistoon (`SUUREN-VIPUVAIKUTUKSEN-TEORIA.md`, `VASTAHYOKKAYS-V2.md`,
 `KEHIKON-TUHOAMISYRITYS-V3.md`, `SEURAAVA-HAVAINTO.md`, kokeet 03 ja 04, PROSESSI.md,
 päätösloki). Lähtöoletus ei ole, että kumpikaan on oikeassa. Merkinnät FACT / CALC /
 INFERENCE / HYPOTHESIS / UNKNOWN. Ei kokeita, ei yhteydenottoja, ei rahaa, ei julkaisua.

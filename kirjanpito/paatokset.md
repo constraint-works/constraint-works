@@ -443,3 +443,18 @@ tarkistaa ennen julkistusta; HN-tili ja koe 04 vasta sen jälkeen. Vanhaa repoa 
 automaattisesti. Tutkimusidentiteetti `eikaisiina` erotetaan tulevista kaupallisista
 brändeistä: tutkimusyleisön luottamusta ei käytetä koe 06:ssa. Koe 04:n rakennetta ei enää
 muuteta.
+
+## 2026-09-16 · Julkinen tutkimusidentiteetti: Constraint Works
+
+**Päätös (omistaja):** sisäinen projekti `eikaisiina`, julkinen tutkimusidentiteetti
+Constraint Works, ensisijainen handle `constraintworks`. Koe 04 tehdään sen kautta. Vanha
+yksityinen repo säilyy eikä sitä poisteta. Constraint Worksin yleisöä, mainetta tai
+kontakteja ei käytetä koe 06:n kaupallisena lähtöpääomana.
+
+**Toteutus (Claude):** historia uudelleenkirjoitettu tekijäksi `Constraint Works
+<noreply@constraintworks.invalid>` (linkittymätön osoite), omistajan yrityksen nimi ja
+vanha käyttäjänimi purettu kaikista blobeista, SHA-viittaukset korjattu, skriptit
+parametrisoitu, README:hin englanninkielinen otsake. `ConstraintWorks`-organisaatio on
+jo olemassa eikä ole tämän kirjautumisen käytettävissä; vapaita vaihtoehtoja on
+(`constraint-works` ym.). Blokkeri: GitHub-identiteetin luonti tai pääsy vaatii selaimen.
+Koe 04: NOT READY tästä yhdestä syystä. Ks. `kokeet/04-preflight.md`.

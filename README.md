@@ -1,5 +1,10 @@
 # eikaisiinä
 
+**Constraint Works** is the public research identity of this project. English summary of
+the measured results: [`etsinta/JULKAISU-1.md`](etsinta/JULKAISU-1.md). The rest of the
+repository is in Finnish: memos, pre-registered protocols, raw samples and both AI models'
+cross-reviews. The author's identity is not part of the project.
+
 Tutkimusprojekti: onko olemassa laillisia mekanismeja, joissa tekoäly antaa
 poikkeuksellisen suuren taloudellisen vivun. Lähtöpääoma 1 000 €. Tavoite 10 000 000 €.
 Ensimmäinen todellinen testi: 1 000 € → 2 000 € tavalla, joka ei onnistuisi ilman tekoälyä.

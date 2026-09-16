@@ -47,7 +47,7 @@ Tehty omistajan päätöksellä: projekti julkaistaan pseudonyymillä projekti-i
    yhdistyy henkilöön (profiili, muut repot), pseudonymiteetti murtuu. Korjaus vaatii
    GitHub-organisaation tai -tilin luomisen nimellä "eikaisiina" ja repon siirron sinne
    ennen julkistamista; sen jälkeen "original-private-account" korvataan tiedostoissa. Claude ei luo tilejä.
-2. **Vanhat commitit GitHubissa:** vanha HEAD `71a7e79` on yhä haettavissa suoralla
+2. **Vanhat commitit GitHubissa:** vanha HEAD `f036303` on yhä haettavissa suoralla
    SHA-osoitteella (tarkistettu rajapinnasta), vaikka se ei ole enää missään haarassa.
    GitHub poistaa irralliset objektit vasta roskienkeruussa, ja pyynnöstä tukipalvelu
    voi poistaa ne heti. Riski on pieni (SHA pitää tietää), mutta olemassa, kunnes

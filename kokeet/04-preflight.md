@@ -11,7 +11,7 @@
 | Commit author/committer | 31/31 `eikaisiina <eikaisiina@users.noreply.github.com>` | Ei paljasta. Jos GitHubiin luodaan käyttäjä `eikaisiina`, GitHub linkittää tämän vanhan noreply-muodon osoitteen siihen automaattisesti |
 | Tiedostot, joissa `original-private-account` | 5 tiedostoa, 9 riviä (SEURAAVA-HAVAINTO, TEORIAN-TUHOAMISYRITYS-V2 [GPT:n linkki], 04-mittaa.sh, 04-sanitointi, 04-yleisotila-protokolla) | Korjattava ennen julkaisua uudella commitilla |
 | Tags, releases, issues, PR:t, wiki, discussions | 0, 0, 0, wiki pois, discussions pois; yksi haara `main`; 2 refiä | Ei jäänteitä |
-| Vanhat commit-objektit (esim. `71a7e79`) | Yhä haettavissa suoralla SHA:lla vanhassa reposta | Poistuvat, kun vanha repo poistetaan |
+| Vanhat commit-objektit (esim. `f036303`) | Yhä haettavissa suoralla SHA:lla vanhassa reposta | Poistuvat, kun vanha repo poistetaan |
 | Commit-aikaleimat | +0300 | Rajaa Suomeen; sisältö on jo suomalainen |
 | Superteam-agentti "eikaisiina" | Rekisteröity omistajan lunastusprofiiliin | Jos agenttinimi on Superteamissa julkinen ja yhdistyy ihmisprofiiliin, nimi "eikaisiina" on haettavissa. UNKNOWN, onko julkinen. Vaihtoehdot: agentin uudelleennimeäminen (jos rajapinta sallii) tai riskin hyväksyminen |
 | Muistiinpanot Clauden puolella | Repon ulkopuolella | Ei julkaistavia |
@@ -66,7 +66,7 @@ neutraalit.
 - [ ] GitHub-käyttäjä `eikaisiina` luotu, profiili tyhjä
 - [ ] Uusi yksityinen repo `eikaisiina/eikaisiina`, historia pushattu (Claude voi tehdä pushin, kun remote on olemassa ja omistaja antaa oikeuden)
 - [ ] `original-private-account` → `eikaisiina` -commit uudessa reposta (Claude)
-- [x] Julkaisuteksti hyväksytty (omistaja 2026-09-16, commit b571703)
+- [x] Julkaisuteksti hyväksytty (omistaja 2026-09-16, commit a34f79c)
 - [x] Superteam-agentin nimi jää: syntynyt kokeen aikana, ei perittyä pääomaa. Varmistettava vain, etteivät claim/profile-linkit johda henkilöllisyyteen (omistaja tarkistaa Superteamin puolella)
 - [ ] HN-tili luotu projektisähköpostilla, ei kommentteja
 - [ ] Repo julkiseksi (omistaja)
@@ -96,3 +96,62 @@ neutraalit.
 
 1. Projektisähköposti. 2. GitHub-käyttäjä `eikaisiina`. 3. Tyhjä yksityinen repo
 `eikaisiina/eikaisiina`. 4. Ilmoitus Claudelle → push, osoitekorjaukset, tarkistusraportti.
+
+## Päivitys 2026-09-16: julkinen tutkimusidentiteetti on Constraint Works
+
+**Omistajan päätös:** sisäinen projekti on edelleen `eikaisiina`; julkinen kansainvälinen
+tutkimusidentiteetti on **Constraint Works**, ensisijainen GitHub-handle `constraintworks`.
+Koe 04 tehdään tämän nollasta rakennetun identiteetin kautta. Vanha yksityinen repo jää
+alkuperäiseksi tutkimuskontekstiksi eikä sitä poisteta. Constraint Worksin kautta syntyvää
+yleisöä, mainetta tai kontakteja ei käytetä koe 06:n kaupallisena lähtöpääomana.
+
+**Tehty (Claude, ilman tilejä):**
+1. Historia uudelleenkirjoitettu toisen kerran: kaikki 41 commitia tekijänä
+   `Constraint Works <noreply@constraintworks.invalid>`. `.invalid`-verkkotunnusta ei voi
+   kukaan omistaa (RFC 2606), joten osoite ei koskaan linkity mihinkään tiliin, ei
+   myöskään vahingossa vieraaseen käyttäjään, toisin kuin `<nimi>@users.noreply.github.com`,
+   jonka GitHub linkittää sen käyttäjänimen haltijaan.
+2. Historiasta purettu omistajan yrityksen nimi (kolme riviä, omistajan oma muotoilu, joka
+   oli kopioitu sellaisenaan) ja vanhan tilin käyttäjänimi kaikista blobeista.
+3. Neljä SHA-viittausta korjattu commit-kartasta. Aiempi varmuuskopio ennen tätä
+   uudelleenkirjoitusta on paikallisessa peilissä (ei repossa).
+4. `04-mittaa.sh`: repo-osoite `REPO`-muuttujassa, oletus `constraint-works/eikaisiina`.
+5. README: englanninkielinen otsake, joka nimeää Constraint Worksin ja linkittää
+   julkaisutekstiin.
+6. GPT:n V2-tiedostossa vain commit-linkin host vaihdettu; sisältö ennallaan.
+7. Paikallinen git-tekijä asetettu Constraint Worksiksi.
+
+**Tarkistettu GitHubista (FACT):**
+- `ConstraintWorks` on **jo olemassa organisaationa** (luotu 2026-07-22, ei repoja, ei
+  julkisia jäseniä, tyhjä profiili). Kirjautunut tili ei ole sen jäsen, joten repoa ei voi
+  luoda sinne tällä kirjautumisella. UNKNOWN, kenen organisaatio se on.
+- Vapaana ovat sekä käyttäjänä että organisaationa: `constraint-works`,
+  `constraintworks-research`, `constraintworksresearch`, `constraint-works-research`,
+  `constraintworkslab`. Skriptien oletus on `constraint-works`.
+- Organisaatiota ei voi luoda REST-rajapinnalla tavallisella tilillä; käyttäjätiliä ei
+  voi luoda ollenkaan ilman selainta. Claude ei luo tilejä eikä pyydä tunnisteita.
+- HN-käyttäjänimi `constraintworks` on vapaa (HN:n julkinen rajapinta palauttaa null).
+- Superteam: julkista agenttisivua ei löytynyt kokeilluista poluista (404 tai 500).
+  Claim/profile-linkitys jää omistajan tarkistettavaksi Superteamin kirjautuneella puolella.
+- Vanha tili kuuluu yhteen organisaatioon, jonka jäsenyys ei ole julkinen. Se ei näy
+  uudessa identiteetissä, koska uutta repoa ei siirretä vaan pushataan uuteen paikkaan.
+
+**Kaksi reittiä eteenpäin (omistaja valitsee sen, joka on mahdollinen):**
+- **A.** Jos omistaja hallitsee organisaatiota `ConstraintWorks` toisella kirjautumisella:
+  lisää vanha tili organisaation jäseneksi (yksityinen jäsenyys, ei julkinen) ja luo
+  sinne tyhjä yksityinen repo `eikaisiina`, tai anna jäsenelle oikeus luoda repoja.
+  Sen jälkeen Claude pushaa ja vaihtaa `REPO`-oletukseksi `ConstraintWorks/eikaisiina`.
+- **B.** Muuten: luo selaimessa uusi GitHub-käyttäjä `constraint-works` (tai muu vapaa
+  muoto) projektisähköpostilla, ilman biota, kuvaa tai seuraamisia, ja sen alle tyhjä
+  yksityinen repo `eikaisiina`. Lisää vanha tili collaboratoriksi (yksityinen) tai
+  kirjaudu `gh auth login` -komennolla uudella tilillä selaimen kautta. Claude pushaa.
+
+Kummassakin tapauksessa: ei siirtoa (transfer), ei uudelleenohjausta, vanha repo pysyy
+yksityisenä ja ennallaan.
+
+**Varmuuskopio:** uudelleenkirjoitettu historia pushataan vanhaan yksityiseen repoon
+haaralle `cw-migration`. Vanhan repon `main` säilyy koskemattomana alkuperäisenä
+kontekstina.
+
+**Tila: NOT READY.** Ainoa todellinen blokkeri on GitHub-identiteetin luonti tai siihen
+pääsy (reitti A tai B), joka vaatii selaimen. Kaikki muu on tehty.
