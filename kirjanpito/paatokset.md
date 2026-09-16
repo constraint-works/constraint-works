@@ -470,3 +470,64 @@ se viittaisi tiettyyn yritykseen jo ensikontaktissa. Yritys näkyy vasta sopimuk
 laskulla ja tietosuojaselosteessa (lähtöresurssisäännön oikeushenkilösääntö). Tuoreen
 verkkotunnuksen lähetysmaine (SPF, DKIM, DMARC, ikä) on osa sitä, mitä koe 06 mittaa.
 Verkkotunnuksen osto on rahankäyttö ja vaatii omistajan luvan.
+
+## 2026-09-16 · Koe 06 suunniteltu: neutraali kylmä pääsytesti, Suomi, protokolla odottaa GPT:n tuhoamisyritystä
+
+**Tila:** protokolla `kokeet/06-kylma-paasytesti-protokolla.md` on LUONNOS, ei lukittu, ei
+käynnistetty. Ei rahaa käytetty, ei verkkotunnusta, ei tilejä, ei yhteydenottoja, ei otosta.
+Koe 04 jatkuu koskemattomana; koe 06 alkaa aikaisintaan 2026-10-05, koe 04:n 14 päivän
+ACCESS-ikkunan jälkeen, jotta sisääntuleva pääsy on kohdistettavissa reittiin.
+
+**Metodologiset päätökset (Claude, johdettu lähtöresurssisäännöstä ja tutkimuskysymyksestä):**
+1. **Testattava portti G1:** kokeen aikana rakennettu uskottavuus riittää siihen, että
+   ennalta määritellyn populaation yritys samanaikaisesti luovuttaa ≥ 24 kk ostolasku- ja
+   maksuaineiston, allekirjoittaa käsittely- ja salassapitosopimuksen (tekoälykäsittely
+   näkyvissä) ja palkkioehdon 20 % toteutuneesta ja vahvistetusta palautuksesta. Puhdas
+   ACCESS-koe: ei analyysiä, ei recovery-työkalua, ei summa-arvioita, ei toimittajakontakteja.
+2. **Markkina: Suomi**, metodologisin perustein (`etsinta/KOE06-MARKKINAVERTAILU.md`):
+   ainoa vertailluista, jossa otantakehikko kokoproxyineen on 0 € ja avoin kenelle tahansa
+   (YTJ-massalataus + Veron julkiset verotiedot), sähköposti ja puhelin laillisia
+   oikeushenkilöille ilman suostumusta (SVPL 202 §), ja kieli tavallista osaamista. Muu
+   markkina lisäisi "ulkomainen toimija" -muuttujan, jota ei voi erottaa "tuntematon
+   toimija" -muuttujasta. Saksa ja Tanska putoavat lain takia. Varamarkkina: Ruotsi.
+3. **Populaatio ja kehikko (FACT, rakennettu):** 9 492 suomalaista osakeyhtiötä
+   (ALV-, työnantaja- ja ennakkoperintärekisterissä, ≥ 5 v, TOL 10 - 33 / 41 - 43 / 46 /
+   49 - 53, verot 2024 ≥ 10 000 €). Kehikkotiedosto repon ulkopuolella, SHA-256 ja suppilo
+   repossa (`kokeet/06-kehikko-tiivistelma.json`). Toiminimet pois (SVPL 200 § vaatisi
+   suostumuksen).
+4. **Otanta:** 150 riviä siemenellä = lukituspäivä; 60 + 60 + 30 varaa; sample lock L1
+   ennen nimien katsomista; poissulut vain viidellä koodilla, määrä committoidaan.
+   Yhteydenoton jälkeen ei korvata.
+5. **Kanava:** sähköposti yleisosoitteeseen (V1) → muistutus D7 → puhelu D14 - 21
+   vastaamattomille. Puhelu on saman protokollan kolmas askel, jonka tehtävä on erottaa
+   tavoittamattomuus hylkäyksestä. Ei LinkedIniä, ei kirjeitä (3 €/kpl ylittäisi rajan),
+   ei nimettyjen henkilöiden osoitteita ilman pyyntöä.
+6. **PASS** vaatii kuusi ehtoa (otos, aineisto ≥ 24 kk + maksut, käsittelysopimus,
+   palkkioehto, piilopääomatarkistus kysymyksin, reitti kirjattu) ja PRH-tilinpäätöksellä
+   varmistetun liikevaihdon ≥ 0,5 M€ (muuten PASS-PIENI). **FAIL** on reittikohtainen ja
+   vaatii tavoitettuasteen ≥ 50 % ja N_c ≥ 100; se falsifioi vain hypoteesin "tuore brändi +
+   suomalainen kylmä sähköposti/puhelu → ensimmäinen data + tulospalkkio -asiakas 120:stä
+   9 viikossa", ei mekanismiperhettä. **UNKNOWN** kolmessa muodossa: CHANNEL (tavoitettu
+   < 40 % D21 tai < 50 % lopussa), ACCESS (sopimus ilman aineistoa tai päinvastoin),
+   INCOMPLETE (35 h täyttyi).
+7. **Identiteetti:** uusi brändi B omalla .fi-verkkotunnuksella; olemassa oleva yritys vain
+   oikeushenkilönä alatunnisteessa, sopimuksissa ja laskulla; lähettäjä oikealla nimellään
+   (SVPL 203 §). **Brändin nimi, verkkotunnus ja otoslista eivät tule tähän julkiseen
+   repoon** (vain SHA-256), jotta vastaanottajan haku ei löydä tutkimusrepoa eikä Constraint
+   Worksin yleisö vuoda kokeeseen. Tarjous esitetään kaupallisena palveluna, ei tutkimuksena;
+   sopimus velvoittaa meidät tekemään analyysin PASSin jälkeen (koe 07 lukitaan erikseen).
+8. **Budjetti ex ante:** ≤ 83 €, katto 120 € (verkkotunnus, sähköposti, prepaid,
+   PRH-tilinpäätökset); omistajan aika ≤ 35 h. Juristin tarkastus (200 - 500 €) tietoisesti
+   pois; riski kirjattu. Ei kulutettu vielä mitään.
+9. **AI-attribuutio** kirjattu etukäteen ilman A/B:tä: mitattavat tunnit ja but-for-arvio;
+   PASS ei osoita mallien välttämättömyyttä eikä FAIL niiden hyödyttömyyttä.
+10. **Oma hyökkäys** tehty (§12): seitsemän korjausta ennen GPT:tä; jäännöskonfoundina
+    oikeushenkilön y-tunnuksesta pääteltävä ikä (sääntö sallii; uutta yritystä ei perusteta).
+
+**Suurin jäljelle jäävä riski:** oikeushenkilön ikä ja omistajan nimi voivat vaikuttaa
+hiljaisesti (vastaanottaja hakee, ei sano). Mitataan kysymyksin ja spontaanein signaalein,
+ei voida sulkea pois.
+
+**Seuraavaksi:** GPT:n riippumaton tuhoamisyritys protokollaan ja viesteihin; korjaukset;
+lukitus L1; omistajan lupa rahankäyttöön ja brändin nimelle; käynnistys aikaisintaan
+2026-10-05.

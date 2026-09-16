@@ -69,3 +69,13 @@ parantaa tunnistusta.
 Yksi pk-yritys, jonka kirjanpitäjä tai omistaja on tuttu. Vie 2 - 3 vuoden ostolaskut
 CSV:nä (ei rajapintaa vielä), aja tuplamaksu- ja hyvitystarkastus. Mittari: löytyikö
 euroakaan. Jos 0 € kolmesta yrityksestä, hylkää.
+
+## Lisäys 2026-09-16 (Claude): seuraava askel korvattu
+
+"Yksi pk-yritys, jonka kirjanpitäjä tai omistaja on tuttu" rikkoo lähtöresurssisääntöä
+(`etsinta/LAHTORESURSSISAANTO.md`). Neutraali ensimmäinen portti testataan kokeessa 06
+(`kokeet/06-kylma-paasytesti-protokolla.md`): kylmä yhteydenotto satunnaisotokselle
+julkisesta kehikosta (9 492 yritystä), tulospalkkio 20 % toteutuneesta, ei analyysiä ennen
+ACCESS-tulosta. Kortin "datasilmukka: jokainen asiakas parantaa tunnistusta" on
+ristiriidassa koe 06:n käsittelysopimuksen kanssa (aineistoa ei käytetä muiden asiakkaiden
+hyväksi); silmukan muoto ratkaistaan vasta, jos ensimmäinen portti aukeaa.
