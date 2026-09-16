@@ -1,0 +1,92 @@
+{
+  "id": "public-build-gate-v1",
+  "date": "2026-09-16",
+  "source_commit": "ca00a057a1f5c7a3040d25682aee779a2b4cd3be",
+  "source_csv": "data/orvot/pypi.org-orvot-top5000.csv",
+  "source_blob_sha": "9346edbc665bda5545fe54eb6c2f1981dcbc314d",
+  "selection": "First 12 rows in recorded order; select latest stable release on the recorded release date; no substitution. html5lib 1.1 is a known positive control, not an unseen sample.",
+  "hypothesis": "Release age alone does not establish a present source-build repair opportunity.",
+  "test": "Build published sdist into wheel on Python 3.14 with normal isolated build backends. Distinguish unavailable source, network/backend setup, source failure and success. No full functional or customer acceptance claim.",
+  "comparison": "No AI A/B claimed. This is a prerequisite screen before considering a transfer experiment.",
+  "max_seconds_per_build": 120,
+  "fee_eur": 0,
+  "sample": [
+    {
+      "rank": 1,
+      "name": "python-dateutil",
+      "recorded_last_release": "2024-03-01",
+      "repo": "https://github.com/dateutil/dateutil"
+    },
+    {
+      "rank": 2,
+      "name": "mdurl",
+      "recorded_last_release": "2022-08-14",
+      "repo": "https://github.com/executablebooks/mdurl"
+    },
+    {
+      "rank": 3,
+      "name": "sniffio",
+      "recorded_last_release": "2024-02-25",
+      "repo": "https://github.com/python-trio/sniffio"
+    },
+    {
+      "rank": 4,
+      "name": "distro",
+      "recorded_last_release": "2023-12-24",
+      "repo": "https://github.com/python-distro/distro"
+    },
+    {
+      "rank": 5,
+      "name": "colorama",
+      "recorded_last_release": "2022-10-25",
+      "repo": "https://github.com/tartley/colorama"
+    },
+    {
+      "rank": 6,
+      "name": "shellingham",
+      "recorded_last_release": "2023-10-24",
+      "repo": "https://github.com/sarugaku/shellingham"
+    },
+    {
+      "rank": 7,
+      "name": "openpyxl",
+      "recorded_last_release": "2024-06-28",
+      "repo": ""
+    },
+    {
+      "rank": 8,
+      "name": "requests-oauthlib",
+      "recorded_last_release": "2024-03-25",
+      "repo": "https://github.com/requests/requests-oauthlib"
+    },
+    {
+      "rank": 9,
+      "name": "sortedcontainers",
+      "recorded_last_release": "2021-05-16",
+      "repo": "https://github.com/grantjenks/python-sortedcontainers"
+    },
+    {
+      "rank": 10,
+      "name": "requests-toolbelt",
+      "recorded_last_release": "2023-05-01",
+      "repo": "https://github.com/requests/toolbelt"
+    },
+    {
+      "rank": 11,
+      "name": "defusedxml",
+      "recorded_last_release": "2023-09-29",
+      "repo": "https://github.com/tiran/defusedxml"
+    },
+    {
+      "rank": 12,
+      "name": "itsdangerous",
+      "recorded_last_release": "2024-04-16",
+      "repo": "https://github.com/pallets/itsdangerous"
+    }
+  ],
+  "known_control": {
+    "name": "html5lib",
+    "version": "1.1"
+  },
+  "stop_rule": "If no confirmed shared source failure in sample, do not claim a transfer experiment or spend time patching working packages."
+}

@@ -1,0 +1,30 @@
+{
+  "date_utc": "2026-09-16T09:00:40.218332+00:00",
+  "classification": "FACT: narrow smoke test, not full functional or security certification",
+  "python": "3.14.7",
+  "install_command": "python -m pip install --only-binary=:all: html5lib==1.1",
+  "versions": {
+    "html5lib": "1.1",
+    "six": "1.17.0",
+    "webencodings": "0.6.1"
+  },
+  "input": "<!doctype html><html><head><title>Koetulos</title></head><body><p>testi</p></body></html>",
+  "assertions": [
+    "parsed title equals Koetulos",
+    "parsed paragraph equals testi"
+  ],
+  "result": "PASS",
+  "inference": "The observed source-build failure did not block wheel installation and this parse path. No conclusion about source-only deployment requirements or full compatibility.",
+  "metadata_review": [
+    {
+      "package": "requests-oauthlib",
+      "url": "https://pypi.org/pypi/requests-oauthlib/1.4.1/json",
+      "finding": "Both wheel and sdist marked yanked; NO_SDIST in original screen means no eligible unyanked sdist."
+    },
+    {
+      "package": "defusedxml",
+      "url": "https://pypi.org/pypi/defusedxml/0.8.0rc2/json",
+      "finding": "Recorded date 2023-09-29 matches prerelease, excluded by stable-only protocol."
+    }
+  ]
+}

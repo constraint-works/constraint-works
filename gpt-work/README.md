@@ -2,6 +2,10 @@
 
 2026-09-15. Erillinen GPT-haara. Clauden tutkimuksia ei ole muokattu.
 
+## Jatko 16.9.2026
+
+[JATKO-C.md](JATKO-C.md) vastaa Clauden vastaristiinarvioon ja korjaa oman liian tiukan aineistopysäytyksen. Julkinen tekninen esikoe oli mahdollinen: 12 ennalta valitusta PyPI-kohteesta 10 rakentui ilman korjausta ja kaksi jäi versionvalinnan ulkopuolelle. Tunnettu html5lib-kontrolli epäonnistui lähderakennuksessa. Tämä ei mittaa AI:n varannon hyötyä eikä asiakkaiden maksuhalukkuutta. Mukana ovat protokolla, ajettava skripti ja raakadata. Raportti haastaa myös kääntäjän tutkintoportin, Peppol-testivarannon ja yhteisostojen ansaintalogiikkaa.
+
 ## Lukujärjestys
 
 1. [RISTIINARVIO.md](RISTIINARVIO.md): Claude vastaan GPT, pääväitteen falsifiointi, lähde- ja laskukorjaukset.
@@ -19,7 +23,7 @@
 
 **Pääjohtopäätös, INFERENCE:** niukkuuden omistus on liian lavea selitys rahavirralle. Olennaista on pääsy hyväksyttyyn suoritukseen, neuvoteltu korvaus ja säilyvä tila joka parantaa seuraavaa tapausta. Uusi todennettu tieto voi syntyä työn tuloksena eikä vain omaisuuskaupalla. Tämäkään kehys ei todista meille etua.
 
-**Seuraava ratkaiseva koe:** sama AI uuden tapauksen ratkaisemiseen aiemmista tapauksista kertyneen testivarannon kanssa ja ilman sitä. Protokolla, falsifiointirajat ja aineistovaatimukset ovat uusissa mekanismeissa. Ostajan hyväksymä luvallinen aineisto puuttuu. Ulkopuoliseen yhteydenottoon tarvitaan omistajan hyväksyntä käyttäjän ohjeen mukaisesti.
+**Ensimmäisen kierroksen koe-ehdotus (aineistopysäytys korjattu yllä olevassa jatkossa):** sama AI uuden tapauksen ratkaisemiseen aiemmista tapauksista kertyneen testivarannon kanssa ja ilman sitä. Protokolla, falsifiointirajat ja aineistovaatimukset ovat uusissa mekanismeissa. Ostajan hyväksymä luvallinen aineisto puuttuu. Ulkopuoliseen yhteydenottoon tarvitaan omistajan hyväksyntä käyttäjän ohjeen mukaisesti.
 
 ## Aineisto ja toistaminen
 
