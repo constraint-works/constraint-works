@@ -335,3 +335,14 @@ yksi CWS-tarjoaja, yksi PyPI-maintainer). Näkyvyyttä ei muutettu; odottaa omis
 harvinaisessa parissa. Kortti hylätty meille, mekanismi säilyy generaattorin syötteenä.
 
 **Pysähdys:** koetta ei suoriteta ennen omistajan hyväksyntää tekstille ja julkistukselle.
+
+## 2026-09-16 · Pseudonyymi identiteetti, git-historia uudelleenkirjoitettu
+
+**Päätös (omistaja):** projekti julkaistaan identiteetillä "eikaisiina", ei henkilön
+nimellä. Historia uudelleenkirjoitettu filter-repolla (31 commitia), nimi, sähköposti,
+paikalliset polut ja kolmansien sähköpostit poistettu, 14 SHA-viittausta korjattu,
+pakotettu GitHubiin. Raportti `kokeet/04-sanitointi.md`. Repo yhä yksityinen.
+
+**Jäljellä ennen julkistusta:** repon sijainti käyttäjätilin alla (siirto organisaatioon
+"eikaisiina" on omistajan päätös), vanhojen commit-objektien poisto GitHubista (tukipyyntö),
+paikallisen varmuuskopion käsittely. Koe 04 odottaa omistajan hyväksyntää.
