@@ -670,3 +670,25 @@ viimeinen pre-D0-tarkistus sopimuspaketille.
    käytettävän palvelun ja konfiguraation voimassa olevasta dokumentaatiosta.
 4. Ensimmäistä viestiä ei lähetetä ennen 2026-10-05 eikä ennen viimeistä X-K04-tarkistusta.
    Verkkotunnusta ei osteta ennen omistajan nimivalintaa.
+
+## 2026-09-17 · Koe 06: brändi B lukittu; tavaramerkkitarkistuksen menetelmäkorjaus
+
+**Päätös (omistaja):** brändin nimi valittu kymmenestä ehdokkaasta ja lukittu koe 06:een.
+Nimi ja verkkotunnus vain yksityisessä hakemistossa. Repoon suolattu SHA-256 (paljas
+tiiviste lyhyestä nimestä olisi arvattavissa; suola julkaistaan kokeen päätyttyä):
+brändi `f4f7621f…5fbce4`, verkkotunnus `1d73f565…fc0a0c` (täydet arvot `06-loki.md`).
+Poikkeama protokollan sanamuodosta "SHA-256": suolattu, tiukempi, todennettavissa jälkikäteen.
+
+**Uusintatarkistus ennen hankintaa (FACT):** .fi vapaa, YTJ 0, EUIPO 0, PRH:n kansallinen
+tavaramerkkirekisteri 0, verkkohaku ei osumia; jokaisessa positiivinen kontrolli.
+
+**Falsifiointi omasta työstä:** aiempi TMview-tarkistus oli pätemätön (haku ei suorittunut,
+kontrolli oli lataustila). Raportoin sen aiemmin läpäistynä; se oli väärin. Korjattu
+virallisilla rekistereillä valitun nimen osalta. Opetus: kontrollin pitää osoittaa
+positiivinen sisältö (nimetty rivi), ei pelkkää "ei tyhjä" -tilaa.
+
+**Palveluntarjoajat valittu etukäteen (halvin lukitut vaatimukset täyttävä):** verkkotunnus
+12,00 €/v välittäjältä, jolla DNS-hallinta sisältyy; sähköposti Zoho Mail EU (ilmaistaso, jos
+tarjolla, muuten Mail Lite vuosilaskutuksella); prepaid-aloituspaketti 4,90 €; sivun isännöinti
+ilmaisella staattisella palvelulla, joka tukee juuriverkkotunnusta ilman nimipalvelimien
+siirtoa. Ei ostettu vielä mitään.
