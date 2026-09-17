@@ -692,3 +692,29 @@ positiivinen sisältö (nimetty rivi), ei pelkkää "ei tyhjä" -tilaa.
 tarjolla, muuten Mail Lite vuosilaskutuksella); prepaid-aloituspaketti 4,90 €; sivun isännöinti
 ilmaisella staattisella palvelulla, joka tukee juuriverkkotunnusta ilman nimipalvelimien
 siirtoa. Ei ostettu vielä mitään.
+
+## 2026-09-17 · Koe 06: infrastruktuuri pystyssä; P1-vaihtoehdot selvitetty, odottaa omistajan päätöstä
+
+**Tila (FACT):** R1 verkkotunnus ja R2 sähköposti ostettu (25 € / lupa 68 €); DNS tehty ja
+tarkistettu (MX, SPF `-all`, DKIM, DMARC `quarantine`); väliaikainen sivu julkaistu ilmaiseen
+isännöintiin ja verkkotunnus osoittaa siihen; HTTPS-varmenteen automaattinen myöntö kesken.
+Pikatesti: DKIM ja DMARC PASS; ensimmäinen viesti 3 h vanhalta verkkotunnukselta meni
+Gmailissa roskapostiin (SPF SOFTFAIL johtui vastaanottajan vanhentuneesta DNS-välimuistista,
+todennettu). Toimitettavuus on todellinen riski; varsinainen R7 myöhemmin.
+
+**Omistajan päätös:** prepaid-numeroa ei hankita vielä (tarvitaan sivulle ja allekirjoitukseen
+ennen D0:aa). Omistaja harkitsi olemassa olevaa työnumeroa; suositus pitää prepaid, koska
+numeron historia (soittajantunnistus, hakutulokset, takaisinsoitot) on tunnushistoriaa, jonka
+lähtöresurssisääntö kieltää; omistajuus sinänsä ei vuotaisi mitään uutta.
+
+**Korjaus omaan protokollatekstiin (ei muuta lukitusta):** §2:n perustelu, että henkilön nimi
+on "lain vaatimus", oli liian vahva. Laki (SVPL 203 §) vaatii tunnistamaan tahon, jonka
+lukuun markkinoidaan (oikeushenkilö). Oikea nimi on kokeen lukittu valinta (puhelut,
+sopimukset, ei harhaanjohtamista), ei lain pakko. Omistaja hyväksyi nimen käytön.
+
+**P1:** vaihtoehdot A (Anthropic API: 30 pv, käsittely EU:n ulkopuolella), B (Claude Amazon
+Bedrockissa EU-alueella: ei säilytystä oletuksena malleilla, jotka sallivat tilan `none`, ei
+luovutusta mallin kehittäjälle, käsittely EU:ssa) ja C (OpenAI: vaatii myyntihyväksynnät)
+dokumentoitu lähteineen: `kokeet/06-p1-tekoalypalvelu-vaihtoehdot.md`. Suositus B, vara A.
+Tallennus: salattu paikallinen työasema Suomessa, ei pilveä. Ei toimeenpantu; odottaa
+omistajan päätöstä ja B:n ehtojen todentamista tililtä.
