@@ -610,3 +610,14 @@ vaikeuttava. Lukittuja tiedostoja ei muutettu.
 
 **Pysähdys:** seuraavat askeleet vaativat omistajaa: poissulkukierros (150 nimeä), P1,
 brändin nimi, rahankäyttölupa (≤ 68 €, katto 120 €).
+
+## 2026-09-17 · Koe 06: poissulkukierros valmis, 0 poissulkua
+
+Omistaja luki otoksen 150 nimeä: X-TUTTU 0, X-ASIAKAS 0, X-KONSERNI 0; mekaaninen osa
+X-DUPL 0, X-K04 0. Ei korvauksia varalta. Lopullinen rakenne: K06-001 - 060 aalto 1,
+061 - 120 aalto 2, 121 - 150 käyttämätön vara. Lukitun otoksen SHA-256 ennallaan.
+Piilopääomahavainto: omistajan verkosto ei ulotu otokseen (0/150), eli protokollan
+§6 kynnys "yli 15 poissulkua" ei lähelläkään. X-K04 uusitaan ennen D0:aa. Yhteystietojen
+haku (aalto 1) on protokollan mukaan nyt sallittu, mutta sitä ei aloiteta ennen kuin
+R1 - R7 ja päätökset P1, brändin nimi ja rahankäyttölupa on tehty, jotta haun ja
+ensimmäisen viestin väli jää lyhyeksi.

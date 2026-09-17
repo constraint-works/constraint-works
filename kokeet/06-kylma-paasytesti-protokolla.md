@@ -488,7 +488,7 @@ uuden yrityksen perustaminen hylätty omistajan päätöksellä); n = 1 viestive
 - [x] Korjaukset tehty 2026-09-17 (§12 kohdat 6 - 11)
 - [x] GPT tarkisti korjausdiffin `ee116d4`: APPROVED FOR LOCK; protokolla lukittu 2026-09-17
 - [x] L1: otos arvottu siemenellä 20260917, SHA-256 ja jakaumat committoitu (`06-otos-tiivistelma.json`), nimet repon ulkopuolella
-- [ ] Poissulkukierros: mekaaninen osa tehty 2026-09-17 (X-DUPL 0, X-K04 0 koe 04:n tilanteessa 2026-09-17); omistajan osa (X-TUTTU, X-ASIAKAS, X-KONSERNI) odottaa; koodit ja määrä committoidaan sen jälkeen
+- [x] Poissulkukierros tehty 2026-09-17: X-TUTTU 0, X-ASIAKAS 0, X-KONSERNI 0, X-K04 0, X-DUPL 0; ei korvauksia varalta; X-K04 uusitaan ennen D0:aa (koe 04 jatkuu 2026-09-30 asti)
 - [ ] Omistajan lupa rahankäyttöön (≤ 120 €) ja brändin nimelle (nimi ei repoon)
 - [ ] R1 - R7 valmiit; R7-toimitettavuustesti kirjattu
 - [ ] Koe 04:n ACCESS-ikkuna päättynyt (≥ 2026-10-01)
