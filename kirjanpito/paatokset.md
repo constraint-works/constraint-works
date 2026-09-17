@@ -586,3 +586,27 @@ sen jälkeen.
 
 **Ei tehty:** ei yhteydenottoja, ei verkkotunnusta, ei rahaa, ei brändin nimeä, ei D0:aa.
 Koe 04 koskematon.
+
+## 2026-09-17 · Koe 06: rakennusvaiheen edellytykset selvitetty; poikkeamaehdotus P1 odottaa päätöstä
+
+**Tehty (0 €, ei tilejä, ei brändiä):** `kokeet/06-rakennusvaiheen-vaatimukset.md` (R1 - R7:n
+tekniset ja juridiset edellytykset, omistajan päätöslista) ja
+`kokeet/06-sopimuspohjat-luonnos.md` (käsittely- ja salassapitosopimus GDPR 28 art.
+sisällöllä, palkkioehdot lukitun §5 (ii) mukaan, tietosuojaseloste, sivuteksti;
+paikkamerkein, GPT:n tarkistettavaksi, ei juristia).
+
+**Päätökset (johdettu säännöistä):** aputoiminimeä ei rekisteröidä (60 € ei muuta
+mitattavaa parametria; oikeushenkilö tunnistetaan joka viestissä); verkkotunnuksen
+haltijana näkyvä olemassa oleva yritys on oikeushenkilösäännön mukainen; sivua ei
+isännöidä GitHub Pagesissa minkään olemassa olevan tilin alla; sivulla ei evästeitä,
+analytiikkaa eikä lomaketta.
+
+**Poikkeamaehdotus P1 (EI toimeenpantu, vaatii omistajan ja GPT:n päätöksen):** lukittu
+§5 (i) ja tapaamisrunko §4 lupaavat tekoälykäsittelyn "ilman datan säilytystä". FACT:
+rajapintojen oletus on 30 päivän säilytys; nollasäilytys vaatii erillisen hyväksynnän.
+Lause ei olisi tosi allekirjoitushetkellä. Ehdotus: paikallinen pseudonymisointi + "ei
+koulutuskäyttöä, säilytys enintään 30 pv väärinkäytösvalvontaan". Suunta PASSia
+vaikeuttava. Lukittuja tiedostoja ei muutettu.
+
+**Pysähdys:** seuraavat askeleet vaativat omistajaa: poissulkukierros (150 nimeä), P1,
+brändin nimi, rahankäyttölupa (≤ 68 €, katto 120 €).
