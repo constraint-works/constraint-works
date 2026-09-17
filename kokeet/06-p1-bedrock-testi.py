@@ -60,6 +60,12 @@ def main():
     t["ehdot"]["2_ja_4_mallit_tilassa_none"] = {"kokeet": kokeet, "toimivat": [m for m, r in kokeet.items() if r["ok"]],
                                                "ok": t["ehdot"]["1_retention_none"]["ok"] and any(r["ok"] for r in kokeet.values())}
     t["kaikki_ok"] = all(v.get("ok") for v in t["ehdot"].values())
+    estetty = kokeet and all(r["http"] == 403 and "being verified" in str(r.get("virhe")) for r in kokeet.values())
+    t["testi_estetty_tilin_vahvistus"] = bool(estetty)
+    if estetty:
+        t["johtopaatos"] = "EI RATKAISTU: tilin vahvistus kesken, mallikutsut estetty. Toista testi vahvistuksen jälkeen. Ei fallbackia tämän perusteella."
+        json.dump(t, open(a.tulos, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        print(json.dumps({k: v.get("ok") for k, v in t["ehdot"].items()}), "| estetty: tilin vahvistus"); print(t["johtopaatos"]); return
     t["johtopaatos"] = ("Todennettu: sopimukseen kirjataan yksi toimivista malleista, retention none, EU-profiili ja tämä alue."
                         if t["kaikki_ok"] else "Ehdot eivät täyty. Ehtoja EI löysätä. Fallback: Anthropicin oma API todellisella retentionilla.")
     json.dump(t, open(a.tulos, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
