@@ -508,7 +508,7 @@ uuden yrityksen perustaminen hylätty omistajan päätöksellä); n = 1 viestive
 - [x] Poissulkukierros tehty 2026-09-17: X-TUTTU 0, X-ASIAKAS 0, X-KONSERNI 0, X-K04 0, X-DUPL 0; ei korvauksia varalta; X-K04 uusitaan ennen D0:aa (koe 04 jatkuu 2026-09-30 asti)
 - [ ] Omistajan lupa rahankäyttöön (≤ 120 €) ja brändin nimelle (nimi ei repoon)
 - [ ] P1: D0:ssa käytettävän tekoälypalvelun säilytysaika ja käsittelypaikka varmennettu dokumentaatiosta ja kirjattu sopimuspohjaan ja lokiin
-- [ ] GPT:n viimeinen pre-D0-tarkistus sopimuspaketille ja sivulle
+- [x] GPT:n pre-D0-tarkistus sopimuspaketille ja sivulle (`99a62e9`): APPROVED täsmennyksin 2026-09-17
 - [ ] R1 - R7 valmiit; R7-toimitettavuustesti kirjattu
 - [ ] Koe 04:n ACCESS-ikkuna päättynyt (≥ 2026-10-01)
 - [ ] Omistajan käynnistyslupa → S1 kirjataan lokiin

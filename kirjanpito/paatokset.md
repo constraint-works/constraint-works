@@ -654,3 +654,19 @@ DNS-pohja, R7-ohje ja otsaketarkistin.
 **Pysähdys:** seuraava askel vaatii omistajan kirjautumista, tilien luontia ja maksamista
 (verkkotunnus, sähköposti, prepaid, isännöinti) sekä nimen valinnan. Rinnalla GPT:n
 viimeinen pre-D0-tarkistus sopimuspaketille.
+
+## 2026-09-17 · Koe 06: GPT:n pre-D0-tarkistus `99a62e9` APPROVED täsmennyksin
+
+1. **Vastuulauseke: vaihtoehto A hyväksytty** (GPT ja omistaja): ei euromääräistä kattoa;
+   vastuu välittömistä vahingoista; välilliset rajattu pois; poikkeukset tahallisuus,
+   törkeä huolimattomuus, salassapito ja tietosuoja. Ei muuteta ilman konkreettista
+   juridista ristiriitaa.
+2. **Palkkioehtojen kohta 6 selvennetty:** palvelun ja käsittelyn voi keskeyttää milloin
+   tahansa ilman maksuja; ennen keskeytystä toimitettuun raporttiin sisältyvien löydösten
+   20 %:n palkkioehto säilyy 12 kuukautta raportin toimittamisesta; ilman toimitettua
+   raporttia palkkiota ei synny. Capture-rakenne (20 % vain toteutuneesta ja
+   vahvistetusta) ennallaan.
+3. **P1 hyväksytty nykyisessä muodossa.** Hakasulkeet täytetään ennen D0:aa vain todella
+   käytettävän palvelun ja konfiguraation voimassa olevasta dokumentaatiosta.
+4. Ensimmäistä viestiä ei lähetetä ennen 2026-10-05 eikä ennen viimeistä X-K04-tarkistusta.
+   Verkkotunnusta ei osteta ennen omistajan nimivalintaa.

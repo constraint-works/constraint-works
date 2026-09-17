@@ -100,7 +100,12 @@ Luonnokset: `06-sopimuspohjat-luonnos.md` (paikkamerkein, GPT:n tarkistettavaksi
 - **Vastuu:** ks. §4b. Aiempi 5 000 €:n luonnosluku on poistettu (omistaja ei
   hyväksynyt; se ei ollut johdettu mistään).
 
-## 4b. Vastuulauseke: vaihtoehdot ja perustelut (ei päätetty; GPT tarkistaa ennen D0:aa)
+## 4b. Vastuulauseke: PÄÄTETTY 2026-09-17, vaihtoehto A (GPT:n pre-D0-tarkistus, omistaja)
+
+**Päätös:** ei euromääräistä vastuukattoa; vastuu välittömistä vahingoista; välilliset
+vahingot rajattu pois; poikkeukset tahallisuus, törkeä huolimattomuus, salassapito ja
+tietosuoja. Ei muuteta ilman konkreettista juridista ristiriitaa. Alla vertailu, johon
+päätös perustui.
 
 Lähtötiedot (FACT): ei vastuuvakuutusta (ei budjetissa); palvelun hinta asiakkaalle voi
 olla 0 €; käsiteltävä aineisto on luottamuksellista; sopimusosapuoli on omistajan
@@ -172,10 +177,12 @@ täytetään hakasulkeet sanatarkasti sen mukaan, kirjataan lähde ja päivä lo
 - [x] R7-ohje ja otsaketarkistin (`kokeet/06-r7-otsaketarkistin.py`, savutestattu)
 - [x] Osto- ja käyttöönotto-ohje omistajalle (yksityinen)
 - [ ] Omistaja: nimen valinta, ostot (≤ 68 €), tilit
-- [ ] P1-hakasulkeiden täyttö: tekoälypalvelun säilytysaika ja käsittelypaikka
-      dokumentaatiosta; vastuulauseke vahvistettu (§4b)
-- [ ] GPT:n viimeinen pre-D0-tarkistus: sopimuspaketti + sivuteksti
-      (`06-sopimuspohjat-luonnos.md`), P1-korjaus, §4b
+- [x] Vastuulauseke: vaihtoehto A hyväksytty (§4b)
+- [x] GPT:n pre-D0-tarkistus rakennusvaiheelle `99a62e9`: APPROVED täsmennyksin
+      (vastuulauseke A; palkkioehtojen kohta 6 selvennetty; P1 nykyisessä muodossa)
+- [ ] P1-hakasulkeiden täyttö ennen D0:aa: tekoälypalvelu, todellinen säilytyskäytäntö ja
+      käsittelypaikka sen palvelun ja konfiguraation voimassa olevasta dokumentaatiosta,
+      jota todella käytetään; ei arvauksella; lähde ja päivä lokiin
 - [ ] R7-testi, X-K04-uusinta, käynnistyslupa (aikaisintaan 2026-10-05)
 
 Huomio koe 07:lle (ei tämän kokeen työtä): P1 sitoo meidät paikalliseen

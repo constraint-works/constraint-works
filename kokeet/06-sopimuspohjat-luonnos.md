@@ -4,8 +4,9 @@
 GPT:n tarkistettavaksi ennen D0:aa. Sisältö noudattaa lukittua protokollaa §5 ja
 totuudenmukaisuuskorjausta P1 (hyväksytty 2026-09-17: ei nollasäilytyslupausta,
 paikallinen pseudonymisointi, ei koulutuskäyttöä, säilytysaika todellisen
-palveluntarjoajan mukaan). Avoimia kohtia kaksi: **[P1]**-hakasulkeiden täyttö ennen
-D0:aa ja **vastuulauseke** (kohta 11; vaihtoehdot `06-rakennusvaiheen-vaatimukset.md` §4b).
+palveluntarjoajan mukaan). GPT:n pre-D0-tarkistus `99a62e9`: APPROVED täsmennyksin (vastuulauseke A hyväksytty;
+palkkioehtojen kohta 6 selvennetty). Avoinna vain **[P1]**-hakasulkeiden täyttö ennen
+D0:aa todellisen palvelun voimassa olevasta dokumentaatiosta, ei arvauksella.
 Paikkamerkit: [Brändi], [verkkotunnus], [Oikeushenkilö Oy], [y-tunnus], [osoite], [Nimi],
 [Asiakas Oy]. Täytetyt versiot eivät tule tähän repoon.
 
@@ -63,11 +64,8 @@ Paikkamerkit: [Brändi], [verkkotunnus], [Oikeushenkilö Oy], [y-tunnus], [osoit
 9. **Tarkastusoikeus.** Asiakas voi pyytää selvityksen käsittelystä ja turvatoimista.
 10. **Keskeytys.** Asiakas voi keskeyttää työn ja vaatia aineiston poistoa milloin
     tahansa syytä ilmoittamatta. Keskeytys ei synnytä maksuja.
-11. **Vastuu.** *[AVOIN: vastuulauseke. Aiempi 5 000 €:n katto on poistettu, koska se
-    oli perustelematon luonnosluku eikä omistaja hyväksynyt sitä. Vaihtoehdot ja
-    perustelut: `06-rakennusvaiheen-vaatimukset.md` §4b. Alla vaihtoehto A, jossa ei ole
-    euromääräistä kattoa eikä siis keksittyä lukua; lopullinen valinta omistajan ja
-    GPT:n tarkistuksen jälkeen.]* Palveluntarjoaja vastaa Asiakkaalle
+11. **Vastuu.** *(Vaihtoehto A, hyväksytty 2026-09-17: ei euromääräistä kattoa.)*
+    Palveluntarjoaja vastaa Asiakkaalle
     sopimusrikkomuksestaan aiheutuneista välittömistä vahingoista. Palveluntarjoaja
     ei vastaa välillisistä vahingoista, kuten saamatta jääneestä voitosta, paitsi jos
     vahinko on aiheutettu tahallisesti tai törkeällä huolimattomuudella tai se johtuu
@@ -93,9 +91,12 @@ Hyväksyntä: PDF + sähköpostivahvistus Asiakkaan edustamiseen oikeutetulta he
 5. **Asiakas perii itse.** Asiakas päättää, mitkä löydökset se esittää toimittajille, ja
    hoitaa yhteydenotot. Palveluntarjoaja ei ota yhteyttä toimittajiin eikä peri
    saatavia Asiakkaan lukuun.
-6. **Ei yksinoikeutta, ei sitoutumista.** Asiakas voi lopettaa milloin tahansa. Jo
-   toimitettuun raporttiin perustuvista, 12 kuukauden sisällä saaduista palautuksista
-   palkkio maksetaan.
+6. **Ei yksinoikeutta; keskeytys milloin tahansa.** Asiakas voi keskeyttää palvelun ja
+   aineiston käsittelyn milloin tahansa syytä ilmoittamatta ja ilman maksuja. Keskeytys
+   ei vaikuta kohdan 2 palkkioon niistä löydöksistä, jotka sisältyvät ennen keskeytystä
+   toimitettuun raporttiin: niistä palkkio maksetaan, jos raha palautuu 12 kuukauden
+   kuluessa raportin toimittamisesta. Jos raporttia ei ole toimitettu ennen
+   keskeytystä, palkkiota ei synny.
 7. **Ei takuuta löydöksistä.** Tulos voi olla nolla.
 8. Suomen laki; riidat Asiakkaan kotipaikan käräjäoikeudessa.
 
