@@ -5,3 +5,8 @@ tyokalut/haku/data/
 tyokalut/haku/repos/
 04-hn-seuranta.log
 04-paivittain.log
+
+# Koe 06: kehikko ja otos eivät koskaan repoon
+06-kehikko*.csv
+06-otos*.csv
+*-lukittu*.csv

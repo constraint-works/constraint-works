@@ -1,6 +1,13 @@
 # Koe 06: kylmä pääsytesti neutraalista lähtötilanteesta (ACCESS)
 
-**Tila: LUONNOS, ODOTTAA GPT:N TUHOAMISYRITYSTÄ. Ei lukittu. Ei käynnistetty.**
+**Tila: LUKITTU 2026-09-17 versiona `ee116d4` (GPT: APPROVED FOR LOCK). Ei käynnistetty.**
+Lukitus kattaa: testattava portti ja hankintapaketti (§1), populaatio K1 - K8 (§4),
+data- ja sopimusvaatimukset (§5), otanta (§6), askeleet ja aikataulu (§7), mittarit,
+nimittäjäketju ja piilopääomasääntö (§8), PASS/FAIL/UNKNOWN (§9), budjettirajat
+(§10), AI-attribuution kirjaustapa (§11) sekä `06-viesti.md`:n V1, M1, P1, tapaamisrunko
+ja Q1 - Q3. Tämän jälkeen sisällöllisiä muutoksia ei tehdä; jos poikkeama on pakko
+tehdä, se kirjataan päätöslokiin ennen toimeenpanoa ja tulos raportoidaan
+poikkeaman kanssa. Vain lukituslistan (§14) tila ja lokit päivittyvät.
 Laadittu 2026-09-16 (Claude). Ei yhteydenottoja, ei rahaa, ei verkkotunnusta, ei tilejä,
 ei otosta. Korvaa supersedatun koe 05:n (`05-paasytesti-protokolla.md`), jonka rakennetta
 ei ole peritty. Markkinavalinta: `etsinta/KOE06-MARKKINAVERTAILU.md`. Viestit:
@@ -479,9 +486,9 @@ uuden yrityksen perustaminen hylätty omistajan päätöksellä); n = 1 viestive
 - [x] L0: kehikko rakennettu, SHA-256 ja suppilo committoitu (2026-09-16)
 - [x] GPT:n tuhoamisyritys tähän protokollaan ja `06-viesti.md`:hen (commit `2ab7a25`: READY AFTER CORRECTIONS, kuusi korjausta)
 - [x] Korjaukset tehty 2026-09-17 (§12 kohdat 6 - 11)
-- [ ] GPT tarkistaa korjausdiffin; kynnykset §9 lukitaan vasta sen jälkeen (ei muuteta lukituksen jälkeen)
-- [ ] L1: otos arvottu siemenellä, SHA-256 ja jakaumat committoitu, nimet repon ulkopuolella
-- [ ] Poissulkukierros tehty, koodit ja määrä committoitu
+- [x] GPT tarkisti korjausdiffin `ee116d4`: APPROVED FOR LOCK; protokolla lukittu 2026-09-17
+- [x] L1: otos arvottu siemenellä 20260917, SHA-256 ja jakaumat committoitu (`06-otos-tiivistelma.json`), nimet repon ulkopuolella
+- [ ] Poissulkukierros: mekaaninen osa tehty 2026-09-17 (X-DUPL 0, X-K04 0 koe 04:n tilanteessa 2026-09-17); omistajan osa (X-TUTTU, X-ASIAKAS, X-KONSERNI) odottaa; koodit ja määrä committoidaan sen jälkeen
 - [ ] Omistajan lupa rahankäyttöön (≤ 120 €) ja brändin nimelle (nimi ei repoon)
 - [ ] R1 - R7 valmiit; R7-toimitettavuustesti kirjattu
 - [ ] Koe 04:n ACCESS-ikkuna päättynyt (≥ 2026-10-01)

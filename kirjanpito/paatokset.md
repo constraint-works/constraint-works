@@ -565,3 +565,24 @@ käynnistystä. GPT tarkistaa korjausdiffin ennen lukitusta.
 
 **Ristiriitatarkistus:** markkinavertailu (§4 "ostovolyymi todetaan aineistosta"),
 viesti, lokipohja ja tämä loki tarkistettu; vanhat muotoilut poistettu tai korvattu.
+
+## 2026-09-17 · Koe 06 lukittu (`ee116d4`, GPT APPROVED FOR LOCK); L1-otos arvottu; poissulkukierros osittain
+
+**Lukitus:** protokolla, kynnykset, viestit, populaatio, hankintapaketti, budjettirajat ja
+mittarit lukittu versiona `ee116d4`. Protokollaa ei avata uudelle optimointikierrokselle
+ilman uutta konkreettista ristiriitaa; poikkeamat kirjataan tähän lokiin ennen toimeenpanoa.
+
+**L1 (FACT):** `06-otos.py`, siemen 20260917, 150 riviä ilman takaisinpanoa kehikosta
+(9 492; SHA-256 varmistettu ennen arvontaa). Otoksen SHA-256
+`ca5f23732937ac8232dd7c59b3eb9e180bdf5e809e918012e7d0e44f4c216245`. Nimet ja y-tunnukset
+repon ulkopuolella pysyvässä yksityisessä hakemistossa; `.gitignore` estää otos- ja
+kehikkotiedostojen päätymisen repoon. Nimiä ei katsottu ennen arvontaa eikä Claude ole
+katsonut niitä arvonnan jälkeen.
+
+**Poissulkukierros:** mekaaninen osa tehty (X-DUPL 0, X-K04 0 tilanteessa 2026-09-17).
+Omistajan osa (X-TUTTU, X-ASIAKAS, X-KONSERNI) vaatii omistajan lukevan 150 nimeä; se on
+ensimmäinen kohta, jota Claude ei voi tehdä. Korvaukset varalta ja aggregaatit kirjataan
+sen jälkeen.
+
+**Ei tehty:** ei yhteydenottoja, ei verkkotunnusta, ei rahaa, ei brändin nimeä, ei D0:aa.
+Koe 04 koskematon.
