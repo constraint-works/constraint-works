@@ -718,3 +718,16 @@ luovutusta mallin kehittäjälle, käsittely EU:ssa) ja C (OpenAI: vaatii myynti
 dokumentoitu lähteineen: `kokeet/06-p1-tekoalypalvelu-vaihtoehdot.md`. Suositus B, vara A.
 Tallennus: salattu paikallinen työasema Suomessa, ei pilveä. Ei toimeenpantu; odottaa
 omistajan päätöstä ja B:n ehtojen todentamista tililtä.
+
+## 2026-09-17 · Koe 06, P1: toteutukseksi Amazon Bedrock EU:ssa kuudella ehdolla; tallennus hyväksytty
+
+**Päätös (omistaja):** ensisijainen tekoälytoteutus on Claude Amazon Bedrockissa EU-alueella.
+Ehdot: retention-tila `none`; malli, joka toimii siinä; vain EU In-Region tai EU Geographic
+Cross-Region -inference (global kielletty asiakasdatalle); testaus API-kutsulla ilman
+asiakasdataa ennen sopimuksen täyttöä; sopimukseen vain testattu malli, retention ja alue;
+jos jokin ehto ei toteudu, fallback Anthropicin oma API todellisella retentionilla, ehtoja ei
+löysätä. Testiskripti: `kokeet/06-p1-bedrock-testi.py` (testaamaton ennen tilin luontia).
+
+**Tallennus:** paikallinen salattu tallennus hyväksytty (FileVault, erillinen salattu
+levykuva, ei pilvisynkronointia). FileVault ja synkronoinnit tarkistettu komentoriviltä:
+ehdot täyttyvät; levykuva luodaan ennen ensimmäistä aineistoa.

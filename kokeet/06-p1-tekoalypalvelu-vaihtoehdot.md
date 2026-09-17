@@ -56,7 +56,24 @@ samaan fyysiseen hallintaan. Sopimusteksti: "salattu tallennus Palveluntarjoajan
 työasemalla Suomessa; ei pilvitallennusta". Omistajan vahvistettava: FileVault on päällä
 (UNKNOWN Claudelle) ja että työaseman iCloud- tai muu synkronointi ei kata kansiota.
 
-## 5. Päätettävää (omistaja; GPT tarkistaa sanamuodon)
+## 5a. PÄÄTÖS 2026-09-17 (omistaja)
+
+**Ensisijainen toteutus: B, Amazon Bedrock EU:ssa**, pakollisin ehdoin ennen asiakasdatan
+käyttöä: (1) tili/projekti tilassa `data_retention_mode: none`; (2) Claude-malli, joka toimii
+tässä tilassa, ei retentionia vaativaa mallia; (3) vain EU Geographic Cross-Region- tai EU
+In-Region -inference, global kielletty asiakasdatalle; (4) asetukset testataan API-kutsulla
+ilman asiakasdataa ennen sopimuksen täyttämistä (`kokeet/06-p1-bedrock-testi.py`); (5)
+sopimukseen kirjataan vasta testatun toteutuksen todellinen malli, retention ja
+käsittelyalue; (6) jos jokin ehto ei toteudu, fallback on Anthropicin oma API todellisella
+retentionilla; ehtoja ei löysätä Bedrockin saamiseksi toimimaan.
+
+**Tallennus hyväksytty:** paikallinen salattu tallennus, ehdoin FileVault päällä, erillinen
+salattu levykuva, ei pilvisynkronointia. Tarkistettu 2026-09-17 (FACT, komentorivi):
+FileVault päällä; iCloudin Työpöytä ja Dokumentit -synkronointi pois; Työpöytä ei ole
+ohjattu muuhun pilvipalveluun; Time Machine -kohteita ei ole. Levykuva luodaan ennen
+ensimmäisen aineiston vastaanottoa (omistaja asettaa salasanan itse).
+
+## 5. Päätettävää (alkuperäinen; ratkaistu kohdassa 5a)
 
 1. Valitaanko B (suositus) vai A? B vaatii omistajalta AWS-tilin luonnin oikeushenkilön
    nimiin (0 €, maksukortti tilille; ei kuluja ennen koe 07:ää). Claude ei luo tilejä.
