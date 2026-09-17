@@ -20,8 +20,7 @@ kirjoitan kylmästi, joten sanon heti, mistä on kyse.
 
 Tarkastamme yrityksen 2 - 3 vuoden ostolaskut ja maksut ja etsimme niistä rahaa,
 joka on maksettu turhaan: tuplaan maksetut laskut, käyttämättä jääneet hyvitykset,
-sopimuksesta poikkeavat hinnat ja vastaavat. Suurille yrityksille tätä on tehty
-pitkään tulospalkkiolla. Pk-yrityksille ei juuri kukaan.
+sopimuksesta poikkeavat hinnat ja vastaavat.
 
 Ehto on yksi: **maksatte vain, jos rahaa tulee oikeasti takaisin tilillenne**, ja
 silloin 20 % palautuneesta summasta. Ei aloitusmaksua, ei tuntilaskutusta, ei
@@ -99,13 +98,24 @@ kerralla ei tavoitettu ketään. Ei vastaajaviestiä toisella kerralla.
 
 Ei alennuksia, ei vaihtoehtoisia malleja, ei lupauksia löydöistä.
 
-## 5. Piilopääomakysymykset (esitetään aina ennen sopimusta; kirjataan)
+## 5. Piilopääomakysymykset (esitetään aina ennen sopimusta; kirjataan sanatarkasti)
 
-1. "Oletteko kuulleet minusta tai [Oikeushenkilö Oy]:stä aiemmin, tai tunnetteko
-   jonkun, joka tuntee?" → EI / KYLLÄ (kuka, mistä). KYLLÄ → tapaus ei voi olla PASS.
-2. "Mistä tarkistitte meidät ennen kuin vastasitte?" → sivu / y-tunnus (YTJ, Finder,
-   Asiakastieto) / hakukone / ei mistään / muu. Kirjataan myös, jos vastaaja mainitsee
-   oikeushenkilön historian, iän tai liikevaihdon.
+Luokittelusääntö: protokolla §8. Pelkkä julkinen rekisteritarkistus ei kontaminoi;
+ennen koetta kertyneen historian vaikutus päätökseen kontaminoi.
+
+1. **Q1:** "Oletteko kuulleet minusta tai [Oikeushenkilö Oy]:stä aiemmin, tai tunnetteko
+   jonkun, joka tuntee?" → EI / KYLLÄ (kuka, mistä). KYLLÄ → potentiaalisesti
+   piilopääoma-avusteinen, ei PASS.
+2. **Q2:** "Mistä tarkistitte meidät ennen kuin vastasitte?" → sivu / y-tunnus
+   julkisesta rekisteristä (YTJ, Virre, Finder, Asiakastieto) / hakukone / ei mistään /
+   muu. Tämä on tiedoksi; pelkkä tarkistus ei kontaminoi.
+3. **Q3:** "Vaikuttiko päätökseenne jokin, mitä saitte tietää [Oikeushenkilö Oy]:stä:
+   sen ikä, liikevaihto, aiempi toiminta, asiakkaat tai joku tuttu?" → EI / KYLLÄ (mikä).
+   KYLLÄ → potentiaalisesti piilopääoma-avusteinen, ei PASS.
+
+Kirjataan myös spontaanit viittaukset oikeushenkilön historiaan, ikään tai
+liikevaihteeseen päätöksen perusteena (sääntö (c)) ja se, tuliko yhteys kolmannen
+osapuolen kautta (sääntö (d)).
 
 ## 6. Estolista
 

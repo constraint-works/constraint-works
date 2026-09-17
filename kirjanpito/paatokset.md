@@ -531,3 +531,37 @@ ei voida sulkea pois.
 **Seuraavaksi:** GPT:n riippumaton tuhoamisyritys protokollaan ja viesteihin; korjaukset;
 lukitus L1; omistajan lupa rahankäyttöön ja brändin nimelle; käynnistys aikaisintaan
 2026-10-05.
+
+## 2026-09-17 · Koe 06: GPT:n tuhoamisyritys (READY AFTER CORRECTIONS), kuusi korjausta tehty
+
+**Tila:** protokolla yhä LUONNOS. Ei L1-otantaa, ei rahaa, ei brändin nimeä, ei
+käynnistystä. GPT tarkistaa korjausdiffin ennen lukitusta.
+
+**Korjaukset (korvaavat edellisen merkinnän kohdat 6, 8 ja 9 siltä osin kuin ristiriita):**
+1. Liikevaihtoraja ≥ 0,5 M€ poistettu PASS-ehdosta; se olisi ollut otannan jälkeinen
+   populaatioehto. Populaatio on K1 - K8 ja lukittu ennen otantaa. PASS-PIENI poistettu.
+   PRH-tilinpäätösosto (15 €) poistettu; budjetti ≤ 68 €, katto 120 €. Ostovolyymi
+   kuvataan PASS-aineiston loppusummasta suuruusluokkana, ei PASS-ehtona.
+2. Nimittäjäketju eksplisiittiseksi: otos N_s → tavoitettavissa N_ct → kontaktoitu N_c →
+   tavoitettu N_r → kiinnostunut N_i → sopimus N_k → aineisto N_d → PASS N_p. FAIL vaatii
+   N_r ≥ 60 (tavoitetut, ei kontaktoidut eikä otos); aiempi "N_c ≥ 100 ja C4/N_c ≥ 50 %"
+   ja "120 yrityksen otoksesta" poistettu. Huono toimitettavuus tuottaa CHANNEL UNKNOWNin,
+   ei FAILia. Nollatulos kertoo: tavoitetuista alle 5 % (95 %:n yläraja) eteni sopimukseen
+   ja aineistoon; ei mitään tavoittamattomista.
+3. Kirjattu, että koe testaa yhtä lukittua hankintapakettia (tuore brändi + 20 % + ≥ 24 kk
+   data + tekoälykäsittely + ei referenssejä + kylmä sähköposti/puhelu + populaatio K1 - K8
+   + suomi), ei kaikkia recovery-ACCESS-reittejä. FAIL nimetty pakettikohtaiseksi.
+4. V1:stä poistettu väite "Suurille yrityksille tätä on tehty pitkään tulospalkkiolla.
+   Pk-yrityksille ei juuri kukaan." Tarjous ei tarvitse sitä.
+5. Piilopääomasääntö objektiiviseksi: julkinen rekisteritarkistus (YTJ, Virre, Finder,
+   Asiakastieto) ei kontaminoi, koska oikeushenkilön käyttö juridisena taustana on
+   sallittu. Potentiaalisesti piilopääoma-avusteinen, jos Q1 = KYLLÄ (tunsi ennestään),
+   Q3 = KYLLÄ (yhtiön ennen koetta kertynyt historia vaikutti), spontaani viittaus
+   historiaan päätöksen perusteena (kaksi luokittelijaa) tai yhteys omistajan tuntevan
+   kolmannen kautta. Uusi Q3 lisätty viesteihin ja lokiin.
+6. AI-attribuutiosta poistettu mittaamattomat vastafaktuaaliväitteet ("ihmiselle päiviä",
+   "maksullinen tietopalvelu", "lakimies"). Kirjataan vain mitattu AI-avusteinen aika ja
+   kustannus per työvaihe; ihmisen vastafaktuaali on INFERENCE, ei tulos.
+
+**Ristiriitatarkistus:** markkinavertailu (§4 "ostovolyymi todetaan aineistosta"),
+viesti, lokipohja ja tämä loki tarkistettu; vanhat muotoilut poistettu tai korvattu.

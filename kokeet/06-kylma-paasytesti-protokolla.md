@@ -33,6 +33,17 @@ Portti on recovery audit -mekanismin ensimmäinen aito portti. Aiempi mittaus
 osoittavat, että pääsy dataan ja sopimukseen on tämän perheen tyypillinen
 katkeamiskohta. Sitä ei ole koskaan mitattu neutraalisti.
 
+**Koe testaa yhtä lukittua hankintapakettia (acquisition bundle), ei kaikkia
+pääsyreittejä.** Paketti: tuore brändi ilman referenssejä + oikea oikeushenkilö
+alatunnisteessa + 20 %:n tulospalkkio vain toteutuneesta + pyyntö ≥ 24 kk
+ostolasku- ja maksuaineistosta + tekoälykäsittely sopimuksessa näkyvissä + kylmä
+sähköposti yleisosoitteeseen, yksi muistutus ja puhelu + §4:n populaatio + suomi.
+Jokainen osa on lukittu, eikä koe erota, mikä osa ratkaisi tuloksen. Tulos koskee
+tätä pakettia. Se ei yksin sano mitään muista recovery-ACCESS-reiteistä
+(sisääntuleva, tilitoimistokumppani, maksettu mainonta, alustat, suositukset, kiinteä
+hinta, muu populaatio tai markkina), eikä siitä, toimisiko sama paketti eri
+kokoonpanolla.
+
 **Mitä koe ei testaa:** onko aineistossa virheitä, saadaanko rahaa takaisin, maksaako
 asiakas, mikä on virhetaso, skaalautuuko, kannattaako mekanismi. Kokeen aikana
 ei analysoida yhtään laskua, ei rakenneta recovery-työkalua, ei arvioida
@@ -84,9 +95,9 @@ julkaisut eivät mainitse koe 06:n brändiä.
 | R6 | Prepaid-puhelinliittymä brändille | Mekanismi (identiteetin erottelu; numerohaku ei saa johtaa olemassa olevaan yritykseen) | n. 10 (UNKNOWN tarkka) | 0,5 h | Puhelinvaiheen tavoittavuus ja identiteetin neutraalius |
 | R7 | Toimitettavuustesti: viesti kolmeen omaan testilaatikkoon (Gmail, Outlook, kotimainen) ennen aaltoa 1 | Tutkimuksen hallinto | 0 | 0,2 h | Erottaa "meni roskapostiin" hylkäyksestä |
 | R8 | Otantakehikko, otos, tiivisteet, lokipohja, toinen luokittelija | Tutkimuksen hallinto | 0 | 1 h | Otoksen lukitus ja tuloksen tarkistettavuus |
-| R9 | Tilinpäätöksen osto PASS-yrityksestä (Virre 5,02 €) | Tutkimuksen hallinto | ≤ 15 (≤ 3 kpl) | 0,2 h | Populaatiojäsenyyden ja kokoluokan varmennus PASSissa |
 
-Yhteensä: 22 - 73 € ja noin 7 h ennen ensimmäistä viestiä. Se, mitä 1 000 eurolla **ei**
+Yhteensä: 22 - 58 € ja noin 7 h ennen ensimmäistä viestiä. Jokaisen rakennettavan
+kohdalla kirjataan mitattu aika ja mallien käyttö (§11). Se, mitä 1 000 eurolla **ei**
 voi rakentaa: referenssejä, ikää, arvioita, tunnettua nimeä, suositteluja,
 lakimiehen tarkastamia sopimuksia. Koe mittaa, riittääkö läpinäkyvyys + oikea
 oikeushenkilö + selkeä riskitön ehto korvaamaan ne ensimmäisessä sopimuksessa.
@@ -117,7 +128,10 @@ Suppilo ja jakaumat: `etsinta/KOE06-MARKKINAVERTAILU.md` §4.
 **Mitä kehikko ei sisällä:** ostovolyymia (ei julkista ilmaista lähdettä; PRH:n
 digitilinpäätösdata kattaa n. 5 % ja vain tuloslaskelma/tase), yhteystietoja (YTJ:ssä
 verkkosivu 38,4 %:lla, ei sähköposteja eikä puhelimia). Yhteystiedon löytyminen on
-osa saavutettavuusmittausta (§7).
+osa saavutettavuusmittausta (§7). **Populaatio on K1 - K8 eikä mitään muuta.**
+Otannan jälkeen ei lisätä populaatioehtoja (esim. liikevaihtorajaa). PASS-yrityksen
+ostovolyymi kuvataan aineiston loppusummasta suuruusluokkana (§9 kohta 2) ja
+raportoidaan mekanismin relevanssin arvioimiseksi; se ei ole PASS-ehto.
 
 ## 5. Mitä data ja mikä oikeus oikeasti tarvitaan
 
@@ -238,13 +252,45 @@ Per yritys (`06-loki-pohja.md`, tunnisteet K06-nnn, ei nimiä, ei y-tunnuksia re
 | R-DATA | Aineisto vastaanotettu, muototarkistus kesken |
 | PASS | §9:n ehdot todennettu |
 | VAIHE | Missä askeleessa ratkaiseva myönteinen tai kielteinen vastaus syntyi: A1 / A2 / A3 / A4 |
-| PIILOPÄÄOMA | Tapaamisessa tai sopimusvaiheessa kysytään aina samat kaksi kysymystä (`06-viesti.md` §5): tunsiko vastaaja lähettäjän tai oikeushenkilön ennestään; mistä hän tarkisti meidät (sivu, y-tunnus, haku, ei mistään). Vastaus kirjataan. Lisäksi kirjataan spontaanit signaalit: mainitsiko olemassa olevan yrityksen, kysyikö referenssejä, epäilikö tekoälyn kirjoittamaksi tai roskapostiksi |
+| PIILOPÄÄOMA | Tapaamisessa tai sopimusvaiheessa kysytään aina samat kolme kysymystä (`06-viesti.md` §5): Q1 tunsiko vastaaja lähettäjän tai oikeushenkilön ennestään; Q2 mistä hän tarkisti meidät (sivu, y-tunnus julkisesta rekisteristä, haku, ei mistään); Q3 vaikuttiko päätökseen jokin oikeushenkilöstä saatu tieto (ikä, liikevaihto, historia, asiakkaat, tuttu). Vastaukset kirjataan sanatarkasti. Lisäksi kirjataan spontaanit signaalit: mainitsiko olemassa olevan yrityksen historian, kysyikö referenssejä, epäilikö tekoälyn kirjoittamaksi tai roskapostiksi. Luokittelusääntö alla |
 | AIKA | Omistajan minuutit per askel; mallien käyttö (kyllä/ei, mihin) |
 
-Kokonaismittarit: kontaktoidut N_c (C1 tai A3 tehty), tavoitettuaste C4/N_c,
-vastausaste (mikä tahansa vastaus)/N_c, kiinnostusaste R-INT/N_c, PASS-määrä, aika
-ensimmäiseen PASSiin, omistajan tunnit askeleittain, eurot, kieltäytymissyiden
-jakauma, piilopääomasignaalien määrä.
+**Piilopääomaluokittelu (objektiivinen sääntö, sovelletaan jokaiseen R-CONTRACT-,
+R-DATA- ja PASS-tapaukseen):**
+- **Ei kontaminoi:** vastaaja tarkisti oikeushenkilön julkisesta lähteestä (YTJ,
+  Virre, Finder, Asiakastieto, hakukone) ja totesi sen olemassa olevaksi, aktiiviseksi
+  tai rekisteröidyksi. Olemassa olevan yhtiön käyttö juridisena taustana on sallittu
+  (oikeushenkilösääntö), ja sen tarkistaminen on osa sitä, mitä kuka tahansa tekisi.
+- **POTENTIAALISESTI PIILOPÄÄOMA-AVUSTEINEN**, jos vähintään yksi täyttyy:
+  (a) Q1 = KYLLÄ (tunsi lähettäjän tai oikeushenkilön ennestään, suoraan tai tutun
+  kautta); (b) Q3 = KYLLÄ (vastaaja sanoo, että yhtiön ennen koetta kertynyt ikä,
+  liikevaihto, historia, asiakkaat, maine tai tuttuus vaikutti päätökseen);
+  (c) vastaaja viittaa kirjallisesti tai puhelumuistiinpanon mukaan spontaanisti
+  näihin seikkoihin päätöksen perusteena ennen sopimusta tai sen yhteydessä;
+  (d) yhteys syntyi kolmannen osapuolen kautta, joka tuntee omistajan.
+  (a), (b) ja (d) ovat mekaanisia; (c) vaatii molempien luokittelijoiden saman
+  tulkinnan sanatarkasta tekstistä, muuten "epäselvä".
+- Tapaus, joka on potentiaalisesti piilopääoma-avusteinen, raportoidaan erikseen eikä
+  kelpaa vipuvaikutuksen näytöksi (LAHTORESURSSISAANTO §3). Se ei ole PASS.
+
+**Nimittäjäketju (raportoidaan aina kokonaisuudessaan, jokainen luku erikseen):**
+
+| Taso | Määritelmä | Tunnus |
+|---|---|---|
+| otos | arvotut rivit aalloissa 1 - 2, poissulut korvattu varalta | N_s (= 120, jos varaa riittää) |
+| tavoitettavissa | yleisosoite, lomake tai puhelin löytyi (ei C0) | N_ct |
+| kontaktoitu | A1 lähetetty tai A3 yritetty | N_c |
+| tavoitettu | C4: näyttö, että yrityksen henkilö luki tai kuuli tarjouksen | N_r |
+| kiinnostunut | R-INT | N_i |
+| sopimus | R-CONTRACT (molemmat allekirjoitettu) | N_k |
+| aineisto | R-DATA | N_d |
+| PASS | §9 | N_p |
+
+Jokainen suhdeluku ilmoitetaan nimittäjänsä kanssa (esim. N_r/N_c, N_i/N_r, N_p/N_r).
+Hylkäysasteita ei koskaan lasketa kontaktoiduista vaan tavoitetuista: kontaktoitu
+mutta ei tavoitettu on kanavatulos, ei tarjouksen hylkäys. Muut mittarit: aika
+ensimmäiseen PASSiin, omistajan tunnit askeleittain, eurot, kieltäytymissyiden jakauma
+tavoitetuista, piilopääomasignaalien määrä.
 
 **Luokittelu:** omistaja kirjaa; Claude luokittelee itsenäisesti samasta raakatekstistä
 (vastaukset ja puhelumuistiinpanot ilman nimiä). C4-, R-NO-luokka ja PASS vaativat
@@ -254,19 +300,18 @@ molempien saman luokituksen; erimielisyys kirjataan "epäselvä" eikä laske kum
 
 **ACCESS PASS:** vähintään yksi yritys, jolle kaikki seuraavat ovat tosia:
 1. Kuuluu lukittuun otokseen (K06-001 - 120 tai varalta korvattu ennen yhteydenottoa)
-   eikä ole poissulkukoodilla merkitty; PRH:n tilinpäätöksestä (5,02 €) tarkistetaan,
-   että yritys on aktiivinen ja sen liikevaihto on ≥ 0,5 M€ viimeisellä tilikaudella
-   (populaation ostointensiivisyyden vähimmäisvarmistus; jos alle, tulos on
-   PASS-PIENI ja se raportoidaan erikseen, ei lasketa PASSiksi).
+   eikä ole poissulkukoodilla merkitty. Populaatio on §4:n K1 - K8; otannan jälkeen ei
+   sovelleta muita ehtoja.
 2. Aineisto on vastaanotettu ja täyttää §5:n vähimmäisvaatimuksen. Tarkistus rajataan:
    tiedoston avaus, sarakkeiden olemassaolo, rivimäärä, päivämääräväli, loppusumma.
    Ei toimittajakohtaista tarkastelua, ei tuplahakua, ei mitään analyysiä. Tarkistus
-   kirjataan (rivimäärä, kuukaudet, summa suuruusluokkana).
+   kirjataan (rivimäärä, kuukaudet, ostovolyymi suuruusluokkana: alle 0,5 M€ / 0,5 - 2 M€ /
+   yli 2 M€ per 24 kk). Suuruusluokka raportoidaan mekanismin relevanssin kuvaamiseksi;
+   se ei vaikuta PASS-tulokseen.
 3. Käsittely- ja salassapitosopimus allekirjoitettu (§5 i), tekoälykäsittely mukana.
 4. Palkkioehdot allekirjoitettu (§5 ii): 20 % vain toteutuneesta ja vahvistetusta.
-5. Piilopääomatarkistus: vastaaja ilmoittaa, ettei tuntenut lähettäjää eikä
-   oikeushenkilöä ennestään. Jos tunsi, tapaus on PIILOPÄÄOMA-AVUSTEINEN eikä PASS
-   (LAHTORESURSSISAANTO §3).
+5. Piilopääomaluokittelu (§8) antaa "ei kontaminoi". Jos tapaus on potentiaalisesti
+   piilopääoma-avusteinen, se raportoidaan erikseen eikä ole PASS.
 6. Reitti kirjataan: miten tuntematon henkilö olisi saanut saman (kehikko, viesti,
    askel, aika, eurot).
 
@@ -275,26 +320,36 @@ ylitetty kerran neutraalisti. Seuraava askel PASSin jälkeen: koe 07 (analyysi)
 suunnitellaan ja lukitaan ennen aineiston avaamista; sopimus velvoittaa meidät
 tekemään analyysin, joten koe 07 ei ole vapaaehtoinen.
 
-**ACCESS FAIL (reittikohtainen):** 0 PASSia, kun (a) molemmat aallot on ajettu
-(N_c ≥ 100), (b) tavoitettuaste C4/N_c ≥ 50 %, (c) takaraja ohi. Falsifioi
-hypoteesin: *"Tuore brändi, oikea oikeushenkilö, läpinäkyvät ehdot ja suomenkielinen
-kylmä sähköposti + puhelu tuottavat ensimmäisen data + tulospalkkio -asiakkaan
-120 yrityksen otoksesta suomalaisista ostointensiivisistä osakeyhtiöistä 9 viikossa."*
-CALC: 0/120 → onnistumisasteen 95 %:n yläraja noin 2,5 % (kolmen sääntö); 0/60 → 5 %.
+**ACCESS FAIL (pakettikohtainen):** 0 PASSia, kun (a) molemmat aallot on ajettu,
+(b) **tavoitettuja on vähintään 60 (N_r ≥ 60)**, (c) takaraja ohi. FAILin nimittäjä on
+tavoitetut, ei kontaktoidut eikä otos: yritys, joka ei todistettavasti lukenut tai
+kuullut tarjousta, ei ole hylännyt sitä. Huono toimitettavuus ei siis voi tuottaa
+FAILia; se tuottaa CHANNEL UNKNOWNin. Falsifioi hypoteesin: *"§1:n hankintapaketti
+tuottaa ensimmäisen data + tulospalkkio -asiakkaan vähintään 60:stä tavoitetusta
+yrityksestä, jotka on arvottu §4:n populaatiosta, 9 viikossa."*
+CALC (kolmen sääntö): 0/60 tavoitetusta → onnistumisasteen 95 %:n yläraja 5 %
+tavoitettua kohden; 0/100 → 3 %. Nollatulos kertoo altistetuista yrityksistä tämän:
+niistä, jotka lukivat tai kuulivat tämän tarjouksen, alle 5 % (95 %:n yläraja) eteni
+sopimukseen ja aineistoon 9 viikossa. Se ei kerro mitään yrityksistä, joita ei
+tavoitettu, eikä siitä, miksi tavoitetut hylkäsivät (kieltäytymissyyt raportoidaan
+erikseen, N_r nimittäjänä).
 
 FAIL **ei** falsifioi: recovery audit -mekanismiperhettä; muita pääsyreittejä
 (sisääntuleva, tilitoimistokumppani, maksettu mainonta, alustat, suositukset
 ensimmäisen asiakkaan jälkeen); muita markkinoita; muita tarjousmuotoja (kiinteä
-hinta, pilottimaksu); pidempää aikaikkunaa tai suurempaa otosta; eikä sitä, että
-sama reitti toimisi vakiintuneelle toimijalle. Kieltäytymissyiden jakauma kertoo,
-mikä portin osa petti (huomio, luottamus vai tarjous), ja se kirjataan seuraavan
-kokeen syötteeksi.
+hinta, pilottimaksu); paketin muita kokoonpanoja; pidempää aikaikkunaa tai
+suurempaa otosta; eikä sitä, että sama paketti toimisi vakiintuneelle toimijalle.
+Kieltäytymissyiden jakauma kertoo, mikä portin osa petti (huomio, luottamus vai
+tarjous), ja se kirjataan seuraavan kokeen syötteeksi.
 
 **UNKNOWN, kolme muotoa:**
-- **CHANNEL UNKNOWN:** tavoitettuaste < 40 % aallon 1 D21:nä tai < 50 % lopussa.
-  Koe ei erota tarjouksen hylkäystä tavoittamattomuudesta. Kirjataan tuoreen
-  verkkotunnuksen ja yleisosoitteiden rajoitteena. Jatko päätetään erikseen
-  (varamarkkina Ruotsi tai kirjekanava vaatisi uuden budjettipäätöksen).
+- **CHANNEL UNKNOWN:** tavoitettuaste N_r/N_c < 40 % aallon 1 D21:nä (aalto 2 ei
+  käynnisty), tai lopussa N_r < 60. Koe ei tällöin erota tarjouksen hylkäystä
+  tavoittamattomuudesta riittävällä määrällä. Kirjataan tuoreen verkkotunnuksen ja
+  yleisosoitteiden rajoitteena; nimittäjäketju raportoidaan silti kokonaan (tavoitettujen
+  joukossa syntyneet R-NO/R-INT kirjataan, mutta niistä ei tehdä FAIL-päätelmää).
+  Jatko päätetään erikseen (varamarkkina Ruotsi tai kirjekanava vaatisi uuden
+  budjettipäätöksen).
 - **ACCESS UNKNOWN:** 0 PASSia mutta A6-jatkon jälkeen vähintään yksi R-CONTRACT tai
   R-DATA (portti puoliksi auki: sopimus ilman aineistoa tai aineisto ilman
   sopimusta). Ei uusia yhteydenottoja; tapaus seurataan 2027-01-31 asti ja tulos
@@ -304,8 +359,8 @@ kokeen syötteeksi.
 
 **Mitä nollatulos ei saa tehdä:** yhden markkinan, yhden viestiversion ja yhden
 kanavayhdistelmän FAIL ei tapa mekanismiperhettä. Se tappaa vain yllä kursivoidun
-hypoteesin. Perheen tappamiseen tarvittaisiin vähintään kaksi riippumatonta reittiä
-FAIL-tuloksella samasta populaatiosta.
+hypoteesin yhdestä hankintapaketista. Perheen tappamiseen tarvittaisiin vähintään
+kaksi riippumatonta pääsyreittiä FAIL-tuloksella samasta populaatiosta.
 
 ## 10. Budjetti ex ante
 
@@ -316,9 +371,8 @@ FAIL-tuloksella samasta populaatiosta.
 | Prepaid-liittymä | 10 | Puhelinvaiheen tavoitettuaste; identiteetin erottelu numerohaussa |
 | Sivun isännöinti | 0 | Uskottavuus (tarkistettavuus) |
 | Sopimuspohjat, tietosuojaseloste, esimerkkiraportti | 0 | Portit (b) ja (c) |
-| PRH-tilinpäätökset ≤ 3 | 15 | PASS-ehdon 1 varmennus |
 | Varaus DNS/virhe | 10 | |
-| **Yhteensä** | **≤ 83, katto 120** | |
+| **Yhteensä** | **≤ 68, katto 120** | |
 
 Ei budjetoitu, tietoisesti: juristin tarkastus (200 - 500 €; sopimusriski kirjattu),
 kirjeposti (3,00 € × 120 = 360 €), maksettu mainonta, yhteystietodatan osto,
@@ -337,37 +391,40 @@ Koko tutkimuksen kohde on "yksi ihminen + kaksi mallia + 1 000 €". Tästä kok
 halutaan myöhemmin sanoa jotain mallien vaikutuksesta ilman keinotekoista A/B-koetta,
 joka puolittaisi otoksen ja heikentäisi pääkokeen evidenssiä.
 
-**Mitä mallit tekevät, mitä yksi ihminen ei realistisesti tekisi samassa ajassa:**
-(1) kehikon rakennus kahdesta avoimesta massadatasta (463 805 + 384 627 riviä,
-liitos, suodatus) alle tunnissa; ihmiselle päiviä tai maksullinen tietopalvelu;
-(2) sopimuspohjien, tietosuojaselosteen ja sivun luonnostelu tunneissa; ihmiselle
-päiviä tai lakimies; (3) yhteystietojen haku 120 yritykselle avustettuna; (4)
-kieltäytymissyiden ja vastausten riippumaton toinen luokittelu.
+**Mitä mitataan (FACT-tason kirjaus):** jokaisesta mallien tekemästä tai avustamasta
+työvaiheesta kirjataan mitattu aika (mallin ajo ja omistajan tarkistus erikseen) ja
+kustannus (0 € tilausten sisällä; rajapintakulut, jos niitä syntyy): (1) kehikon
+rakennus kahdesta avoimesta massadatasta (463 805 + 384 627 riviä, liitos, suodatus;
+mitattu 2026-09-16: skriptin laatiminen ja ajo yhdessä istunnossa, ajo 7 s);
+(2) sopimuspohjien, tietosuojaselosteen ja sivun luonnostelu; (3) yhteystietojen
+haku 120 yritykselle; (4) viestien ja lokin laadinta; (5) vastausten riippumaton
+toinen luokittelu. Lisäksi kirjataan, mitä mallit eivät tee: puhelut, tapaamiset,
+allekirjoitus, luottamuksen synnyttäminen ihmisenä. Jos PASS syntyy vasta askeleessa
+A3 tai A4, ratkaiseva askel oli ihmisen; mallien osuus oli infrastruktuuri ja
+valmistelu. Kirjataan myös negatiivinen vaikutus: vastaanottajien maininnat "tekoälyn
+kirjoittama" tai "roskaposti".
 
-**Mitä mallit vain nopeuttavat:** viestin kirjoittaminen (ihminen kirjoittaisi saman
-hitaammin), lokin pito, aikataulun seuranta, esimerkkiraportti.
-
-**Mitä mallit eivät tee:** puhelut, tapaamiset, allekirjoitus, luottamuksen
-synnyttäminen ihmisenä. Jos PASS syntyy vasta askeleessa A3 tai A4, ratkaiseva askel
-oli ihmisen; mallien osuus oli infrastruktuuri ja valmistelu.
+**Mitä ei väitetä:** ihmisen vastafaktuaalista aikaa tai kustannusta ilman malleja
+ei mitata, koska kontrollia ei ajeta. Kaikki "ilman malleja olisi vienyt X"
+-lausumat ovat INFERENCE, eivät tulos, ja ne merkitään sellaisiksi, jos niitä
+esitetään. Tämän kokeen tulos on mitattu AI-avusteinen aika ja kustannus per
+työvaihe, ei vipukerroin.
 
 **Mikä lopputulos ei riitä osoittamaan AI-vipua:** PASS osoittaa, että tuntematon
-toimija näillä työkaluilla ylitti portin. Se ei osoita, ettei sama ihminen ilman
-malleja olisi ylittänyt sitä; vastafaktuaalia ei ajeta. But-for-arvio tehdään
-kirjatuista tunneista: paljonko rakennus- ja hakuaika olisi ollut ilman malleja
-(arvio, merkitään INFERENCE). Myös negatiivinen vaikutus mitataan: jos vastaanottajat
-mainitsevat "tekoälyn kirjoittama" tai "roskaposti", se kirjataan mallien
-kustannuksena. FAIL ei osoita, että mallit olivat hyödyttömiä, eikä PASS, että ne
-olivat välttämättömiä. Attribuutioväite rajataan: "mallit laskivat portin rakennuksen
-kustannuksen X tunnista Y tuntiin" (mitattu) ja "mallit eivät vaikuttaneet
-hyväksymisasteeseen tunnistettavasti" tai "vaikuttivat" (vain jos vastaajat mainitsevat).
+toimija näillä työkaluilla ylitti portin mitatulla ajalla ja rahalla. Se ei osoita,
+ettei sama ihminen ilman malleja olisi ylittänyt sitä. FAIL ei osoita, että mallit
+olivat hyödyttömiä, eikä PASS, että ne olivat välttämättömiä. Attribuutioväite
+rajataan: "portin rakennus ja yhteydenotto maksoivat mallien kanssa X tuntia
+ihmisaikaa ja Y euroa" (mitattu) sekä "vastaajat mainitsivat / eivät maininneet
+tekoälyä" (mitattu). Vipukertoimen arviointi jää myöhempään, erikseen suunniteltuun
+vertailuun, jos sellainen joskus tehdään.
 
 ## 12. Hyökkäys omaa protokollaa vastaan
 
 | Uhka | Mekanismi | Korjaus tässä protokollassa | Jäännösriski |
 |---|---|---|---|
-| Piilopääoma: omistajan nimi | Vastaanottaja hakee nimen ja löytää olemassa olevan yrityksen tai ammatillisen historian | Nimi pakollinen (203 §, rehellisyys); piilopääomakysymykset jokaisessa tapaamisessa; tunsi ennestään → ei PASS; spontaanit maininnat kirjataan | Hiljainen vaikutus (haki, ei sano) jää mittaamatta. Hyväksytty ja raportoidaan rajoitteena |
-| Piilopääoma: oikeushenkilön ikä | Alatunnisteen y-tunnus paljastaa yrityksen iän ja liikevaihdon YTJ:stä/Finderistä; tuntematon henkilö uudella Oy:llä näyttäisi eri | Oikeushenkilösääntö sallii; ei mainita ikää; kirjataan, jos vastaaja viittaa siihen | Todellinen jäännöskonfoundi; sen suunta on PASSia suosiva. Jos PASS syntyy ja vastaaja mainitsee yrityksen historian, tulos merkitään PIILOPÄÄOMA-AVUSTEINEN |
+| Piilopääoma: omistajan nimi | Vastaanottaja hakee nimen ja löytää olemassa olevan yrityksen tai ammatillisen historian | Nimi pakollinen (203 §, rehellisyys); kolme piilopääomakysymystä jokaisessa tapaamisessa; §8:n luokittelusääntö (Q1 = KYLLÄ tai Q3 = KYLLÄ tai spontaani viittaus → potentiaalisesti piilopääoma-avusteinen, ei PASS) | Hiljainen vaikutus (haki, ei sano, ei myönnä Q3:ssa) jää mittaamatta. Hyväksytty ja raportoidaan rajoitteena |
+| Piilopääoma: oikeushenkilön ikä | Alatunnisteen y-tunnus paljastaa yrityksen iän ja liikevaihdon YTJ:stä/Finderistä; tuntematon henkilö uudella Oy:llä näyttäisi eri | Oikeushenkilösääntö sallii; pelkkä tarkistus julkisesta rekisteristä ei kontaminoi (§8); ei mainita ikää tai historiaa; Q3 kysyy suoraan, vaikuttiko historia | Todellinen jäännöskonfoundi; sen suunta on PASSia suosiva. Jos Q3 = KYLLÄ tai vastaaja viittaa spontaanisti historiaan, tulos on potentiaalisesti piilopääoma-avusteinen |
 | Piilopääoma: omistajan myynti- tai puhelintaito | Tavallinen osaaminen säännön mukaan | Käsikirjoitus P1 kiinteä; poikkeamat kirjataan | Ihmisen ääni on osa mekanismia, ei konfoundi |
 | Valikoituminen: poissulut | Omistaja voi sulkea pois "vaikeita" yrityksiä | Vain viisi koodia; määrä committoidaan; > 15 kirjataan havaintona | Koodien väärinkäyttö ei ole tarkistettavissa ulkoa; luottamus omistajaan |
 | Valikoituminen: kehikko | K8 suosii kannattavia; yhteystiedon löytyminen suosii digitaalisia | Raportoidaan C0-osuus ja jakaumat; FAIL koskee tätä populaatiota | Tulos ei yleisty tappiollisiin tai verkossa näkymättömiin yrityksiin |
@@ -375,8 +432,9 @@ hyväksymisasteeseen tunnistettavasti" tai "vaikuttivat" (vain jos vastaajat mai
 | Kanava: yleisosoitteen seulonta | Vaihde/assistentti ei välitä | A3 pyytää vastuuhenkilöä | Osa hylkäyksistä on portinvartijan, ei päättäjän |
 | Kanava: ajoitus | Loka-marraskuu, tilinpäätöskiireet | Kirjataan; ei korjata | n = 1 ajankohta |
 | Markkina | Suomi pieni; tulospalkkio vieras | Rajattu johtopäätös; varamarkkina kirjattu | Ei yleisty |
-| Liian heikko PASS | Osittainen CSV + suullinen "ok" | Kuusi ehtoa; 24 kk + maksut; molemmat sopimukset allekirjoitettu; kaksi luokittelijaa; tilinpäätösvarmennus | "Käyttökelpoinen" ei tarkoita "virheitä sisältävä" |
-| Liian vahva KILL | Yksi markkina tappaisi perheen | FAIL rajattu kursivoituun hypoteesiin; perheen tappo vaatii kaksi reittiä | Houkutus tulkita FAIL laajemmin; päätösloki sitoo |
+| Liian heikko PASS | Osittainen CSV + suullinen "ok" | Kuusi ehtoa; 24 kk + maksut; molemmat sopimukset allekirjoitettu; kaksi luokittelijaa | "Käyttökelpoinen" ei tarkoita "virheitä sisältävä"; PASS-yrityksen ostovolyymi voi olla pieni (raportoidaan suuruusluokkana, ei PASS-ehto) |
+| Liian vahva KILL | Yksi markkina tappaisi perheen | FAIL rajattu kursivoituun hypoteesiin yhdestä paketista; nimittäjä tavoitetut (N_r ≥ 60), ei otos; perheen tappo vaatii kaksi reittiä | Houkutus tulkita FAIL laajemmin; päätösloki sitoo |
+| Jälkikäteinen populaatioehto | Otannan jälkeen lisätty raja (esim. liikevaihto) muuttaisi populaation | Populaatio on K1 - K8, lukittu ennen otantaa; §4 kieltää lisäehdot | Ei |
 | Väärä positiivinen 1 | Yritys haluaa ilmaisen tarkastuksen eikä aio maksaa | PASS on porttitulos, ei tulo; palkkioehto allekirjoitettu; maksukäyttäytyminen on koe 07:n asia | PASS ≠ raha, sanottu §9 |
 | Väärä positiivinen 2 | Yritys sanoo kyllä uteliaisuudesta tai kokeilunhalusta | Tarjous esitetään kaupallisena palveluna, ei tutkimuksena; sopimus on aito ja velvoittaa meidät | Uteliaisuus on aito syy ostaa; ei konfoundi |
 | Väärä positiivinen 3 | PASS syntyy omistajan puhelinvaiheessa, ja tulkitaan "kylmä sähköposti toimii" | VAIHE kirjataan; tulos raportoidaan askeleittain | Ei |
@@ -389,8 +447,19 @@ hyväksymisasteeseen tunnistettavasti" tai "vaikuttivat" (vain jos vastaajat mai
 Korjattu tämän hyökkäyksen perusteella ennen GPT:tä: (1) brändi pois julkisesta
 reposta; (2) puhelinvaihe lisätty erottamaan tavoittamattomuus hylkäyksestä; (3)
 CHANNEL UNKNOWN erotettu FAILista; (4) piilopääomakysymykset pakollisiksi; (5)
-PASS-PIENI erotettu PASSista; (6) tarjous kaupallisena, ei tutkimuksena; (7) FAIL
-sidottu tavoitettuasteeseen ≥ 50 %.
+tarjous kaupallisena, ei tutkimuksena.
+
+Korjattu GPT:n tuhoamisyrityksen (commit `2ab7a25`, READY AFTER CORRECTIONS) perusteella
+2026-09-17: (6) liikevaihtoraja poistettu PASS-ehdosta, populaatio lukittu K1 - K8:aan
+ennen otantaa, PASS-PIENI ja PRH-tilinpäätösosto poistettu; (7) nimittäjäketju
+otos → tavoitettavissa → kontaktoitu → tavoitettu → kiinnostunut → sopimus → aineisto
+→ PASS eksplisiittiseksi, FAIL nimittäjänä tavoitetut (N_r ≥ 60), hypoteesi muotoiltu
+tavoitetuista; (8) koe kirjattu yhden lukitun hankintapaketin testiksi; (9) V1:n
+väite suuryritysten ja pk-yritysten käytännöistä poistettu; (10) piilopääomasääntö
+objektiiviseksi: julkinen rekisteritarkistus ei kontaminoi, ennen koetta kertyneen
+historian vaikutus kontaminoi (Q1/Q3/spontaani/kolmas osapuoli); (11) AI-attribuutiosta
+poistettu mittaamattomat vastafaktuaaliväitteet, kirjataan vain mitattu AI-avusteinen
+aika ja kustannus.
 
 Ei korjattu, tietoisesti: y-tunnuksen paljastama yrityksen ikä (sääntö sallii;
 uuden yrityksen perustaminen hylätty omistajan päätöksellä); n = 1 viestiversio
@@ -408,8 +477,9 @@ uuden yrityksen perustaminen hylätty omistajan päätöksellä); n = 1 viestive
 ## 14. Lukituksen tarkistuslista
 
 - [x] L0: kehikko rakennettu, SHA-256 ja suppilo committoitu (2026-09-16)
-- [ ] GPT:n tuhoamisyritys tähän protokollaan ja `06-viesti.md`:hen
-- [ ] Korjaukset kirjattu; kynnykset §9 lukittu (ei muuteta sen jälkeen)
+- [x] GPT:n tuhoamisyritys tähän protokollaan ja `06-viesti.md`:hen (commit `2ab7a25`: READY AFTER CORRECTIONS, kuusi korjausta)
+- [x] Korjaukset tehty 2026-09-17 (§12 kohdat 6 - 11)
+- [ ] GPT tarkistaa korjausdiffin; kynnykset §9 lukitaan vasta sen jälkeen (ei muuteta lukituksen jälkeen)
 - [ ] L1: otos arvottu siemenellä, SHA-256 ja jakaumat committoitu, nimet repon ulkopuolella
 - [ ] Poissulkukierros tehty, koodit ja määrä committoitu
 - [ ] Omistajan lupa rahankäyttöön (≤ 120 €) ja brändin nimelle (nimi ei repoon)
