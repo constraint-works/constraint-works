@@ -1,7 +1,8 @@
 # Koe 06: viestit, muistutus, puhelinkäsikirjoitus, tapaamisrunko, piilopääomakysymykset
 
-Luonnos 2026-09-16. Lukitaan L1:ssä GPT:n arvion jälkeen; sen jälkeen ei muuteta
-yritysten välillä. Paikkamerkit: [Yritys] = vastaanottajan nimi YTJ:n mukaan; [Nimi] =
+Luonnos 2026-09-16; **lukittu 2026-09-17 versiona `ee116d4`**, ei muuteta yritysten
+välillä. Ainoa lukituksen jälkeinen muutos: totuudenmukaisuuskorjaus P1 tapaamisrungon
+kohdassa 4 (päätösloki 2026-09-17). V1, M1, P1-puhelukäsikirjoitus ja Q1 - Q3 ennallaan. Paikkamerkit: [Yritys] = vastaanottajan nimi YTJ:n mukaan; [Nimi] =
 lähettäjän oikea nimi; [Brändi] ja [verkkotunnus] = repon ulkopuolella; [Oikeushenkilö
 Oy, y-tunnus] = olemassa oleva yritys vain allekirjoituksessa ja alatunnisteessa.
 Ei mainita: Constraint Works, eikaisiina, tutkimus, koe, omistajan muut yritykset,
@@ -89,8 +90,10 @@ kerralla ei tavoitettu ketään. Ei vastaajaviestiä toisella kerralla.
 2. Mitä teemme ja mitä emme: lista ja perustelut; ei perintää; ei yhteydenottoja
    toimittajiin.
 3. Mitä tarvitsemme: ostolaskut + maksut 24 - 36 kk, Excel/CSV, koko reskontra.
-4. Miten käsittelemme: sopimus, EU-tallennus, tekoälykäsittely ilman datan
-   säilytystä palvelussa, poisto 90 pv.
+4. Miten käsittelemme: sopimus, EU-tallennus, tekoälykäsittely (henkilöiden nimet
+   pseudonymisoidaan ennen käsittelyä, ei koulutuskäyttöä, palveluntarjoajan
+   säilytysaika sopimukseen kirjatun mukaisesti), poisto 90 pv. [P1-korjaus
+   2026-09-17: aiempi "ilman datan säilytystä" ei olisi ollut tosi.]
 5. Palkkio: 20 % vain toteutuneesta ja vahvistetusta; esimerkki luvuilla.
 6. Kysymykset.
 7. Piilopääomakysymykset (§5).

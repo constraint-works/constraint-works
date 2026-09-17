@@ -2,7 +2,8 @@
 
 2026-09-17, Claude. Valmistelua lukituksen jälkeen. **Ei ostettu mitään, ei luotu tilejä,
 ei nimetty brändiä, ei yhteydenottoja.** Tämä dokumentti ei muuta lukittua protokollaa
-(`ee116d4`). Yksi poikkeamaehdotus (P1) on kirjattu §8:aan päätettäväksi. Merkinnät
+(`ee116d4`). P1 on ratkaistu (§8). Omistajan päätökset 2026-09-17: rahankäyttölupa ≤ 68 €
+(verkkotunnus, sähköposti, prepaid), katto 120 €; vastuukatto 5 000 € ei hyväksytty (§4b). Merkinnät
 FACT / INFERENCE / UNKNOWN.
 
 ## 1. R1 Brändin nimi ja .fi-verkkotunnus
@@ -27,8 +28,14 @@ Cloudflaressa (0 €).
   rekisteröityyn toiminimeen/tavaramerkkiin (tarkistus: PRH nimipalvelu, YTJ-haku,
   fi-verkkotunnushaku, EUIPO/PRH tavaramerkkihaku; kaikki 0 €); kuvaava ja neutraali
   suomeksi; ei väitä kokoa, ikää tai tiimiä.
-- Omistajan tarkistettava: kattaako olemassa olevan yrityksen kaupparekisteriin
-  merkitty toimiala tämän palvelun (yleistoimialalauseke riittää). UNKNOWN Claudelle.
+- **Toimialatarkistus tehty 2026-09-17 (FACT, PRH Virre, julkinen haku, 0 €):**
+  oikeushenkilön kaupparekisteriin merkitty toimiala sisältää yleislausekkeen "kaikki
+  laillinen liiketoiminta", joka kattaa palvelun. Ei estettä. Rekisteröity
+  päätoimiala on eri alalta kuin tämä palvelu; y-tunnuksen tarkistava vastaanottaja voi
+  nähdä epäsuhdan. Symmetrisen piilopääomasäännön mukaan se on koehenkilön rajoite,
+  ei mekanismin ominaisuus: kirjataan Q2/Q3-vastauksista ja spontaaneista maininnoista,
+  ei korjata rekisterimuutoksella (olisi infrastruktuurin optimointia ja maksaisi).
+  Yksityiskohdat yksityisessä hakemistossa.
 
 **Tarvitaan omistajalta:** nimen valinta (Claude voi tuottaa 10 ehdokasta
 saatavuustarkistuksineen yksityiseen hakemistoon, ei repoon), välittäjän valinta,
@@ -90,11 +97,29 @@ Luonnokset: `06-sopimuspohjat-luonnos.md` (paikkamerkein, GPT:n tarkistettavaksi
   nimetyltä, yritystä edustamaan oikeutetulta henkilöltä riittää (protokolla §5).
   Edustamisoikeus tarkistetaan maksuttomasta kaupparekisteriotteesta (FACT: Virre
   0 €). Ei maksullista allekirjoituspalvelua.
-- **Vastuu:** ei vastuuvakuutusta (budjetti). Pohjassa vastuunrajoitus: välittömät
-  vahingot, enintään 5 000 € (luonnosluku, ei johdettu mistään säännöstä; omistajan ja
-  GPT:n arvioitavaksi; palkkioihin sidottu katto olisi nollatuloksessa 0 € eikä
-  uskottava), ei koske tahallisuutta, törkeää huolimattomuutta eikä salassapitoa; ei
-  rajoita tietosuojavastuuta rekisteröityjä kohtaan. Riski kirjattu; juristia ei käytetä (lukittu).
+- **Vastuu:** ks. §4b. Aiempi 5 000 €:n luonnosluku on poistettu (omistaja ei
+  hyväksynyt; se ei ollut johdettu mistään).
+
+## 4b. Vastuulauseke: vaihtoehdot ja perustelut (ei päätetty; GPT tarkistaa ennen D0:aa)
+
+Lähtötiedot (FACT): ei vastuuvakuutusta (ei budjetissa); palvelun hinta asiakkaalle voi
+olla 0 €; käsiteltävä aineisto on luottamuksellista; sopimusosapuoli on omistajan
+olemassa oleva yritys, joten riski kohdistuu siihen. Juristia ei käytetä (lukittu).
+
+| | Lauseke | Asiakkaan näkökulma (vaikutus ACCESS-porttiin) | Omistajan riski | Vaatiiko keksityn luvun |
+|---|---|---|---|---|
+| A | Ei euromääräistä kattoa; vastuu välittömistä vahingoista; välilliset rajattu pois paitsi tahallisuus, törkeä huolimattomuus, salassapito ja tietosuoja | Uskottavin "riskittömät ehdot" -paketin kanssa; ei herätä kysymyksiä | Suurin: välitön vahinko rajaamaton | Ei |
+| B | Ei vastuulauseketta lainkaan (yleinen sopimusoikeus) | Lyhin sopimus; asiakas ei huomaa eroa A:han | Suurempi kuin A: myös välilliset vahingot tuottamuksesta | Ei |
+| C | Katto sidottu sopimuksen arvoon (alan yleinen käytäntö, esim. IT-ehdoissa) | Sopimuksen arvo voi olla 0 € → katto 0 € → näyttää vastuun välttelyltä; heikentää porttia | Pienin | Ei, mutta katto on käytännössä nolla tai vaatii vähimmäisluvun (= keksitty luku) |
+| D | Kiinteä eurokatto | Riippuu luvusta | Rajattu | **Kyllä.** Ainoa ei-mielivaltainen ankkuri olisi vakuutuksen korvausmäärä, eikä vakuutusta ole |
+| E | Vastuuvakuutus + katto vakuutusmäärään | Vahvin luottamussignaali | Pienin todellinen | Ei, mutta maksaa (UNKNOWN, tyypillisesti satoja euroja/v) → ylittää budjetin ja olisi uusi rahankäyttöpäätös |
+
+**Johdettavissa säännöistä:** C ja D eivät käy (C heikentää lukittua "riskitön ehto"
+-pakettia tavalla, jota ei ole preregisteröity; D vaatii keksityn luvun). E vaatii rahaa
+yli luvan. Jäljelle jäävät A ja B. Luonnoksessa on **A**, koska se rajaa välilliset
+vahingot (omistajan suoja) keksimättä lukua. Tämä on sopimusriskin valinta, jonka
+kantaa oikeushenkilö; siksi se jää omistajan vahvistettavaksi GPT:n tarkistuksen
+yhteydessä, mutta se ei estä muuta rakennustyötä.
 
 ## 5. R5 Esimerkkiraportti
 
@@ -118,48 +143,70 @@ kenellekään; ei piilopääomaa). Kirjataan: inbox / roskaposti / ei perillä,
 otsakkeista SPF/DKIM/DMARC pass. Toistetaan, jos tulos on roskaposti: korjataan DNS,
 ei viestiä (viesti on lukittu).
 
-## 8. Poikkeamaehdotus P1: tekoälykäsittelyn säilytyslause (vaatii päätöksen)
+## 8. P1: tekoälykäsittelyn säilytyslause (RATKAISTU 2026-09-17)
 
-**Ristiriita (FACT):** lukittu §5 (i) sanoo "tekoälyrajapinta ilman datan säilytystä tai
-koulutuskäyttöä" ja tapaamisrunko §4 "ilman datan säilytystä palvelussa". Rajapintojen
-oletus on kuitenkin 30 päivän säilytys (Anthropic: 30 pv, koulutuskielto
-kaupallisissa ehdoissa, nollasäilytys vain hyväksytyille asiakkaille; OpenAI: 30 pv,
-nollasäilytys kelpoisille, EU-residenssi myynnin kautta). Nykyisellä sanamuodolla
-sopimus ei olisi tosi allekirjoitushetkellä. Tämä on uusi konkreettinen ristiriita,
-ei optimointi.
+**Ristiriita (FACT):** lukittu §5 (i) lupasi tekoälykäsittelyn "ilman datan säilytystä";
+rajapintojen oletus on rajattu säilytys (Anthropic: 30 pv, koulutuskielto kaupallisissa
+ehdoissa, nollasäilytys vain hyväksytyille; OpenAI: 30 pv, nollasäilytys kelpoisille).
 
-**Ehdotus (pienin muutos, joka tekee lauseesta toden):** korvataan "ilman datan
-säilytystä" muotoilulla: *"Luonnollisten henkilöiden nimet ja yhteystiedot
-pseudonymisoidaan paikallisesti ennen tekoälykäsittelyä. Tekoälypalvelun tarjoaja ei
-käytä aineistoa mallien kouluttamiseen ja voi säilyttää syötteitä enintään 30 päivää
-väärinkäytösten valvontaa varten, minkä jälkeen ne poistetaan."* Vaikutus kokeeseen:
-hankintapaketin osa "tekoälykäsittely sopimuksessa näkyvissä" säilyy; sanamuoto
-muuttuu asiakkaalle hieman varovaisemmaksi (suunta: PASSia vaikeuttava, ei
-helpottava). Koskee vain sopimuspohjaa ja tapaamisrungon kohtaa 4, ei V1:tä, M1:tä
-eikä P1-puhelukäsikirjoitusta.
+**Omistajan päätös:** hyväksytty totuudenmukaisuuskorjauksena. Sopimus ei lupaa
+nollasäilytystä, ellei toteutus sitä todella tarjoa; paikallinen pseudonymisointi
+ennen tekoälykäsittelyä; ei koulutuskäyttöä säilyy; **"enintään 30 päivää" ei ole
+lukittu**, vaan lopullinen teksti vastaa täsmälleen D0:ssa käytettävää
+palveluntarjoajaa, rajapintakonfiguraatiota ja säilytyskäytäntöä; nollasäilytyksen
+hyväksyntä ei ole kokeen edellytys. Toimeenpantu: protokolla §5 (i), tapaamisrunko
+kohta 4, sopimuspohjan kohta 6 (hakasulkein). **Ennen D0:aa:** valitaan yksi
+tekoälypalvelu analyysiä varten, luetaan sen voimassa oleva säilytysdokumentaatio,
+täytetään hakasulkeet sanatarkasti sen mukaan, kirjataan lähde ja päivä lokiin.
 
-Vaihtoehto: hakea nollasäilytystä ennen D0:aa (UNKNOWN saadaanko; ei rahaa, mutta
-aikaa). Sopimuspohjaluonnoksessa on P1:n mukainen muotoilu merkittynä; lukittuja
-tiedostoja ei ole muutettu.
+## 9. Rakennusvaiheen tila 2026-09-17 (0 € käytetty)
 
-## 9. Mitä voidaan tehdä ilman rahaa ja päätöksiä (tehty tai tehtävissä heti)
+- [x] Toimialatarkistus: yleislauseke kattaa palvelun (§1)
+- [x] 10 brändiehdokasta tarkistettu (.fi whois.fi, YTJ-nimihaku, TMview FI + EUIPO,
+      verkkohaku; positiiviset kontrollit ajettu); tulokset vain yksityisessä hakemistossa
+- [x] Sivun HTML, tietosuojasivu, käsittely- ja salassapitosopimus, palkkioehdot ja
+      synteettinen esimerkkiraportti pohjina yksityisessä hakemistossa; täyttöskripti
+      pysähtyy, jos yksikin arvo tai paikkamerkki on täyttämättä; PDF-muunnos testattu
+      testiarvoilla (3 PDF:ää syntyi, esimerkkiraportin laskelmat tarkistettu)
+- [x] DNS-tietuepohja (SPF `-all`, DKIM, DMARC `p=quarantine`, tiukka kohdistus)
+- [x] R7-ohje ja otsaketarkistin (`kokeet/06-r7-otsaketarkistin.py`, savutestattu)
+- [x] Osto- ja käyttöönotto-ohje omistajalle (yksityinen)
+- [ ] Omistaja: nimen valinta, ostot (≤ 68 €), tilit
+- [ ] P1-hakasulkeiden täyttö: tekoälypalvelun säilytysaika ja käsittelypaikka
+      dokumentaatiosta; vastuulauseke vahvistettu (§4b)
+- [ ] GPT:n viimeinen pre-D0-tarkistus: sopimuspaketti + sivuteksti
+      (`06-sopimuspohjat-luonnos.md`), P1-korjaus, §4b
+- [ ] R7-testi, X-K04-uusinta, käynnistyslupa (aikaisintaan 2026-10-05)
 
-- [x] Sopimuspohjien, tietosuojaselosteen ja sivutekstin luonnokset paikkamerkein
-- [ ] GPT:n tarkistus luonnoksille (suositus ennen käyttöä, koska juristia ei ole)
-- [ ] Nimiehdokkaat saatavuustarkistuksineen yksityiseen hakemistoon (kun omistaja pyytää)
-- [ ] Sivun HTML ja esimerkkiraportti yksityiseen hakemistoon (kun nimi on)
-- [ ] X-K04-uusintatarkistus 2026-10-01 jälkeen
+Huomio koe 07:lle (ei tämän kokeen työtä): P1 sitoo meidät paikalliseen
+pseudonymisointiin ennen tekoälykäsittelyä. Pseudonymisointivaihe on rakennettava ja
+testattava ennen kuin yhtään asiakasaineistoa analysoidaan; se kuuluu koe 07:n
+lukittavaan protokollaan, ei ACCESS-kokeeseen.
 
-## 10. Omistajan päätökset ja rahankäyttö, järjestyksessä
+## 10. Täsmällinen hankintasuunnitelma (halvin vaihtoehto, joka täyttää lukitut vaatimukset)
 
-1. **Poissulkukierros:** lue 150 nimeä yksityisestä hakemistosta ja merkitse X-koodit
-   (ohje hakemiston `LUE-ENSIN.md`). Ei rahaa. Estää kaiken muun otokseen liittyvän.
-2. **P1:** hyväksy tai hylkää säilytyslauseen korjaus (tai päätä hakea nollasäilytystä).
-3. **Brändin nimi** (pyydä ehdokkaat tai anna oma) ja toimialatarkistus.
-4. **Rahankäyttölupa:** verkkotunnus 12 - 27 €, sähköposti 0 - 21 €, prepaid 5 - 25 €;
-   yhteensä enintään 68 €, katto 120 €. Tilit (välittäjä, sähköposti, isännöinti)
-   luo omistaja.
-5. Käynnistyslupa S1:lle aikaisintaan 2026-10-05, kun R1 - R7 ja X-K04-uusinta on tehty.
+| Erä | Valinta | Hinta | Peruste |
+|---|---|---|---|
+| Verkkotunnus | Välittäjä, jonka .fi-hinta on Traficomin maksu ilman lisää ja DNS-hallinta sisältyy | **12,00 €/v** (FACT: kahdella välittäjällä 12,00 €, laskutetaan viranomaismaksuna ilman alv:a; muut 15 - 26,40 €) | Halvin; vaatimus = omat MX/TXT/CNAME-tietueet |
+| Sähköposti | 1) Zoho Mail ilmaistaso EU-datakeskuksessa, jos rekisteröityminen sallii ja DKIM saadaan päälle (FACT: DKIM-ohje ei mainitse tasorajoitusta; saatavuus uusille EU-tileille UNKNOWN). 2) Muuten Zoho Mail Lite, n. 1 USD/käyttäjä/kk vuosilaskutuksella ≈ 11 - 12 €/v | **0 € tai ≈ 12 €** | Halvin, jossa oma verkkotunnus + SPF + DKIM + DMARC; käsin lähetys selaimesta riittää (≤ 15/pv) |
+| Puhelin | Prepaid-aloituspaketti (FACT toissijainen: 4,90 €, sis. 5 € saldoa, 0,066 €/min) + lataus tarpeen mukaan | **4,90 € + ≤ 20 € latauksia** | CALC: 100 puhelua × 3 min × 0,066 € ≈ 20 € |
+| Sivun isännöinti | Ilmainen staattinen isännöinti uudella, vain tätä varten luodulla tilillä (ei GitHub Pages olemassa olevilla tileillä) | 0 € | Lukittu: 0 € |
+| **Yhteensä** | | **≈ 17 - 49 €** (lupa 68 €, katto 120 €) | |
+
+Tilit ja maksut tekee omistaja (Claude ei luo tilejä eikä maksa). DNS-tietueet, sivun
+tiedostot ja tarkistusskriptit ovat valmiina yksityisessä hakemistossa.
+
+## 11. Omistajan toimet, järjestyksessä (kaikki muu on valmiina)
+
+1. Valitse brändin nimi kymmenestä tarkistetusta ehdokkaasta (yksityinen hakemisto;
+   oletus kirjattu sinne, jos et halua valita).
+2. Osta verkkotunnus (12 €), luo sähköpostitili ja isännöintitili, osta prepaid.
+   Ohje vaihe vaiheelta yksityisessä hakemistossa (`OSTO-JA-KAYTTOONOTTO-OHJE.md`).
+3. Ilmoita Claudelle nimi, verkkotunnus, numero ja sähköpostipalvelun antama
+   DKIM-avain → Claude täyttää sivun, PDF:t ja DNS-tietuelistan; omistaja julkaisee.
+4. R7-toimitettavuustesti (ohje ja otsaketarkistin valmiina).
+5. Vahvista vastuulauseke (§4b, oletus A) GPT:n tarkistuksen jälkeen.
+6. Käynnistyslupa S1:lle aikaisintaan 2026-10-05.
 
 ## Lähteet (tarkistettu 2026-09-17)
 
@@ -170,3 +217,5 @@ tiedostoja ei ole muutettu.
 - GDPR 28 artikla: https://www.privacy-regulation.eu/fi/28.htm ; EDPB suuntaviivat 07/2020
 - Zoho Mail ilmaistaso (toissijaiset, ristiriitaiset): https://www.zoho.com/mail/custom-domain-email.html
 - Prepaid-hinnat (toissijainen): https://liittyma.fi/puhelinliittymat/prepaid-liittyma/
+- .fi-välittäjien hintavertailu (välittäjän oma sivu): https://nordweb.fi/verkkotunnus-vertailu
+- Zoho DKIM-ohje: https://www.zoho.com/mail/help/adminconsole/dkim-configuration.html

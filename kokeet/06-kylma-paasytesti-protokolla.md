@@ -8,6 +8,10 @@ nimittäjäketju ja piilopääomasääntö (§8), PASS/FAIL/UNKNOWN (§9), budje
 ja Q1 - Q3. Tämän jälkeen sisällöllisiä muutoksia ei tehdä; jos poikkeama on pakko
 tehdä, se kirjataan päätöslokiin ennen toimeenpanoa ja tulos raportoidaan
 poikkeaman kanssa. Vain lukituslistan (§14) tila ja lokit päivittyvät.
+**Totuudenmukaisuuskorjaus P1 (2026-09-17, omistajan hyväksymä, kirjattu päätöslokiin
+ennen toimeenpanoa):** §5 (i):n ja tapaamisrungon lause tekoälykäsittelystä "ilman datan
+säilytystä" korvattu, koska rajapintojen oletus on rajattu säilytys eikä nollasäilytys.
+Muu lukittu sisältö ennallaan.
 Laadittu 2026-09-16 (Claude). Ei yhteydenottoja, ei rahaa, ei verkkotunnusta, ei tilejä,
 ei otosta. Korvaa supersedatun koe 05:n (`05-paasytesti-protokolla.md`), jonka rakennetta
 ei ole peritty. Markkinavalinta: `etsinta/KOE06-MARKKINAVERTAILU.md`. Viestit:
@@ -157,8 +161,15 @@ portti vaatii.
 
 **Oikeus:** (i) **Aineiston käsittely- ja salassapitosopimus:** me käsittelijänä
 asiakkaan lukuun; käsittelyn tarkoitus rajattu ostolaskujen poikkeamien tunnistamiseen;
-alikäsittelijät nimetty (pilvitallennus EU:ssa, tekoälyrajapinta ilman datan säilytystä
-tai koulutuskäyttöä); aineistoa ei käytetä muiden asiakkaiden hyväksi eikä mallien
+alikäsittelijät nimetty (pilvitallennus EU:ssa, tekoälypalvelu); luonnollisten
+henkilöiden nimet ja yhteystiedot pseudonymisoidaan paikallisesti ennen
+tekoälykäsittelyä; tekoälypalvelun tarjoaja ei käytä aineistoa mallien koulutukseen;
+syötteiden säilytysaika ja käsittelypaikka kirjataan sopimukseen täsmälleen sen
+mukaan, mitä D0:ssa käytettävä palveluntarjoaja, rajapintakonfiguraatio ja
+säilytyskäytäntö todella tarjoavat (varmennetaan palveluntarjoajan voimassa olevasta
+dokumentaatiosta ennen D0:aa ja kirjataan lokiin lähteineen); nollasäilytystä ei
+luvata, ellei se ole todennetusti käytössä, eikä sen hankkiminen ole kokeen
+edellytys [P1]; aineistoa ei käytetä muiden asiakkaiden hyväksi eikä mallien
 opettamiseen; poisto 90 päivää loppuraportista; salassapito molemmin puolin;
 asiakas voi keskeyttää milloin tahansa. Tekoälykäsittely on sopimuksessa näkyvissä,
 koska ilman sitä "riittävä oikeus käyttää dataa määriteltyyn analyysiin" ei täyty.
@@ -468,6 +479,12 @@ historian vaikutus kontaminoi (Q1/Q3/spontaani/kolmas osapuoli); (11) AI-attribu
 poistettu mittaamattomat vastafaktuaaliväitteet, kirjataan vain mitattu AI-avusteinen
 aika ja kustannus.
 
+Lukituksen jälkeinen totuudenmukaisuuskorjaus P1 (2026-09-17): (12) sopimus ei lupaa
+nollasäilytystä; paikallinen pseudonymisointi, ei koulutuskäyttöä, ja säilytysaika
+kirjataan D0:ssa todella käytettävän palveluntarjoajan ja konfiguraation mukaan.
+Hankintapaketin osa "tekoälykäsittely sopimuksessa näkyvissä" säilyy; korjauksen
+suunta on PASSia vaikeuttava tai neutraali, ei helpottava.
+
 Ei korjattu, tietoisesti: y-tunnuksen paljastama yrityksen ikä (sääntö sallii;
 uuden yrityksen perustaminen hylätty omistajan päätöksellä); n = 1 viestiversio
 (A/B puolittaisi otoksen); juristin puute.
@@ -490,6 +507,8 @@ uuden yrityksen perustaminen hylätty omistajan päätöksellä); n = 1 viestive
 - [x] L1: otos arvottu siemenellä 20260917, SHA-256 ja jakaumat committoitu (`06-otos-tiivistelma.json`), nimet repon ulkopuolella
 - [x] Poissulkukierros tehty 2026-09-17: X-TUTTU 0, X-ASIAKAS 0, X-KONSERNI 0, X-K04 0, X-DUPL 0; ei korvauksia varalta; X-K04 uusitaan ennen D0:aa (koe 04 jatkuu 2026-09-30 asti)
 - [ ] Omistajan lupa rahankäyttöön (≤ 120 €) ja brändin nimelle (nimi ei repoon)
+- [ ] P1: D0:ssa käytettävän tekoälypalvelun säilytysaika ja käsittelypaikka varmennettu dokumentaatiosta ja kirjattu sopimuspohjaan ja lokiin
+- [ ] GPT:n viimeinen pre-D0-tarkistus sopimuspaketille ja sivulle
 - [ ] R1 - R7 valmiit; R7-toimitettavuustesti kirjattu
 - [ ] Koe 04:n ACCESS-ikkuna päättynyt (≥ 2026-10-01)
 - [ ] Omistajan käynnistyslupa → S1 kirjataan lokiin

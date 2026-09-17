@@ -621,3 +621,36 @@ Piilopääomahavainto: omistajan verkosto ei ulotu otokseen (0/150), eli protoko
 haku (aalto 1) on protokollan mukaan nyt sallittu, mutta sitä ei aloiteta ennen kuin
 R1 - R7 ja päätökset P1, brändin nimi ja rahankäyttölupa on tehty, jotta haun ja
 ensimmäisen viestin väli jää lyhyeksi.
+
+## 2026-09-17 · Koe 06: P1 toimeenpantu totuudenmukaisuuskorjauksena; rahankäyttölupa; vastuukatto hylätty; rakennusvaihe valmis omistajan ostoihin asti
+
+**Omistajan päätökset:**
+1. **P1 hyväksytty.** Lukittu §5 (i) ja tapaamisrungon kohta 4 lupasivat tekoälykäsittelyn
+   "ilman datan säilytystä"; se ei olisi ollut tosi (rajapintojen oletus on rajattu
+   säilytys). Korjattu: paikallinen pseudonymisointi ennen tekoälykäsittelyä; ei
+   koulutuskäyttöä; säilytysaika ja käsittelypaikka kirjataan sopimukseen täsmälleen D0:ssa
+   käytettävän palveluntarjoajan, konfiguraation ja säilytyskäytännön mukaan; "enintään
+   30 päivää" ei ole lukittu; nollasäilytyksen hyväksyntä ei ole kokeen edellytys. Tämä on
+   protokollan mukainen poikkeama (kirjattu ennen toimeenpanoa), ainoa lukituksen jälkeinen
+   sisältömuutos. V1, M1, puhelukäsikirjoitus, Q1 - Q3, kynnykset ja populaatio ennallaan.
+   Vaikutussuunta: PASSia vaikeuttava tai neutraali.
+2. **Rahankäyttölupa ≤ 68 €** verkkotunnukseen, sähköpostiin ja prepaid-numeroon; halvin
+   lukitut vaatimukset täyttävä vaihtoehto; katto 120 € ennallaan; loput 52 € vain uudella
+   perustellulla luvalla.
+3. **5 000 €:n vastuukatto ei hyväksytty** (perustelematon luonnosluku). Poistettu.
+   Vaihtoehdot A - E perusteluineen: `06-rakennusvaiheen-vaatimukset.md` §4b. Säännöistä
+   johdettuna jäljelle jäävät A (ei eurokattoa, välilliset vahingot rajattu) ja B (ei
+   lauseketta); luonnoksessa A, koska se ei vaadi keksittyä lukua. Vahvistus omistajalta
+   GPT:n tarkistuksen yhteydessä.
+
+**Tehty (Claude, 0 €):** toimialatarkistus (PRH Virre: yleislauseke kattaa palvelun;
+rekisteröity päätoimiala on eri alalta, mikä voi näkyä vastaanottajalle epäsuhtana:
+symmetrisen piilopääomasäännön mukaan koehenkilön rajoite, kirjataan Q2/Q3:sta, ei
+korjata rekisterimuutoksella); 10 brändiehdokasta tarkistettu neljällä menetelmällä
+positiivisin kontrollein (tulokset vain yksityisessä hakemistossa); hankintasuunnitelma
+≈ 17 - 49 €; sivu-, tietosuoja-, sopimus- ja esimerkkiraporttipohjat, täyttöskripti,
+DNS-pohja, R7-ohje ja otsaketarkistin.
+
+**Pysähdys:** seuraava askel vaatii omistajan kirjautumista, tilien luontia ja maksamista
+(verkkotunnus, sähköposti, prepaid, isännöinti) sekä nimen valinnan. Rinnalla GPT:n
+viimeinen pre-D0-tarkistus sopimuspaketille.

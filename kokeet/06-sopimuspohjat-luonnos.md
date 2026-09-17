@@ -1,8 +1,11 @@
 # Koe 06: sopimuspohjat, tietosuojaseloste ja sivuteksti (LUONNOS, paikkamerkein)
 
 2026-09-17, Claude. Mallien laatima, **ei juristin tarkastama** (lukittu budjettipäätös).
-GPT:n tarkistettavaksi ennen käyttöä. Sisältö noudattaa lukittua protokollaa §5; ainoa
-kohta, joka odottaa päätöstä, on merkitty **[P1]** (`06-rakennusvaiheen-vaatimukset.md` §8).
+GPT:n tarkistettavaksi ennen D0:aa. Sisältö noudattaa lukittua protokollaa §5 ja
+totuudenmukaisuuskorjausta P1 (hyväksytty 2026-09-17: ei nollasäilytyslupausta,
+paikallinen pseudonymisointi, ei koulutuskäyttöä, säilytysaika todellisen
+palveluntarjoajan mukaan). Avoimia kohtia kaksi: **[P1]**-hakasulkeiden täyttö ennen
+D0:aa ja **vastuulauseke** (kohta 11; vaihtoehdot `06-rakennusvaiheen-vaatimukset.md` §4b).
 Paikkamerkit: [Brändi], [verkkotunnus], [Oikeushenkilö Oy], [y-tunnus], [osoite], [Nimi],
 [Asiakas Oy]. Täytetyt versiot eivät tule tähän repoon.
 
@@ -38,10 +41,15 @@ Paikkamerkit: [Brändi], [verkkotunnus], [Oikeushenkilö Oy], [y-tunnus], [osoit
 6. **Tekoälykäsittely ja alikäsittelijät.** Analyysissä käytetään kaupallisia
    tekoälypalveluja rajapinnan kautta. **[P1]** Luonnollisten henkilöiden nimet ja
    yhteystiedot pseudonymisoidaan paikallisesti ennen tekoälykäsittelyä.
-   Tekoälypalvelun tarjoaja ei käytä aineistoa mallien kouluttamiseen ja voi säilyttää
-   syötteitä enintään 30 päivää väärinkäytösten valvontaa varten, minkä jälkeen ne
-   poistetaan. Alikäsittelijät: (a) tallennuspalvelu [nimi, sijainti EU], (b)
-   tekoälypalvelut [Anthropic, OpenAI; käsittelypaikka ilmoitetaan]. Siirrot EU:n
+   Tekoälypalvelun tarjoaja ei käytä aineistoa mallien kouluttamiseen.
+   Palveluntarjoaja [TEKOÄLYPALVELU] säilyttää syötteitä [SÄILYTYSAIKA JA PERUSTE,
+   täsmälleen palveluntarjoajan voimassa olevan dokumentaation mukaan], minkä jälkeen
+   ne poistetaan. Käsittelypaikka: [KÄSITTELYPAIKKA]. Alikäsittelijät: (a)
+   tallennuspalvelu [nimi, sijainti EU], (b) tekoälypalvelu [TEKOÄLYPALVELU].
+   *Täyttöohje (ei sopimustekstiä): hakasulkeet täytetään ennen D0:aa vain sillä
+   palveluntarjoajalla, konfiguraatiolla ja säilytysajalla, jota analyysissä todella
+   käytetään; lähde ja tarkistuspäivä kirjataan lokiin. Nollasäilytystä ei kirjata,
+   ellei se ole todennetusti käytössä.* Siirrot EU:n
    ulkopuolelle tapahtuvat vain komission vakiolausekkeiden tai
    vastaavuuspäätöksen nojalla. Uudesta alikäsittelijästä ilmoitetaan etukäteen, ja
    Asiakas voi vastustaa.
@@ -55,9 +63,15 @@ Paikkamerkit: [Brändi], [verkkotunnus], [Oikeushenkilö Oy], [y-tunnus], [osoit
 9. **Tarkastusoikeus.** Asiakas voi pyytää selvityksen käsittelystä ja turvatoimista.
 10. **Keskeytys.** Asiakas voi keskeyttää työn ja vaatia aineiston poistoa milloin
     tahansa syytä ilmoittamatta. Keskeytys ei synnytä maksuja.
-11. **Vastuu.** Palveluntarjoajan vastuu Asiakkaalle rajoittuu välittömiin vahinkoihin
-    ja enintään 5 000 euroon; rajoitus ei koske tahallisuutta, törkeää
-    huolimattomuutta eikä salassapidon rikkomista. Rajoitus ei vaikuta
+11. **Vastuu.** *[AVOIN: vastuulauseke. Aiempi 5 000 €:n katto on poistettu, koska se
+    oli perustelematon luonnosluku eikä omistaja hyväksynyt sitä. Vaihtoehdot ja
+    perustelut: `06-rakennusvaiheen-vaatimukset.md` §4b. Alla vaihtoehto A, jossa ei ole
+    euromääräistä kattoa eikä siis keksittyä lukua; lopullinen valinta omistajan ja
+    GPT:n tarkistuksen jälkeen.]* Palveluntarjoaja vastaa Asiakkaalle
+    sopimusrikkomuksestaan aiheutuneista välittömistä vahingoista. Palveluntarjoaja
+    ei vastaa välillisistä vahingoista, kuten saamatta jääneestä voitosta, paitsi jos
+    vahinko on aiheutettu tahallisesti tai törkeällä huolimattomuudella tai se johtuu
+    salassapito- tai tietosuojavelvoitteiden rikkomisesta. Lauseke ei vaikuta
     rekisteröityjen oikeuksiin.
 12. **Laki ja riidat.** Suomen laki; riidat Asiakkaan kotipaikan käräjäoikeudessa.
 
@@ -124,8 +138,10 @@ palautunut ja olette vahvistaneet summan.
 
 **Miten aineistoa suojataan.** Kirjallinen käsittely- ja salassapitosopimus. Salattu
 tallennus EU:ssa. Aineistoa käsittelee yksi nimetty henkilö. Analyysissä käytetään
-tekoälypalveluja; ehdot on kuvattu sopimuksessa **[P1]**. Aineisto poistetaan
-90 päivän kuluessa raportista tai heti pyynnöstänne. Tietojanne ei käytetä muiden
+tekoälypalvelua: henkilöiden nimet pseudonymisoidaan ennen käsittelyä, aineistoa ei
+käytetä mallien kouluttamiseen, ja palveluntarjoajan säilytysaika on kirjattu
+sopimukseen **[P1]**. Aineisto poistetaan 90 päivän kuluessa raportista tai heti
+pyynnöstänne. Tietojanne ei käytetä muiden
 asiakkaiden hyväksi eikä referenssinä.
 
 **Kuka.** [Nimi]. Palvelu on uusi. Emme esitä referenssejä; siksi ehdot ovat
