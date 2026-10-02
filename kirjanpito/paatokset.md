@@ -731,3 +731,22 @@ löysätä. Testiskripti: `kokeet/06-p1-bedrock-testi.py` (testaamaton ennen til
 **Tallennus:** paikallinen salattu tallennus hyväksytty (FileVault, erillinen salattu
 levykuva, ei pilvisynkronointia). FileVault ja synkronoinnit tarkistettu komentoriviltä:
 ehdot täyttyvät; levykuva luodaan ennen ensimmäistä aineistoa.
+
+## 2026-10-02 · Koe 04 päättyi: AUDIENCE = IOE, ACCESS = EI HAVAITTU (odottaa sähköpostivahvistusta)
+
+**Tulos (FACT):** HN-postaus sai 48 tunnissa 1 pisteen ja 0 kommenttia, E = 0 (44 mittausta,
+aukkoja). Repon 14 päivän uniikit: 63 - 66 postauksen jälkeiseltä jaksolta (alaraja FACT,
+yläraja CALCULATION), protokollan poikkeamasäännön mukainen U = 24 (haku 15 h myöhässä,
+ikkuna siirtynyt). Tähdet, forkit, issuet, PR:t ja HN-kommentit 0. Molemmilla luvuilla
+tulkinta on sama: IOE.
+
+**Poikkeama:** T + 14 vrk -haku jäi tekemättä ja 48 h seurannasta toteutui 44 / noin 192
+mittausta, koska mittaus oli irrallisina prosesseina koneella, joka ei ollut koko ajan
+päällä. Opittu: aikakriittinen mittaus ajastetaan palveluun, joka ei riipu työasemasta.
+
+**Falsifiointi:** ei ole. Koe ei sano mitään sisällöstä eikä yleisötilasta; se sanoo,
+että tuore HN-tili ilman jakelua ei tuota mitattavaa altistusta (n = 1).
+
+**Jatko:** lukittu matriisi sallii second-chance poolin ja toisen kanavan kerran kumpaakin.
+Molemmat vaativat omistajan toimen; päätös omistajalla. Koe 06 jatkuu tästä riippumatta
+(X-K04 uusittu, 0/150).
