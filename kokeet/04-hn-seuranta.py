@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """Koe 04: HN-postauksen jakelun seuranta julkisesta Firebase-rajapinnasta (ei tiliä).
-Käyttö: python3 kokeet/04-hn-seuranta.py <item_id> [tunnit=48] [väli_min=15]
+Käyttö: python3 kokeet/04-hn-seuranta.py <item_id> [tunnit=48] [väli_min=15] [tulostiedosto]
 Kirjaa 15 min välein: pisteet, kommentit, dead/flagged-tila, sijoitus topstories-listalla.
 Tulos: kokeet/04-hn-seuranta.jsonl. Vaihe D:n ehdot lasketaan lopuksi."""
 import json, sys, time, urllib.request
 from pathlib import Path
 ITEM = int(sys.argv[1]); TUNNIT = float(sys.argv[2]) if len(sys.argv) > 2 else 48; VALI = int(sys.argv[3]) if len(sys.argv) > 3 else 15
-ULOS = Path(__file__).resolve().parent / "04-hn-seuranta.jsonl"
+ULOS = Path(__file__).resolve().parent / (sys.argv[4] if len(sys.argv) > 4 else "04-hn-seuranta.jsonl")
 API = "https://hacker-news.firebaseio.com/v0"
 def get(p):
     with urllib.request.urlopen(f"{API}/{p}.json", timeout=30) as r: return json.load(r)
@@ -18,7 +18,7 @@ while time.time() < loppu:
         sija = (top.index(ITEM) + 1) if ITEM in top else None
         r = {"aika": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "pisteet": it.get("score"),
              "kommentit": it.get("descendants"), "dead": it.get("dead", False), "deleted": it.get("deleted", False),
-             "sija_top": sija, "otsikko": it.get("title")}
+             "sija_top": sija, "item_time": it.get("time"), "otsikko": it.get("title")}
     except Exception as e:
         r = {"aika": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "virhe": str(e)[:120]}
     with ULOS.open("a") as f: f.write(json.dumps(r, ensure_ascii=False) + "\n")
