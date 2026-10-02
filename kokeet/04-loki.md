@@ -13,6 +13,7 @@ Postaus (T), item-id, 48 h altistusseuranta ja T + 14 vrk -mittaus kirjataan tä
 | 2026-10-01T11:00Z | **Poikkeama: T + 14 vrk -haku (2026-09-30T19:47Z ± 6 h) jäi tekemättä** (kone ei ollut päällä). Lähin onnistunut haku on tämä, T + 14,63 vrk (15,2 h myöhässä, alle 15 vrk): ylätason `uniques` 24, U_hn 5. Ikkuna oli siirtynyt (17. - 30.9.), joten postauspäivä 16.9. (40 päiväuniikkia) on pudonnut pois. | `04-traffic.jsonl` |
 | 2026-10-02T08:16Z | Lopputarkistus (taustatieto, ei U): HN item 49731952 pisteet 1, kommentit 0; tilin karma 1. Repo: issuet 0, PR:t 0, discussions 0 (ei käytössä), tähdet 0, forkit 0, watchers 0. Päivittäinen mittaussilmukka pysäytetty (ikkuna ohi). | HN API, GitHub API |
 | 2026-10-02T09:45Z | **Projektisähköpostin tarkistus (omistajan kirjautuneessa selaimessa):** kaikki viestit 16.9. - 2.10.: vain GitHubin ja sähköpostipalvelun automaattiviestejä; roskaposti tyhjä. Yhteydenottoja 0. **ACCESS = EI HAVAITTU on lopullinen** (I = 0, epäselviä 0). | postilaatikko |
+| 2026-10-02T10:00Z | **Second-chance-pyyntö lähetetty** (omistaja, projektisähköpostista osoitteeseen hn@ycombinator.com; yksi lause ja linkki, lukitun matriisin IOE / EI HAVAITTU -rivin mukaan, kerran). Lähetysaika on omistajan ilmoitus, noin ± 10 min. Jos postaus nostetaan, siitä alkaa uusi 48 h D-mittaus; seurannan toteutus odottaa omistajan hyväksyntää. | omistajan ilmoitus |
 
 ## Tulos (kirjattu 2026-10-02)
 
