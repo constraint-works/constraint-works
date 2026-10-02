@@ -750,3 +750,13 @@ että tuore HN-tili ilman jakelua ei tuota mitattavaa altistusta (n = 1).
 **Jatko:** lukittu matriisi sallii second-chance poolin ja toisen kanavan kerran kumpaakin.
 Molemmat vaativat omistajan toimen; päätös omistajalla. Koe 06 jatkuu tästä riippumatta
 (X-K04 uusittu, 0/150).
+
+## 2026-10-02 · Koe 06, P1: Bedrock-ehdot todennettu, fallbackia ei tarvita
+
+**Tulos (FACT, testi 2 ilman asiakasdataa):** retention `none` eu-north-1:ssä, vain
+`eu.`-profiilit, ja Sonnet 4.6 sekä Haiku 4.5 vastaavat tilassa `none`. Sonnet 5 ja Opus 4.8
+eivät ole tämän tilin käytettävissä (403), joten niitä ei kirjata mihinkään.
+
+**Toimeenpano:** P1-arvot täytetään tosina: Claude Sonnet 4.6, Amazon Bedrock, EU Geographic
+-profiili (käsittely vain EU-alueilla), ei säilytystä palvelussa, tallennus paikallisesti
+salattuna. Anthropicin oma API jää käyttämättömäksi varaksi.
